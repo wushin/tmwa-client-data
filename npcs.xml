@@ -939,6 +939,10 @@
   <npc id="400">
     <sprite variant="27">npcs/npc.xml</sprite>
   </npc>
+  <npc id="401">
+    <sprite variant="0">npcs/npc-pirate-crate.xml</sprite>
+  </npc>
+
 
   <!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299 -->
   <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
