@@ -8181,7 +8181,7 @@
     <item id="5110"
         image="generic/treasuremap.png"
         name="Treasure Map"
-        description="A piece of paper which leads to treasure."
+        description="The map points to an area southwest of Tulimshar in Tonori."
         type="generic"
         weight="1"/>
 
