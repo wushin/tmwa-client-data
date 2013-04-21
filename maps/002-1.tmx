@@ -40,7 +40,7 @@
    H4sIAAAAAAAAA+2U7Y7rIAxEK97/oe+P1epGbKB8GMaGc6RR0zYBm5k4fT6fhBBCCCGEEEIIIYQQQgghhBA6Tk8Ue+7eG8171cPIGvkzFnV826N0T+/ear88ZwF+UPu403/r3OzMocXs6l1H7TGz4T+1vlLhetfe0bSCXet6yndLLWqvV+Rj1TtmvW5pvd59VmZO7bVqflh5cwNqv2fzsfJ9W3WvYr1R1H5bzI/a7xaZGiXfZ7fnrfvV7lP7bZGP1l6t8fCOr65B7bd1PqKyy+eRZ6JoJRbrn5Zftd+e8lFiZt/8We/5eas3kmAvar+t8uElO711PPva3UPLfmq/veZDMa9a/dq5r9pvq3x4Ja9ZNStGUfttkY+dc+U21H6fNEM81zaC2ucV+UjZ9Wme7UTt88r5sWPuRMret/Oo/RZNI2dixU0zSe2zdUZSdj3r5UlZGOlF7fGOGfLb5wynZKQXtce78gFjqD0mH75Re7wyGydlSNWL2mcPs2NmvegZ/Fa/2mcP+YAyap/Jh2/UPu/MCLnqR+0xM8Qn6fEZVafguR+1x+TDN2qPV2VjZX5uyqba55Wz4yYfLXg7W7XPK/NxMjvPQO31qfkYrdNbf2qvrfIxe66RsreDlF1HUktPYIfab6t8wBrUfpMP36j9Jh9tvJ3DjjNR+00+/uKtV7XnN+cjQk9qz2/ORwTUno/kwyIrXvLWkn/lO6P2nPnhuz+15+TDN2rPe/NRy8mNGdrRs9r3U+ZHlDrfqNWu9v2EbOxm59movScfvlF7Tz58o/b+xnzU+vPWs9r7mXx4OsceUvZZ+t8Dau9XzxBPZx0Vtfej+fDm/Uy+3+6xfldGUXu/cn5Eo5QTJWrvyYdv1N6fmI+VNe8+D7X3rfmonUvEDHkmZdfe5RXPtVmh9t4iH559ymsb6Vn5rqi9jzI/8nry2jzXPova/0gZqX0/FbX3UfJxK2rvFRk5LXer+lF7zgzxjdrzm/Kx8h1fhdrzm/IREbXn5MM3as/Jh4aW81T7TT58o/bbQz7IXfkM1H57yMcMtdpGa/723M5zUPsdORs5qXC9cp/VqD0fyce372CD2u/ZfESbLx7oOSe135HzkR6fo3PPO2q/rfLxKfxvQSQ/Ryn1qPZ7NB957fCX2nm9vVsnqNa/F9R11fb/9j7VZnQEtfZZ6vk23s6t9N/bs8/7oqiV3vtPoeRr/tu3Z5+/RRK0MzN382eiKCKKut/OrHRdej5fJ4Lgh9E5UPqer0k+zuLtbCzOS+03+fDF20yJKIveb6L37NLjM6KePUAbas8QQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIU/6B2CIAsEAEAEA
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="To South Tulimshar" type="warp" x="1792" y="416" width="160" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
@@ -210,7 +210,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object name="Fire Goblin" type="spawn" x="1312" y="1696" width="1344" height="1408">
+  <object name="FireGoblin" type="spawn" x="1312" y="1696" width="1344" height="1408">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -242,7 +242,7 @@
     <property name="monster_id" value="1"/>
    </properties>
   </object>
-  <object name="Black Scorpion" type="spawn" x="2816" y="2144" width="512" height="576">
+  <object name="BlackScorpion" type="spawn" x="2816" y="2144" width="512" height="576">
    <properties>
     <property name="eA_spawn" value="100000"/>
     <property name="ea_death" value="1800000"/>
