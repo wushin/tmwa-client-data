@@ -8178,5 +8178,17 @@
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#EFEFEF</sprite>
     </item>
+    <item id="5110"
+        image="generic/treasuremap.png"
+        name="Treasure Map"
+        description="The map points to an area southwest of Tulimshar in Tonori."
+        type="generic"
+        weight="1"/>
+    <item id="5111"
+        image="generic/SilkSheet.png|W:#87876c,bbc39c,edf4e1,ffffff"
+        name="Silk Sheet"
+        description="A double-elbow silk sheet square"
+        type="generic"
+        weight="5"/>
 
 </items>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Connecting Duct"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
+ <layer name="Ground" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDXAF0TSAQAZAAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDXAF0TSAQAZAAA
+  </data>
+ </layer>
+ <layer name="Over" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDXAF0TSAQAZAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DwQkAAAwDoSP7D90d+lZw1VRVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVdXXA2tM9S4AZAAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="80" height="80" visible="0">
+  <object name="To Desert Mines" type="warp" x="1664" y="704" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="002-3"/>
+    <property name="dest_x" value="1152"/>
+    <property name="dest_y" value="1568"/>
+   </properties>
+  </object>
+  <object name="To Beach" type="warp" x="896" y="1568" width="64" height="64">
+   <properties>
+    <property name="dest_map" value="043-1"/>
+    <property name="dest_x" value="2720"/>
+    <property name="dest_y" value="1760"/>
+   </properties>
+  </object>
+  <object name="To Sand Storm" type="warp" x="1824" y="1280" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="002-1"/>
+    <property name="dest_x" value="2560"/>
+    <property name="dest_y" value="3232"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

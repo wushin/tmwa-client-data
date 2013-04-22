@@ -1,153 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="128" height="128" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/minimaps/002-3.png"/>
-  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="name" value="Desert Mines"/>
-  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
-  <property name="overlay0keepratio" value="true"/>
+  <property name="name" value="Connecting Duct"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../tilesets/cave.tsx"/>
- <tileset firstgid="131" source="../tilesets/cave_x2.tsx"/>
- <layer name="Ground" width="128" height="128">
+ <layer name="Ground" width="80" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2dy3ITRxRAe+XwASHwARhCZYtRYjZAJVEwG+A/+ACKKr4901W65dZ1P24/RjPDnMWpsmVZI/W5/b7TeuKcewIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHDi8cSLGfh1off6xwrKdCu8nLieOEzcnjiceDvxbuJ98NhBPec289gzNy4GxPt15Dr652eO+LDy18TNxHHi7sTxxKeJzxNfgseO6jl3mcdeuTEx8DjwfhO5jv75lTuPCx0nsfjYa0x8mPhn4pcZ+Nv1x4C4F++W9/qvO48LHScSH2FsvFmBiyV4OpP7WAy0jCHE/cgYlfgIY+Oj22c7MLf/MAZ0nYv9rh8b7T7Fa3c+dthLHFzCv8SArnOx3/VjVvc/Ot+ftAk+TmWMsIcYuJT/reDjQMYIe4gB/KfjwMfAzz4uzPn/WlFe32fy8G0h/xIDH1fgaE/1f644ar3WbytwtCf/tVwFn+VR4nHNI8PrSruD//WSc1zCEgP4v6elXU7VzSW9135u/NvRc/A1lx3+68qhZRxuKTu///iikhF7iqnPvaUYvqT/Fixl5/cfDy6/Fnxw8f3dnjgofW7p7/A/r3+//3h0+bXgo4vv77bEgeQR/D7wM2yZJf2/rPAQEq7VSxxYYiDMI/gT/4v5lz7/OuPBMt4I4yAXA2HukOQR/Gd4/RHzjLUz0r9eL075lz7/xujBEgeptXqdO1RzvZ+97o/2by0/6fN79/XDsbqPgefuvA3QuUPU+XlIre3E/Lf2+RZ8Dseb4DriHu/zkmpDtH9xUhp7pVyU1hClDfB79pLXivv1+E85CdeWLS5icSCvIW3AB6N7j8TM0uW4Vaz+LU5qxlyxOJA9+5pxTdhvwHz+S05q2+Hcda3re2HMLF2OW0WXdWzttDTua+mDe/z3tDtg9yDP8X1/btzXUv74XwcW/6W+H//bxeJfPydc322dfz2NvFbJf2pdmTnAGP9h+eb899a93Hiipf4zBxjj31r/e/3nxhMt/pkDzOc/V1db2/5wPKFzE1v8MwaYz3+pro68Jv7X51+P/b9GnjPqmleFv+O/TOmMHZ1nUfI/uu/vuWbunra9+9dn7KTu09d5d1vyT/1Pu9dn7KTu09d5d5f2799rbDwZjiXxbyfMlfB+S3t0Ou8uNw/XLvRYXefsWEiNJ63zTfw/LM+WXDzJuyuN7XMuatddpO7H3iv+26jJlYjFQOp/w/JM5e7UrrtY55IW/7F146VdLEGprGrOgWjxYS13qfupvFHL9XL3seI/Xi9aGe0/V/f1OiLtf7v/VnL3Tvb6z/X7sdfA/xj/ul6VcnCt+3/fE89LUZs/gv9+/z1nqMT+t+Y+AU1t/gj++/2XyiPlMxU3rddJrffgf7z/sF1uWZuZI85Kbf8I/3u+ByRVVn5tZuQZ/i3+c+M+GWvE3NXM//bsXoi15frs7t44aPHfUvdz16Ldr3MTnt3dGwe1/ktzPvzP719i4Oja4yB25kq4VhArf9mPtJzTgf8xlOZ0qTiIxUKYQ1I6cyVW/rE9qZq+G/9jYiC2FhzGgc4J0c5vXXlfWZe/td3PjdvwPy4Gcu2BzgkJv7fjePp77pwP7bC33ZezhWrOmMB/XxyEbULt93aEZR+e12LZj071Gz7+UvET60PwXx8Dree0p/bca93rdiOs97m+hvo/LgZKlGJEHPa4D8+S831Py3ly+J83DlIO9bl81job3lck3v3/31W8Bv6Xi4Urd15na9xL3Q9zVlu9438ZwvMfS+5i94nXnu2G//Ugc/tjpbte97nvB8T/5dxb5vbaVTjea81Vp/6vw32tOz3P68lVx/+23XvmOK8Y//NiabOtORij/ZP7MT+xNrv2zNda/9b1Ser+/NTkl8cI95JHnh1O3V/e/3P3MIdAnz8h60QHdz93GHGPEnX/sv5jzl67h9/r5X2/nXg38d7drxMdHfO+LZKr/3KWgEdyCLzvTxOfJ750OmffZ3msYzaJhdHze/xvw/+lwf/lCPcLc2vxMXJzudbvmGbsv3wc9FDyV3tvImwjJvAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABL8j8xS3fJAAABAA==
+   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
   </data>
  </layer>
- <layer name="Fringe" width="128" height="128">
+ <layer name="Fringe" width="80" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAauuOl9cAAAEA
+   H4sIAAAAAAAAA+3OwQmAMBQFwdy1AqtRK4jpv5i8gx0E/AgzsPdtDQAAAAAAAAAAAAAAgBVnutJd/PFXPT1pVI8AAACf2tLxthe/AAAAAAAAAAAArJqiz5/sAGQAAA==
   </data>
  </layer>
- <layer name="Over" width="128" height="128">
+ <layer name="Over" width="80" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3d0Y6CMBAFUN7XH9j1e/1v12Q3ElMI0JaWzjkJDxo1JHeYaik4TQAAAAAAAAAAAAAAAAAAsO7RegcAAACA8L5/t5+/7b7w/Od2nxjBK+Pb7PHX9M74lnzH+3VqoL6lY7PU565lTF/mx2buJncAAGr4/H0JjG0+ZxHh2C/xu3yEuTRzSv1YmruvVWfG+X6sZfHfq0boNxynDsakD8cle4B49H6AePR+oBT9BCAevR+gL663BGry3Q/K+1yLaxyPI9VTt669TN2bQ+2MYy1PY3EMS9cOXTF7NXtdudlFz97YDBDXVceA6GN3SVerAdmXd3YNyLA/rq/mpefxQN84R80aOJqh7M9VYzyQ4fXM5/tzaiEne3XTh5z7xsmevWQfl+zjkn1cso8jdc/XM7JXY+3JIK6W2as7AOjPo/UOANlqryE4ck7Sd/9zlV5DkPq/pi3np/3PU1up88Z7j9st+Y10beLo9qwlkB8AAAAAAAAAAAAAANDSE01by1kAAAEA
+   H4sIAAAAAAAAA+3WSwrCMBQF0ExFN1Dd/z5tBg9ETG0ipb5wDmQYSC43n1IAAAAAAAAAAIB/tazjdvYikpLdONkBs6r3230dj7MXcoBrmXdvwG/87WAO3vo+l+LuG7WVXe3hVgfjv50h+297aan5tM7int61znLG93pvhtGL12685zB6ZjN17pPIIUZvJ2N+7/5H52WSvRsAAAAAAAAAAABAXk8nUUiTAGQAAA==
   </data>
  </layer>
- <layer name="Collision" width="128" height="128" visible="0" opacity="0.42">
+ <layer name="Collision" width="80" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2S0Y4jIQwER/n/j77XFboBbGwaD9VSSatNYkMXv+d5fgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHZ4DzgB7PEdHdVZ1l9XIzInnVPd9Gtm55YxV2ZHs863eQ+3g6/6rRO0C/2dE7eQE/7e/DbUXtX+id4P/ft7uEnVntRv8v2fHvdVuKvvP2rPz3mo3lfy3s9T3wv9e/23U9/Lcu/2/+oz4195bfcZTevBEfS/81/CfNRf/3/Rvne/dq/ZSzX87a9f+rPuqvVTz3yZ796/5O2Kf2kVVrF1mBO/f8B/9u1HU3X0Ba69vWdn3v9/PRN3dF7D02svqXqt7z07w++8leu9s1N19gdle35Kx1xJ1f9WZ7fQt+K/NbKdvwX9tZjrN6L43zxJ1f9WZ6TSj+948S9T9VWem04zue/MsUfdXnZlOM3rvzbRG3WFlZvqM7vwt+D/bf/t31k5r1B1WZtRnRueenVlnuZ1Rnxmde3dmnOV2Rn1mdD6aZY26w5Ow9jT6nmUW/s/03uvL83n7HfzXcd921vvM8p2Vs+I/x/3q2xjtwL+ejGT5n52xet6biEg7B/91sHQymwz/Gef0nONrePrwdOnZg/8z/Xt+593jeW/WqB1U9L9zTy+r/tX9q9nVycqet3jeS/Y9K7KjF2//veBf6wb/32BHP39nzs4fBf/5byCqJ89c75lmo+78NDL7ss5bOcds1H2fSHRvnhmr+2ej7vpkVjr0/g7/Z5GZLPf4P/8NZLmPOgfkvYOV+fg/A2+y3EefB856S9HeR3PhDO9P0O+ts0Hjvf181f0o6i5uZDbZ7ns74Pvue3tgn/uM9zMTdR83EeUgMupObiGy/6ioO7mJSAdRUXdyE5EOoqLu5CY8Dp5n/PuVqDu5CauPHVF3chMnRt3JbfztPSred6bu4mYi4t2jvjusvQn1OQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4G7+AefgpaIAAAEA
+   H4sIAAAAAAAAA+3QywrDMAxFQZP//+iuCqWEPOw4V4YRzNLIOltrbQMAAAAAAADY0Qr8YVW/k/7LivTTL9lMv2faaanf/53ajd/5dJuzSd++cr/03frV6ZaY9P361TBrznak79avhlmj39jo1z9XdqTvrtjtO3f77b2pbuaM7Ep3qdjvzs50l3S/kZ3pJul+I3vTPd5oePS2d3e6weyGV9737k3f/kbP9H9Wo5t+AAAAAAAAAAAAjPsAiaeBPQBkAAA=
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
-  <object name="To Outside" type="warp" x="1184" y="928" width="32" height="32">
+ <objectgroup name="Objects" width="80" height="80">
+  <object name="To Desert Mines" type="warp" x="1664" y="704" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="002-4"/>
+    <property name="dest_x" value="1184"/>
+    <property name="dest_y" value="1024"/>
+   </properties>
+  </object>
+  <object name="To Beach" type="warp" x="896" y="1568" width="64" height="64">
+   <properties>
+    <property name="dest_map" value="043-1"/>
+    <property name="dest_x" value="2720"/>
+    <property name="dest_y" value="1760"/>
+   </properties>
+  </object>
+  <object name="To Sand Storm" type="warp" x="1824" y="1280" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="002-1"/>
+    <property name="dest_x" value="2560"/>
+    <property name="dest_y" value="3232"/>
+   </properties>
+  </object>
+  <object name="To Outside" type="warp" x="800" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-1"/>
     <property name="dest_x" value="640"/>
     <property name="dest_y" value="3104"/>
-   </properties>
-  </object>
-  <object name="Cave Maggot" type="spawn" x="1024" y="1024" width="512" height="384">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="54"/>
-   </properties>
-  </object>
-  <object name="Ice Goblin" type="spawn" x="2656" y="992" width="576" height="672">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="56"/>
-   </properties>
-  </object>
-  <object name="Cave Maggot" type="spawn" x="1888" y="864" width="832" height="576">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="54"/>
-   </properties>
-  </object>
-  <object name="Ice Goblin" type="spawn" x="2080" y="3136" width="288" height="192">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="56"/>
-   </properties>
-  </object>
-  <object name="Angry Scorpion" type="spawn" x="1760" y="1440" width="864" height="800">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="55"/>
-   </properties>
-  </object>
-  <object name="Angry Scorpion" type="spawn" x="1504" y="1632" width="160" height="512">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="55"/>
-   </properties>
-  </object>
-  <object name="Angry Scorpion" type="spawn" x="992" y="2080" width="512" height="736">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="55"/>
-   </properties>
-  </object>
-  <object name="Cave Maggot" type="spawn" x="1760" y="2240" width="224" height="576">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="54"/>
-   </properties>
-  </object>
-  <object name="Angry Scorpion" type="spawn" x="2688" y="1664" width="384" height="1056">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="55"/>
-   </properties>
-  </object>
-  <object name="Cave Maggot" type="spawn" x="2400" y="2720" width="640" height="576">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="54"/>
-   </properties>
-  </object>
-  <object name="Ice Goblin" type="spawn" x="1984" y="2240" width="704" height="480">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="56"/>
-   </properties>
-  </object>
-  <object name="Angry Scorpion" type="spawn" x="1984" y="2720" width="384" height="416">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="55"/>
-   </properties>
-  </object>
-  <object name="Cave Maggot" type="spawn" x="1760" y="2848" width="224" height="448">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="54"/>
-   </properties>
-  </object>
-  <object name="Angry Scorpion" type="spawn" x="1984" y="3136" width="96" height="192">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="55"/>
    </properties>
   </object>
  </objectgroup>

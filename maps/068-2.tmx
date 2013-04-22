@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="178" height="168" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/021-1.png"/>
+  <property name="music" value="Faith.ogg"/>
+  <property name="name" value="North Tulimshar"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" source="../tilesets/desert1.tsx"/>
+ <tileset firstgid="259" source="../tilesets/desert2.tsx"/>
+ <tileset firstgid="515" source="../tilesets/desert_x2.tsx"/>
+ <tileset firstgid="531" source="../tilesets/desert_x3.tsx"/>
+ <tileset firstgid="547" source="../tilesets/desert_x5.tsx"/>
+ <tileset firstgid="553" source="../tilesets/tulimshar1.tsx"/>
+ <tileset firstgid="809" source="../tilesets/trans_woodland-desert.tsx"/>
+ <tileset firstgid="937" source="../tilesets/Tulimshar_Docks.tsx"/>
+ <tileset firstgid="1097" source="../tilesets/tictactoe.tsx"/>
+ <tileset firstgid="1109" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1365" name="inn2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1621" source="../tilesets/arena.tsx"/>
+ <tileset firstgid="1877" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="1879" source="../tilesets/Crypt-Fringe.tsx"/>
+ <tileset firstgid="2135" source="../tilesets/Woodland_village.tsx"/>
+ <tileset firstgid="2391" source="../tilesets/Forest.tsx"/>
+ <tileset firstgid="2790" source="../tilesets/cave.tsx"/>
+ <tileset firstgid="2918" source="../tilesets/cave_bilevel.tsx"/>
+ <tileset firstgid="3174" source="../tilesets/cave_x2.tsx"/>
+ <layer name="Ground" width="178" height="168">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bS1KsQBRFUTt2nJrzn4SjsGWEYQhFJp/LPazGajzrA0luMKnyfb6/vX0CAAAAAAAAAAAAAAAAAAAAwE19fexXPQbQMQl0TAIdk0DHJNAxCXRMAh2TQMck0DEJdEwCHZNAxwAAAFRz70kCHZNAxyTQMQl0TAIdk0q/JNAxCXRMd9bFJNAw3WmYBDomgY5JoGMS+KyCFL6TJomWSaFlUuiYBDqmO+sKutMw3WmYBDomgYbpzrWYBDomhY5J4JpMCi2TQsuk0DEJdExn/l8ICfRLAtdiUmiZJHomhfs+UuiYFDomgfUFKTRMAh3TlfUECfRLAh3TnfUE3WmYztzX0Z1+SaBhEuiYBNYVJNAw3WmYjv5+vqZjutEv3WmXBBqmO9di7mSmRw1zJ7P3aBrmLLMt/n7+1vfQMWdY+vx2qbW1x7e0rGPO8F9Xaz/b2uls5zBircutP9vy3j//Hn0PeGV07bD3cwnf2XG00fuxPf09oV/nau0xH3nNldvrRsd1x3v0dRXb7ULHNcd7do6Omuvq43Dm8a3ehyfYe6921Parj8OZx7Z6P57iDh2nzXfquO6s+pgnznfimDqoarn6HDpzTNX78VQVTaXNedp4urpyHtKuxWnj6ayi4+oxHzWOlPF0d/VcJMy7fu/l6r/fSZn/hDGkWGv4yDlK+p42YQxJ1ro6srk7/r3Bnv25w/7z/zyOPj6znbWfVY57ZH/uch4+3Wifr65br9YlW86TirHPPP77OdXz+FSzv0eXXre13y1NbOlqT/dHnLuuw/XOWCO8muOZ82RpG0vPnXn/qmPHPkfOw8j1aba1vdfw0efRQ9V8nrk969jnqZrPs7d5t3tIrpnvK7d15ZrS/dgzpHe8tO3q484583vltjTF0XRMAh2TQE+k0DIpdEwKHdOR+y4S6JgEOiaBjgEAAAAAAAAAAAAAAAAAAADyfQNHnRihQNMBAA==
+  </data>
+ </layer>
+ <layer name="Ground2" width="178" height="168" opacity="0.98">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAdwMRwKUxQNMBAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="178" height="168">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAdwMRwKUxQNMBAA==
+  </data>
+ </layer>
+ <layer name="Over" width="178" height="168">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAdwMRwKUxQNMBAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="178" height="168">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SsQkAQRDEsOX6L/pb+GDAiQTuwO/uniRJkiRJkiRJkiRJkiRJkiRJkiRJSoM/6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQf+pjFupPfcxC/amPWag/9TEL9ac+ZqH+1Mcs1J/6mIX6Ux+zUH/qYxbqT33MQv2pj1moP/UxC/WnPmah/tTHLNSf+piF+lMfs1B/6mMW6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQf+pjFupPfcxC/amPWag/9TEL9ac+ZqH+1Mcs1J/6mIX6Ux+zUH/qYxbqT33MQv2pj1moP/UxC/WnPmah/tTHLNSf+piF+lMfs1B/6mMW6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQf+pjFupPfcxC/amPWag/9TEL9ac+ZqH+1Mcs1J/6mIX6Ux+zUH/qYxbqT33MQv2pj1moP/UxC/WnPmah/tTHLNSf+piF+lMfs1B/6mMW6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQf+pjFupPfcxC/amPWag/9TEL9ac+ZqH+1Mcs1J/6mIX6Ux+zUH/qYxbqT33MQv2pj1moP/UxC/WnPmah/tTHLNSf+piF+lMfs1B/6mMW6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQf+pjFupPfcxC/amPWag/9TEL9ac+ZqH+1Mcs1J/6mIX6Ux+zUH/qYxbqT33MQv2pj1moP/UxC/WnPmah/tTHLNSf+piF+lMfs1B/6mMW6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQfypJkiRJkiRJkiRJkiRJkiRJkiRJku4+pUGd3EDTAQA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0" visible="0">
+  <object name="to Tulmishar" type="warp" x="1024" y="4768" width="160" height="32">
+   <properties>
+    <property name="dest_map" value="021-1"/>
+    <property name="dest_x" value="4608"/>
+    <property name="dest_y" value="768"/>
+   </properties>
+  </object>
+  <object name="Mouboo" type="spawn" x="2528" y="3456" width="256" height="416">
+   <properties>
+    <property name="eA_death" value="10"/>
+    <property name="eA_spawn" value="12000"/>
+    <property name="max_beings" value="20"/>
+    <property name="monster_id" value="26"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="2560" y="3008" width="160" height="64">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="4256" y="3456" width="160" height="64">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="832" y="3808" width="160" height="64">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Sea Slime" type="spawn" x="928" y="1184" width="64" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="31"/>
+   </properties>
+  </object>
+  <object name="Sea Slime" type="spawn" x="1056" y="2176" width="64" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="31"/>
+   </properties>
+  </object>
+  <object name="Scropain" type="spawn" x="1792" y="1472" width="288" height="224">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1"/>
+   </properties>
+  </object>
+  <object name="Fire Goblin" type="spawn" x="2368" y="1728" width="800" height="608">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="9"/>
+   </properties>
+  </object>
+  <object name="Scropain" type="spawn" x="3520" y="2144" width="288" height="224">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1"/>
+   </properties>
+  </object>
+  <object name="Black Scropain" type="spawn" x="2368" y="800" width="288" height="224">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="7"/>
+   </properties>
+  </object>
+  <object name="Snake" type="spawn" x="2816" y="960" width="512" height="352">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="8"/>
+   </properties>
+  </object>
+  <object name="Green Slime" type="spawn" x="4160" y="1312" width="512" height="608">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="3"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="2720" y="4544" width="160" height="64">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
