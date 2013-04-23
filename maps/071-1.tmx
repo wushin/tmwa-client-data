@@ -1,173 +1,228 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="178" height="168" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="150" height="150" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/minimaps/021-1.png"/>
+  <property name="minimap" value="graphics/minimaps/002-1.png"/>
   <property name="music" value="Faith.ogg"/>
-  <property name="name" value="North Tulimshar"/>
+  <property name="name" value="Sandstorm Desert"/>
+  <property name="overlay0image" value="graphics/images/ambient/sandstorm.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="4"/>
+  <property name="overlay0scrollY" value="-1"/>
+  <property name="overlay1image" value="graphics/images/ambient/sandstorm.png"/>
+  <property name="overlay1parallax" value="1.5"/>
+  <property name="overlay1scrollX" value="8"/>
+  <property name="overlay1scrollY" value="-2"/>
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../tilesets/desert1.tsx"/>
  <tileset firstgid="259" source="../tilesets/desert2.tsx"/>
  <tileset firstgid="515" source="../tilesets/desert_x2.tsx"/>
  <tileset firstgid="531" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="547" source="../tilesets/desert_x5.tsx"/>
- <tileset firstgid="553" source="../tilesets/tulimshar1.tsx"/>
- <tileset firstgid="809" source="../tilesets/trans_woodland-desert.tsx"/>
- <tileset firstgid="937" source="../tilesets/Tulimshar_Docks.tsx"/>
- <tileset firstgid="1097" source="../tilesets/tictactoe.tsx"/>
- <tileset firstgid="1109" name="inn" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="1365" name="inn2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/inn2.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="1621" source="../tilesets/arena.tsx"/>
- <tileset firstgid="1877" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
- <tileset firstgid="1879" source="../tilesets/Woodland_graveyard_ground.tsx"/>
- <tileset firstgid="1943" source="../tilesets/Woodland_graveyard_crypt.tsx"/>
- <tileset firstgid="2006" source="../tilesets/Crypt-Fringe.tsx"/>
- <tileset firstgid="2262" source="../tilesets/Woodland_graveyard_x3.tsx"/>
- <tileset firstgid="2342" source="../tilesets/Woodland_village.tsx"/>
- <tileset firstgid="2598" source="../tilesets/Forest.tsx"/>
- <layer name="Ground" width="178" height="168">
+ <layer name="Ground" width="150" height="150">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3DMQ0AAAwDoD5TV/9+amMHJPSSqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqvD4pzLdRA0wEA
+   H4sIAAAAAAAAA+3DAQkAAAwEoYPv33k9hoKrpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq+vABBWPuR5BfAQA=
   </data>
  </layer>
- <layer name="Ground2" width="178" height="168" opacity="0.98">
+ <layer name="Fringe" width="150" height="150">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAdwMRwKUxQNMBAA==
+   H4sIAAAAAAAAA+3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwKcBlyKSbJBfAQA=
   </data>
  </layer>
- <layer name="Fringe" width="178" height="168">
+ <layer name="Over" width="150" height="150">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAdwMRwKUxQNMBAA==
+   H4sIAAAAAAAAA+3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwKcBlyKSbJBfAQA=
   </data>
  </layer>
- <layer name="Over" width="178" height="168">
+ <layer name="Collision" width="150" height="150">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAdwMRwKUxQNMBAA==
+   H4sIAAAAAAAAA+3SMYoDQQADwcX/f7S54GBDZz0jqkG5gvo8z/MxMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzOzn3dCp/z478Q/t013VDvharPaCVeb1U642qx2wtVmtROuNqudcLVZ7YSrzWonXG1WO+Fqs9oJV5vVTrjarHbC1Wa1E642q51wtVnthKvNaidcbVY74Wqz2glXm9VOuNqsdsLVZrUTrjarnXC1We2Eq81qJ1xtVjvharPaCVeb1U642qx2wtVmtROuNqudcLVZ7YSrzWonXG1WO7nR1gkf3p3457bpjmonXG1WO+Fqs9oJV5vVTrjarHbC1Wa1E642q51wtVnthKvNaidcbVY74Wqz2glXm9VOuNqsdsLVZrUTrjarnXC1We2Eq81qJ1xtVjvharPaCVeb1U642qx2wtVmtROuNqudcLVZ7YSrzWonXG1WO+Fqs9oJV5vVTrjarHbC1Wa1E642q51wtVnthKvNaidcbVY74Wqz2smNtk748O7EP7dNd1Q74Wqz2glXm9VOuNqsdsLVZrUTrjarnXC1We2Eq81qJ1xtVjvharPaCVeb1U642qx2wtVmtROuNqudcLVZ7YSrzWonXG1WO+Fqs9oJV5vVTrjarHbC1Wa1E642q51wtVnthKvNaidcbVY74Wqz2glXm9VOuNqsdsLVZrUTrjarnXC1We2Eq81qJ1xtVjvharPaCVeb1U642qx2cqOtEz68O+3PX7URMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzOz2/YFcSeV9ZBfAQA=
   </data>
  </layer>
- <layer name="Collision" width="178" height="168">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SsQkAQRDEsOX6L/pb+GDAiQTuwO/uniRJkiRJkiRJkiRJkiRJkiRJkiRJSoM/6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQf+pjFupPfcxC/amPWag/9TEL9ac+ZqH+1Mcs1J/6mIX6Ux+zUH/qYxbqT33MQv2pj1moP/UxC/WnPmah/tTHLNSf+piF+lMfs1B/6mMW6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQf+pjFupPfcxC/amPWag/9TEL9ac+ZqH+1Mcs1J/6mIX6Ux+zUH/qYxbqT33MQv2pj1moP/UxC/WnPmah/tTHLNSf+piF+lMfs1B/6mMW6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQf+pjFupPfcxC/amPWag/9TEL9ac+ZqH+1Mcs1J/6mIX6Ux+zUH/qYxbqT33MQv2pj1moP/UxC/WnPmah/tTHLNSf+piF+lMfs1B/6mMW6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQf+pjFupPfcxC/amPWag/9TEL9ac+ZqH+1Mcs1J/6mIX6Ux+zUH/qYxbqT33MQv2pj1moP/UxC/WnPmah/tTHLNSf+piF+lMfs1B/6mMW6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQf+pjFupPfcxC/amPWag/9TEL9ac+ZqH+1Mcs1J/6mIX6Ux+zUH/qYxbqT33MQv2pj1moP/UxC/WnPmah/tTHLNSf+piF+lMfs1B/6mMW6k99zEL9qY9ZqD/1MQv1pz5mof7UxyzUn/qYhfpTH7NQfypJkiRJkiRJkiRJkiRJkiRJkiRJku4+pUGd3EDTAQA=
-  </data>
- </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
-  <object name="to Tulmishar" type="warp" x="1024" y="4768" width="160" height="32">
+ <objectgroup name="Objects" width="150" height="150">
+  <object name="Maggot" type="spawn" x="0" y="0">
    <properties>
-    <property name="dest_map" value="021-1"/>
-    <property name="dest_x" value="4608"/>
-    <property name="dest_y" value="768"/>
-   </properties>
-  </object>
-  <object name="Mouboo" type="spawn" x="2528" y="3456" width="256" height="416">
-   <properties>
-    <property name="eA_death" value="10"/>
-    <property name="eA_spawn" value="12000"/>
+    <property name="eA_death" value="500"/>
+    <property name="eA_spawn" value="1000"/>
     <property name="max_beings" value="20"/>
-    <property name="monster_id" value="26"/>
-   </properties>
-  </object>
-  <object name="Maggot" type="spawn" x="2560" y="3008" width="160" height="64">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
     <property name="monster_id" value="0"/>
+    <property name="spawn_rate" value="10"/>
    </properties>
   </object>
-  <object name="Maggot" type="spawn" x="4256" y="3456" width="160" height="64">
+  <object name="To Snake Desert" type="warp" x="2944" y="4096" width="1152" height="32">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="0"/>
+    <property name="dest_map" value="005-1"/>
+    <property name="dest_x" value="640"/>
+    <property name="dest_y" value="1280"/>
    </properties>
   </object>
-  <object name="Maggot" type="spawn" x="832" y="3808" width="160" height="64">
+  <object name="Black Scorpion" type="spawn" x="4224" y="1600" width="512" height="576">
    <properties>
-    <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="0"/>
-   </properties>
-  </object>
-  <object name="Sea Slime" type="spawn" x="928" y="1184" width="64" height="160">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="31"/>
-   </properties>
-  </object>
-  <object name="Sea Slime" type="spawn" x="1056" y="2176" width="64" height="160">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="31"/>
-   </properties>
-  </object>
-  <object name="Scropain" type="spawn" x="1792" y="1472" width="288" height="224">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="1"/>
-   </properties>
-  </object>
-  <object name="Fire Goblin" type="spawn" x="2368" y="1728" width="800" height="608">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="6"/>
-    <property name="monster_id" value="9"/>
-   </properties>
-  </object>
-  <object name="Scropain" type="spawn" x="3520" y="2144" width="288" height="224">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="1"/>
-   </properties>
-  </object>
-  <object name="Black Scropain" type="spawn" x="2368" y="800" width="288" height="224">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="ea_death" value="1800000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="7"/>
    </properties>
   </object>
-  <object name="Snake" type="spawn" x="2816" y="960" width="512" height="352">
+  <object name="To Sandstorm Desert" type="warp" x="704" y="672" width="1056" height="32">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="8"/>
+    <property name="dest_map" value="002-1"/>
+    <property name="dest_x" value="3424"/>
+    <property name="dest_y" value="2528"/>
    </properties>
   </object>
-  <object name="Green Slime" type="spawn" x="4160" y="1312" width="512" height="608">
+  <object name="To Getting Lost" type="warp" x="704" y="1792" width="32" height="1120">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="3"/>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="1216"/>
+    <property name="dest_y" value="3648"/>
    </properties>
   </object>
-  <object name="Maggot" type="spawn" x="2720" y="4544" width="160" height="64">
+  <object name="To Getting Lost" type="warp" x="4064" y="704" width="32" height="1056">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="0"/>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="1216"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="736" y="4096" width="1024" height="32">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="3648"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost " type="warp" x="1792" y="672" width="1120" height="32">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="3648"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="736" y="1760" width="1024" height="32">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="1760" y="704" width="32" height="1056">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="3648"/>
+    <property name="dest_y" value="1216"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="2912" y="704" width="32" height="1056">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="3648"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="736" y="2912" width="1024" height="32">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="3648"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="1792" y="1760" width="1120" height="32">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="1216"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="2944" y="1760" width="1120" height="32">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="1216"/>
+    <property name="dest_y" value="3648"/>
+   </properties>
+  </object>
+  <object name="To Sandstorm Desert" type="warp" x="704" y="704" width="32" height="1056">
+   <properties>
+    <property name="dest_map" value="002-1"/>
+    <property name="dest_x" value="3424"/>
+    <property name="dest_y" value="2528"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="2944" y="2912" width="1120" height="32">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="1216"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="1792" y="2912" width="1120" height="32">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="1760" y="1792" width="32" height="1120">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="1216"/>
+    <property name="dest_y" value="3648"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="2912" y="1792" width="32" height="1120">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="1216"/>
+    <property name="dest_y" value="1216"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="2912" y="2944" width="32" height="1152">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="3648"/>
+    <property name="dest_y" value="3648"/>
+   </properties>
+  </object>
+  <object name="To Snake Desert" type="warp" x="4064" y="2944" width="32" height="1152">
+   <properties>
+    <property name="dest_map" value="005-1"/>
+    <property name="dest_x" value="640"/>
+    <property name="dest_y" value="1280"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="1760" y="2944" width="32" height="1152">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="3648"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="704" y="2944" width="32" height="1152">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="3648"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="1792" y="4096" width="1120" height="32">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="2944" y="672" width="1120" height="32">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="1216"/>
+    <property name="dest_y" value="2432"/>
+   </properties>
+  </object>
+  <object name="To Getting Lost" type="warp" x="4064" y="1792" width="32" height="1120">
+   <properties>
+    <property name="dest_map" value="071-1"/>
+    <property name="dest_x" value="1216"/>
+    <property name="dest_y" value="1216"/>
    </properties>
   </object>
  </objectgroup>

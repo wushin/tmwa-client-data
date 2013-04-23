@@ -43,10 +43,10 @@
    H4sIAAAAAAAAA+2UUY7bMAxEg9z/0EU/Fmt4E9uSSA4pvgEeihauRA1n8n69Xm8AAAAAAAAAAADYiqNWvgGoTITUbwR4ilrq9wN8IqvUvkBvqkjtE/SiotSeQQ8qS+0d7MduUvsJ++Ahr3NHpPYV6rO71P5CHbpL7T/kZXc9faN6D5AL9FfqnYCeyop4g3o/oKOyIudX7wnoxhMp36LeF8RhqaiMRr9r5n6oi7Vmzp+d43zP+8O/e73z2xxQG09F3ffkjui3390NNfBSxH2jd9ARyNCPqPsq9ePJLJCPVUXe9fT+lXkjpd49zOVhJCcr99ydOzvD6Pers65KnQHwy0HUPSNzjH6v7sfdPFCrEy/BfSPzjH6f5Q0zs0GuXvwoW6aOM418S0fAQ5mydJ5p5Fu1jyNS52hXLKXq4tPvPPuRoSNnqbO1AxaqkJ2Ifqy+1cMndb6qM6voDq5odBaVp15SZ6wis7I6PzJHM+/epRtHqTNXgVVF3WGp2dl268c3qTOZgbMXT30b9XJVGc/bvR//pc6nshPf/HiqqGx4nGt1VuVejPwedmJVEXd53+Hty25SZ7ZCP7Lec3fXp2+8fjt2ljq3O/Uj4o6rO6/m8JrdUlnm+CZ1hjP2xLsfEe/07vessswxKnWGIzoysodq3bDqlaeyzGEl9d6UHbHepfrt6mxmmsVD6v0pMmB1lvrdylxmmsVb6v1V7Yj6zapcZpolSur9KTxfPc/zDd/mUOcyY1+jpM64wu+VM1Wzq3KZZWcqqTNerSNZMpK9kyMzWHji1T11vit1JEs3VubxOFP1/gips632PdMsM1L7nt2fVam9yuB5hhlm5j3/vRJeXlhL7VMGz7PsekVq76v6die1Rxk832W3au938PAstUdZfN9lr2rvd+uI2p+uvkdIvYPqe1J709X3K1nPrt5D1R2pvenu/4pG36beQ/RuLO5Q+7PDHqpJvQvPnVjfo/ao+j6qaqddeN6j9qnyXqykmmsX/1fuufpWnVU6opeHr5Fee+1YndEsoLre0Y28HVHlwyOflTpxFP2gI8e7vLKatRt399KN3P04+umpqDdk68eV6EaNfryMzxo52+odO3TDeoeQvyN3562+4c6LjP2w3p06c9WYled5szM8me9u5m8zRHdndWd3b4CYjvz8OXve6iyKt3t3xHNfEN+T18SZllkdfd/dXd75v7qXbuRmVap7z3dbzBipjDsB/T4UyjZfll1AfCY+na3qxVF374/qivce1FnalQhl6MmV7rrjcT7dqIOnLM/3nNXLmwjf1fnpAPqVpV8Rfquz0wX0KyvfonxWZ6cD6K8q+avOTwfQM2X1VZ2fDqAxPfUzylt1fjqA1qT2UJ2fDqA5ZfFOnZ8OoDFl80ydny7sqopvG51ZnZ0uoLpSZ6cLqK7U2ekCqit1drqQUdZzZX3nqtTZ6QSal9JLdW464a0de5jh90adm05Yarc+ZPu9WZkNcnWlmjJ7+O1cdV660VHVvVRnphNHz3dWtJ/eUuemExW0Mvdufqrz0pUIWed69f9He7nqszoj3cmkmbnV/nl6qX4P+Ox1RmoPsnmpfgfY7l09XyZWpZ4fIIIZqWcGiGRE6lkBFDyRekYAJVdSzwaQgU9SzwSQiaPUswBk5JVgBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuOYfp0p2E0CWAQA=
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="To Sandstorm Desert" type="warp" x="608" y="1248" width="32" height="128">
    <properties>
-    <property name="dest_map" value="002-1"/>
+    <property name="dest_map" value="071-1"/>
     <property name="dest_x" value="3424"/>
     <property name="dest_y" value="2528"/>
    </properties>
