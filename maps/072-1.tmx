@@ -28,9 +28,7 @@
  <tileset firstgid="1513" name="desert-mountain_x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/desert-mountain_x2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="1577" name="tents" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/tents.png" width="512" height="256"/>
- </tileset>
+ <tileset firstgid="1577" source="../tilesets/tents.tsx"/>
  <layer name="Ground" width="178" height="168">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3UMU4DURAEUUtwWo6ARMwN8BG4JgQOnC0yA7XTXcHLV9P19+lyuTxpnbdn3aP3kA3bcR+6l7Oid5EN23EHupEN6I1kw3acjW5jE3or2bEd56K72IbeS/Zrx1noFjajt5MN2/F+9P4p6B3b0funoHdsRm+fhN6yFb17GnrPRvTmiehN29B7p6J3bUJvnYzetgm9dTJ62yb01snobRvQGzegN05H79uC3jnR+w29bRN680TXG3rbJvTmiWzYjhN82rEdh6B3bUPvnYretQ29dyJ600b05mnoPVvRuyeht2xGb5+C3rEdvf+kl2+vNlyJbm87ej/ZsQ3noFvYht5LdmzDueg2NqA3kh3bbwe6lTOiN5Ed23AnuptHvR+w2y50j4+6HqDvKjv+ic8D9F1lxxPou8qO7Vh2zN9Udmy3egTdoB1rAt2gHWsC3aAdawLdoB1rAt2gHWsC3aAdawLdoB1rAt2gHWsC3aAdawLdoB1rAt2gDWsC3aENawLdot1qAt2mHWsC3aYdawLdph1rAt2mHWsC3aYNawLdp91qAt2rDWsC3awNawLdrf1qgu0qgQ0rgQ0rgQ0rgR0rgR0rgR0rgR0rgR0rgR0rgR0rgR0rgR0rgR0rgR0rgR0rwX93bM/6C1TH9y3btX6L7Nj/tKbQ3dqyJtDN2rMm0K3asibQndqzJtB92rQm0E3asibQPdqyJtAt2rIm0B3asibQDdqz7NiWldmxLXeim7Nl2fHfNu2b2INu7Kw9+3/fhW7rjC1PvQXZ8X93PP0WZMdEy1PvQXa8Eb2f7NiWc9ANJKA3FN9AEnrLZvT2aeg9W9G7J6I3bURvfuTjBN9gy+dH723HsuPzo/dtQe/cgN64Ab1xA3rjBvTGLeid09H7NqG3TkZv24beOxW9ayN680T0pq3o3dPQe7aid09D79mM3j4JvaX4BhLQG8qW7TgL3cJm9HayYzvOQ/ewFb2b7NiO89A9bEXvJju24zx0D1vRu8mO7TgP3cNW9G6yZTvORXexDb2X7NiOs9AtbEZv147ePwW9Yyt69zT0no3ozRPRm7ah905F79qE3joZvW0yetsm9NaJ6E0b0ZsnojdtRG+eht6zFb17GnrPVvTuSegtm9Hbp6B3bEfvn4DeUHwDCegNxTewGb2d7NiOs9AtbEXvJju23zx0F5vQW8mObTgb3ccG9EayYzvuQDeyAb2R7NiOO9CNbEBvJDu24w50IxvQG+nYF0Dt6OFA0wEA
