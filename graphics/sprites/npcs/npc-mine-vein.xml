@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/npcs/mine-vein.png" width="20" height="20"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <frame index="0"/>
+    </animation>
+  </action>
+</sprite>

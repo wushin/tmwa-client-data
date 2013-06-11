@@ -1,13 +1,24 @@
 <?xml version="1.0"?>
 <!-- Copyright 2011 The Mana World Development Team -->
-<!-- The ea-skills.xml file is used by the 0.0.29.1 and 0.5.2 versions only.
-     Future version will use skills.xml
+<!-- The skills.xml file is used by the 0.5.x (>= 0.5.3) and 1.x versions only.
+     Older versions will use ea-skills.xml
+     See documentation at: http://doc.manasource.org/skills.xml
 -->
 <skills>
   <set name="Basic">
     <skill id="1" name="Emote" icon="graphics/skills/basic/emote.png"/>
     <skill id="2" name="Trade" icon="graphics/skills/basic/trade.png"/>
     <skill id="3" name="Party" icon="graphics/skills/basic/party.png"/>
+  </set>
+  <set name="Professions">
+    <skill id="20" name="Mining" icon="graphics/skills/basic/mining.png"/>
+    <skill id="21" name="Forging" icon="graphics/skills/basic/forging.png"/>
+    <skill id="22" name="Foraging" icon="graphics/skills/basic/foraging.png"/>
+    <skill id="23" name="Alchmey" icon="graphics/skills/basic/alchmey.png"/>
+    <skill id="24" name="Tanning" icon="graphics/skills/basic/tanning.png"/>
+    <skill id="25" name="Leathercraft" icon="graphics/skills/basic/leathercraft.png"/>
+    <skill id="26" name="Weaving" icon="graphics/skills/basic/weaving.png"/>
+    <skill id="27" name="Clothier" icon="graphics/skills/basic/clothier.png"/>
   </set>
   <set name="Magic">
     <skill id="340" name="Magic" icon="graphics/skills/magic/basic.png"/>

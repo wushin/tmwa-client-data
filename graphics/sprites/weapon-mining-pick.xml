@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<sprite name="player" action="stand">
+	<imageset name="pick" src="graphics/sprites/weapon-mining-pick.png" width="64" height="64" />
+	<action name="default" imageset="pick" />
+	<action name="attack" imageset="pick">
+		<animation direction="down">
+			<sequence start="9" end="12" delay="75" />
+			<end />
+		</animation>
+		<animation direction="left">
+			<sequence start="27" end="30" delay="75" />
+			<end />
+		</animation>
+		<animation direction="up">
+			<sequence start="45" end="48" delay="75" />
+			<end />
+		</animation>
+		<animation direction="right">
+			<sequence start="63" end="66" delay="75" />
+			<end />
+		</animation>
+	</action>
+</sprite>
