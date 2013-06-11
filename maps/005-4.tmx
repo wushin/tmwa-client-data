@@ -4,7 +4,7 @@
   <property name="name" value="Electricity Boss Cave"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/cave.tsx"/>
+ <tileset firstgid="3" source="../tilesets/cave2.tsx"/>
  <tileset firstgid="131" source="../tilesets/arena.tsx"/>
  <layer name="Ground" width="75" height="50">
   <data encoding="base64" compression="gzip">

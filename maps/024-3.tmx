@@ -5,8 +5,8 @@
   <property name="name" value="Entry Ancient Amulets"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/cave.tsx"/>
- <tileset firstgid="131" source="../tilesets/cave_x2.tsx"/>
+ <tileset firstgid="3" source="../tilesets/cave2.tsx"/>
+ <tileset firstgid="131" source="../tilesets/cave2_x2.tsx"/>
  <layer name="Ground" width="100" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3YMVMTQRQH8KvERukSGrVTwRE6FW3UAgk0aCd8AmD8AA4zfnZfJmQMO7O3SciRNfcrfkX2LvNu3j87ey/DpmmGAAAAAAAAAAAAAAAAkLEb9sKrFuPrbza0fm0Ow8fw/tbn8CV8nVkbX/+0ofVrMwon4duts/A9/JhZG18/3dD6tdkJv8NWwaDD+qXaXdavzbr7Uap/I4+q8rA//vkjj6rysD+A/808M/Sy+jR7r0o6Q7f5Gc7DxZz392n2XpV0hm5zGa7C9Zz392n2XpXxO9B0LuuCd6fF8+gqC3nk7Safp+fsQ+WRq99Xh0mfpudsKY8n4WmL7TnzyNXvq1HSj+k5W8rjWXje4kVyf/p/8qBQv6/Svg8y66m3Yb/FQeH7uTp9P1fSfrxsJjPb60I/7ytXRx53+/GumcxsHxbo7TLvxbk68rjbj6NmMrMdL9HjReTqyKPbvpf8kkdVeaTksf4M5LEajzM9fVTBs/VRbm/5jcsDedRGHnWRR13kUafZLNb9LMgDAAAAAAAAAAAAAAAAYF3+AtylDBNAnAAA
