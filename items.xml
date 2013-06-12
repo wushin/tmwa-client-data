@@ -8514,7 +8514,7 @@
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#EFEFEF</sprite>
     </item>
     <item id="6112"
-        image="equipment/weapon/mining-pick.png"
+        image="equipment/weapon/axe-mining-pick.png"
         name="Mining Pick"
         description="Required item for every miner."
         effect="Damage +25"
