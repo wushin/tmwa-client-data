@@ -10,16 +10,6 @@
     <skill id="2" name="Trade" icon="graphics/skills/basic/trade.png"/>
     <skill id="3" name="Party" icon="graphics/skills/basic/party.png"/>
   </set>
-  <set name="Professions">
-    <skill id="20" name="Mining" icon="graphics/skills/basic/mining.png"/>
-    <skill id="21" name="Forging" icon="graphics/skills/basic/forging.png"/>
-    <skill id="22" name="Foraging" icon="graphics/skills/basic/foraging.png"/>
-    <skill id="23" name="Alchmey" icon="graphics/skills/basic/alchmey.png"/>
-    <skill id="24" name="Tanning" icon="graphics/skills/basic/tanning.png"/>
-    <skill id="25" name="Leathercraft" icon="graphics/skills/basic/leathercraft.png"/>
-    <skill id="26" name="Weaving" icon="graphics/skills/basic/weaving.png"/>
-    <skill id="27" name="Clothier" icon="graphics/skills/basic/clothier.png"/>
-  </set>
   <set name="Magic">
     <skill id="340" name="Magic" icon="graphics/skills/magic/basic.png"/>
     <skill id="341" name="Life Magic" icon="graphics/skills/magic/life.png"/>
