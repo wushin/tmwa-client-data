@@ -944,8 +944,27 @@
     <sprite variant="27">npcs/npc.xml</sprite>
   </npc>
   <npc id="501">
-    <sprite>npcs/npc-mine-vein.xml|#4d422d,ffffff</sprite>
+    <sprite>npcs/node-mine-vein.xml|#4d422d,ffffff</sprite>
   </npc>
+  <npc id="502">
+    <sprite>npcs/node-plant.xml|#e0b0ff</sprite>
+  </npc>
+  <npc id="503">
+    <sprite>npcs/node-plant.xml|#0047ab</sprite>
+  </npc>
+  <npc id="504">
+    <sprite>npcs/node-plant.xml|#ef9b0f</sprite>
+  </npc>
+  <npc id="505">
+    <sprite>npcs/node-plant.xml|#e32636</sprite>
+  </npc>
+  <npc id="506">
+    <sprite>npcs/node-clover.xml</sprite>
+  </npc>
+  <npc id="507">
+    <sprite>npcs/node-mushroom.xml</sprite>
+  </npc>
+
 
   <!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299 -->
   <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
