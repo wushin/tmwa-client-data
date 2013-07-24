@@ -16,7 +16,7 @@
  </layer>
  <layer name="Ground2" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VSwrCMABF0YAonVfQed2B9bMDl+DCdAGKbrIzn0ggFGkSME2kd3BGGfTyaNPOGNMBAAAAAAAAQAFmsvCoCmusBs7mCZtrWXrUmbeyjSdZ9Xr6/Xs5yDFBRyMbjybzVrbx7PTc5O6crZ2zVM3bQDm3sg27iN4UzUPPusi1oK1itCN3POT5p1uN/V6V9g2ylV/LVj9rfG/57d5nq4+Qf+LUt4r5Hqe+FfcVAAAAAAAAAAAI8QLiWJlimDoAAA==
+   H4sIAAAAAAAAA+3QsQnCABAF0IAo6SNoH2dQN3AEB9MBFF0yndcEQgqjwpkQ3sGrrvif3xRF0QAAAAAATMAirAaUE+tYvvktEztXYT2gGnmrtuMpbHp9+v334RCOCT3qsBtQj7xV2/Hc6XML985v2/lldf70xtzq1/tnj0u4JuXObatHeCblzm2rzFxb2Soj11a2ysi1la0ycgEAAAAAgO+9AObuj1SYOgAA
   </data>
  </layer>
  <layer name="Lower" width="75" height="50">
@@ -34,7 +34,7 @@
    H4sIAAAAAAAAA+3OoREAAAgDMfbfGBQb1CJI7l7VtAoAAAAAAAAAgI86NGG7+gEAAAAAANxbMiernpg6AAA=
   </data>
  </layer>
- <layer name="Collision" width="75" height="50">
+ <layer name="Collision" width="75" height="50" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3SMQrDMBAEwMP/f3SaVCI5Rw4rqRjBgJGLW1Z3VdUFAAAAAADwVsN3DXe7s42n+5fK/m1Geu6KzlbtU3ruvx11OVOZZzKc0NVM7nRXd/e7uxozdSeR45e3OrGrLmci82yG07takfnTnOS8J9me7liio+4dT+hq9uzKsXu3AAAAAACAqhfu4A4BmDoAAA==
   </data>

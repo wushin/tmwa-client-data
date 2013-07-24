@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+Arrows from south to north.
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="0" lifetime="50">
+    <emitter>
+      <property name="position-x" min="-16" max="16"/>
+      <property name="position-y" min="0" max="8"/>
+      <property name="position-z" value="0"/>
+      <property name="output" value="6"/>
+      <property name="output-pause" value="10"/>
+      <property name="randomness" value="10"/>
+      <property name="image" value="graphics/particles/arrowu.png"/>
+      <property name="horizontal-angle" value="90"/>
+      <property name="vertical-angle" min="0" max="0"/>
+      <property name="gravity" value="-.2"/>
+      <property name="lifetime" value="40"/>
+    </emitter>
+  </particle>
+</effect>

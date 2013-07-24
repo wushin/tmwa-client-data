@@ -506,4 +506,62 @@
     <particlefx>graphics/particles/monster-angry-green-slime.particle.xml</particlefx>
     <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
   </monster>
+  <monster id="109" name="Sea Slime Mother">
+    <sprite>monsters/slime-mother.xml|#4ca1a0,ffffff</sprite>
+    <sprite>monsters/accessories/weapon-slime-covered-forrest-bow.xml|#4Ca16e,ffffff</sprite>
+    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    <attack id="1" missile-particle="graphics/particles/arrowh-sea-slime.particle.xml" action="attack"/>
+  </monster>
+  <monster id="110" name="Green Slime Mother">
+    <sprite>monsters/slime-mother.xml|#72982c,ffffff</sprite>
+    <sprite>monsters/accessories/weapon-slime-covered-forrest-bow.xml|#72982c,ffffff</sprite>
+    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    <attack id="1" missile-particle="graphics/particles/arrowh-green-slime.particle.xml" action="attack"/>
+  </monster>
+  <monster id="111" name="Thug">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>equipment/head/sailor-hat.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml</sprite>
+    <sprite>equipment/chest/tanktop-male.xml</sprite>
+    <sprite>equipment/legs/pants-male.xml</sprite>
+    <sprite>weapon-fist.xml</sprite>
+    <attack id="1" type="direct"/>
+  </monster>
+  <monster id="112" name="Swashbuckler">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml</sprite>
+    <sprite>equipment/legs/pants-male.xml|#212121,555555</sprite>
+    <sprite>equipment/head/bandana.xml|#212121,555555</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121,555555</sprite>
+    <sprite>monsters/accessories/weapon-dagger.xml</sprite>
+    <attack id="1" type="direct"/>
+  </monster>
+  <monster id="113" name="Grenadier">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#5178a0,1a294c;#d5b02c</sprite>
+    <sprite>equipment/legs/pants-male.xml|#5178a0,1a294c</sprite>
+    <sprite>equipment/head/piratehat.xml</sprite>
+    <sprite>equipment/hands/generic-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121,444444</sprite>
+    <sprite>monsters/accessories/weapon-bow.xml</sprite>
+    <attack id="1" critical-hit-effect-id="31" hit-effect-id="402" missile-particle="graphics/particles/lobbed-abject.xml" action="attack"/>
+  </monster>
+  <monster id="114" name="The Dread Pirate Marley">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>equipment/chest/assassin-male.xml</sprite>
+    <sprite>equipment/legs/assassin-male.xml</sprite>
+    <sprite>equipment/head/eyepatch.xml</sprite>
+    <sprite>equipment/feet/assassin-boots-male.xml</sprite>
+    <sprite>monsters/accessories/weapon-bow.xml</sprite>
+    <attack id="1" missile-particle="graphics/particles/arrow.particle.xml" action="attack"/>
+  </monster>
+  <monster id="115" name="The Dread Pirate Marley">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>equipment/chest/assassin-male.xml</sprite>
+    <sprite>equipment/legs/assassin-male.xml</sprite>
+    <sprite>equipment/head/eyepatch.xml</sprite>
+    <sprite>equipment/feet/assassin-boots-male.xml</sprite>
+    <sprite>monsters/accessories/weapon-bow.xml</sprite>
+    <attack id="1" missile-particle="graphics/particles/arrow.particle.xml" action="attack"/>
+  </monster>
 </monsters>

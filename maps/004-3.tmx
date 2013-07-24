@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="120" height="120" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/004-3.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Pirate Caves First Floor"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="3" source="../tilesets/cave2.tsx"/>
+ <tileset firstgid="259" source="../tilesets/cave2_bilevel.tsx"/>
+ <tileset firstgid="515" source="../tilesets/cave2_x2.tsx"/>
+ <tileset firstgid="547" source="../tilesets/cave2_sewer_mine.tsx"/>
+ <tileset firstgid="803" source="../tilesets/cave2_sewer_mine_x2.tsx"/>
+ <tileset firstgid="883" source="../tilesets/cave2_transistions.tsx"/>
+ <tileset firstgid="1139" source="../tilesets/cave2_sewer_mine_x4.tsx"/>
+ <layer name="Ground" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <layer name="Ground2" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cS27TQBzHcTuhG2DBQ0WibADBDeAE0CPwKAuQAnTRBUgBSkFQpPBqWSBegoIELGBdlceSxwkAwQ3gBnAC/qPOiOngpontZMbj70f6KYlCk7Q/7Jmx3SYJAAAAAAAAAAAAAAAAAAAAAAAAAAAA4M+jNElO6TxMfX8aFHHS6tLkteS8zquM51VO03slnLO6NHkvuaHzLuN5lQv0WwnXrS5Nxq3uDmQ8r3KTfithNGdPW+m3EvYG0O9seS8FRwj9YnD2B9jv1cG9dO2Me+j3YzNJPkk+N/O/BsL1RXr9KvlGvz3b6PsDAChkj4yJF3VOVHB+q+ZV631/iACpfbM6jrxPclvnbEa/Ux4731Dga+s89pjvXR1HPih5onMtsH6Vfjuuc6+ulnQ3Yx07ntaPTS5JLgeyz16rZ3pdZv8c2tLdnNXvLf3YZF5yJ5B+0b+OdLcgOaQ7fKwfmzyVPKPfysp7HAphsvfNrZR+Y9am36i488uONe7267B83RHJUcmE5Bj/T6Iy6fTpe42M/+U9h6tM6+OZa62RnzeS5IXkg466/7KR/33RuyJjr1onb5LbzZItSfYa+bv0eE9yX/LAuf+Djgeq6NxZrZN3yu0uye4ke438UzpckryRvHXu/6LfgSo6d77Sw7/53VjePy9a++dFvX/+Q78Do7bdInPnfixxrcVQuMecWffGo8x1LwA/3HO9daCG/3WSEd8fZAjcc72Ii3uuF3FRxyPNupXf5YiP2S+rjif0eR/E47judDL916/Zjs2t6r4V0DV1WXq5jq7IdbUxmUpXdqu0uaYuGvZ5W9NzJ5Jr6tiGs8/Lc66+mkada9dnMsbZ0MderE7tr+xr1+cyxtm8Y+92yZjOjuIfFTnZ164vOOPsmbScsTfv39YZhrr+DovqdrakeXOo/dah29XmlKrbuyXNm0Pstw7d9qKMNUVo/dLtSnk6tn+GIfUba7c+1/Zl97uty3Pdvs9Yu/Wt7H75m3fZfG3D6n1HSuqkmbIddlPljum2dz56Vu85ViB02z/OqdQHXQNAHJjvxItu40W38aHT+NBpPOgyTvQaB3Nsij4BAAAAAAAAAAAAAAAAAAAAAKi3v8sGeLEA4QAA
+  </data>
+ </layer>
+ <layer name="Ground3" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZQUrDUBAG4AbrvgpdubEFb2BvoDdoBdc9QsFFt71E71VvYG9QD+A8cFNI6MJofMP3wZCQQHjwk8ljMhoBAAAAAAAAAAAAAAAAAAAAAAAAMJS38dArgP/noRl6BfymhXxTe5ZvSrvIdd+c53uI83d5p9D23f2Ia0f5Vm/dtH935ZvDpiPDU1z/lG/1djJMbSrf1OQLdVr38O5eRZVx//XPH0XPuvbO5GDvnFfXXIMcNo3/CZnpzTmVvvyoN6dV+vKT3pxW6ctL2aZlHpmbfKF+L97jlFbfub7KFwD+nP/yed1FTaJuom4HXgv9KzOO+zjOouYt97f21lUzwwIAAAAAAAAAAAAAAAAAAAAAAAAAALjsC7l+2xQA4QAA
+  </data>
+ </layer>
+ <layer name="Ground4" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OsQkAMAwEsQfvP2KcVZIhDG4kuP4SAAAAAAAAAAAAAAAAAAAAAAAAADacSvp3a/sEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACQ+lhObuAOEAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aUQrCMBAFwGA8o4dQvz2/FiwIIsZGTXaZgUBpSln6ki2UlgIAAAAAAAAAAAAA7S770RUAAAAAAAAAwFh113/tcn6d++R+zEuOMKfHfvtqzv6dl2zoYf3Af9lzvGONwDj2H9BCr5jPtzLx/WtusslFnjHoi7nJlq2OtZTTbRzuYzk+19FVsZVewKrlvy3ykW0u8gSAZ1Hfj1HrHs1zi0FO+UTNNGrdAK1+1ef0zxzkGJfsgB56CAAAAAAAAAAAAAAAAAAAAAAAAAAAUVwBmig1lgDhAAA=
+  </data>
+ </layer>
+ <layer name="Over" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cQWrDMBAF0Lg0pDlBSXKy9v4HqTeGkKrGLnHkmXkPZi/4lq2RkA8HAAAAAAAAAAAAAAAAAAAAAAAAHl3Guo516z0QYJVL7wEA8Eukd/Patd+0ZqwqUraTJWv86rlmcJ0pYs5dgOy8myEmcxcAAEBvlJlsAYAejm+9RwDb+Bra9T30HhnPEC3HNf2eO1UQW4U57A4oQBwVe35nLXlVyvZ9+LsyrsEqZbtEpoxl2zZ3D/PVdzOn/q5Vc89i9my3noefd9WT+8Db2Eu+lWX6ltK21d7kaeyhP8Y6F+yl98gedA1L1p7k8J++A4D9yL4XVJls87nf8yUHmebROpMhPv/QzeVxnpKHPCEmZ3cAAAAAAAAAAAAAwDP9AEFIo+4A4QAA
+  </data>
+ </layer>
+ <layer name="Collision" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2S0Y6kMAwEo/n/j76nlRAXYpPEbgNlqTSjXYa0u/Jrrf0AAAAAAAAAAAAAAAAAAAAAAAAAAACctAIZIM7t36izAH4Bv4Dfr3AcdRbAL+AX8PsVjqPOAvgF/AJ+34xn1Blhn9uRc3VeWHNrjTpzFZ7Q251sypzVsLrqPaPM+Tt9evJ/lV4PnrGe996baL+zZ72Bqw4yRnUXv8Jo/6ieVt81O+qulW5H++/uafVd1kTlfhre/Xf3dHzPzPtmR9230u+Oe7DiJ9KxuueqftvpuYhzrQwrntX9qrF6aM7nqrgGv9ssvzjO9zsaHD+DUX+Kro9nZJ77Vka9KXq+GisrXHc503WmX29e+L/Lu26j++2dlXn+mxh1NZpMv9nnv4lRV+30faXf3m+uBse5fme7bafvEaPurzqjjq769PRqzerv77zri3j6UXZqjXeHr2J1Y012xvO5ijxPwurFmuycx3OVeZ7CqBPPZGetlqk6oz4qdlkxU2VGfVTssmKmyoz6qNjlVYbVTIpd1H49jiv4Xc2l3knpN6rTKn7Pv8nao5Lf2b6f5jcyt9Jvbz/vvtZk+p25rxmZq/nt9XW1tzWZeWfPjM5c1e9x397+3tmd13MvV3pQO4nwO7O/dxT3Eb/7/Pb+35tMx3fPi8hZgdFOzXju7mT7vXNmRM4KXO1kdXX8m3cUfq1zozJW4Wovq6eZicp+fP+ds6PzVWB2v6sORxOdf2XUHqr5nek2Y4eZUTuo6vfOGZX2zNi5Chn7fqHHyowGv+/AM+qMsNdzz7s6H+z3bI06K8S7VmeEePfqLBDn93f4hPdwHnUeiPOrzgIxXluBPLDP5d+oc8Fen61ANsAljP2qM8Fev+oMgF8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA0PIPQR1hywDhAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="120" height="120" visible="0">
+  <object name="To West Beach" type="warp" x="768" y="3040" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="004-1"/>
+    <property name="dest_x" value="2016"/>
+    <property name="dest_y" value="3136"/>
+   </properties>
+  </object>
+  <object name="To Pirate Caves" type="warp" x="1568" y="2560" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="004-4"/>
+    <property name="dest_x" value="1568"/>
+    <property name="dest_y" value="2656"/>
+   </properties>
+  </object>
+  <object name="To Pirate Caves" type="warp" x="992" y="2336" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="004-4"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="2240"/>
+   </properties>
+  </object>
+  <object name="To Pirate Caves" type="warp" x="1568" y="1792" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="004-4"/>
+    <property name="dest_x" value="1568"/>
+    <property name="dest_y" value="1632"/>
+   </properties>
+  </object>
+  <object name="To Pirate Caves" type="warp" x="2880" y="2048" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="004-4"/>
+    <property name="dest_x" value="2880"/>
+    <property name="dest_y" value="2176"/>
+   </properties>
+  </object>
+  <object name="To West Beach House" type="warp" x="2560" y="704" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="004-2"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="1952"/>
+   </properties>
+  </object>
+  <object name="To Pirate Caves" type="warp" x="2464" y="1280" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="004-4"/>
+    <property name="dest_x" value="2496"/>
+    <property name="dest_y" value="1088"/>
+   </properties>
+  </object>
+  <object name="Thug" type="spawn" x="1280" y="2176" width="256" height="288">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="111"/>
+   </properties>
+  </object>
+  <object name="Swashbuckler" type="spawn" x="1280" y="2176" width="256" height="288">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="112"/>
+   </properties>
+  </object>
+  <object name="Grenadier" type="spawn" x="1280" y="2176" width="256" height="288">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="113"/>
+   </properties>
+  </object>
+  <object name="Thug" type="spawn" x="768" y="2176" width="288" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="111"/>
+   </properties>
+  </object>
+  <object name="Thug" type="spawn" x="2176" y="1888" width="256" height="288">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="111"/>
+   </properties>
+  </object>
+  <object name="Swashbuckler" type="spawn" x="1152" y="1216" width="256" height="128">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="112"/>
+   </properties>
+  </object>
+  <object name="Grenadier" type="spawn" x="2176" y="1888" width="256" height="288">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="113"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

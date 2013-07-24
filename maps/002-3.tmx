@@ -2,8 +2,8 @@
 <map version="1.0" orientation="orthogonal" width="110" height="110" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="graphics/minimaps/002-3.png"/>
-  <property name="name" value="Tulimshar Mining Camp"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Tulimshar Mining Camp"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="overlay0keepratio" value="true"/>
  </properties>
@@ -35,7 +35,7 @@
  </layer>
  <layer name="Ground4" width="110" height="110">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3WQWoCMRiA0SDTnQexLcVb9GxuiicYuynduRN3nqc3cGepQkSRjkWdTubH9yBkXCjBj2SSEgAAAAAAAAAAAAAAAAAAAAAlfeT5s+gquNQiz8srvlsPUpptx/ug+Zn+edElJN3iOD4D33Tr1C3/vT3WL+Pco/5j7LrVZZbIL3bdNmf20ne+Jzob+2V65i6/f543NBtr2bk23le6da/Ne8a6vZ+iZaMqpcfqMD9tx3NVelX3ZXLyeb/3nHux6BbD6ftIt5h0i6mp21f3S+EC9ltMq9xrqhsAAAAAcGdeH0qvgGvoFpNuMekWk24xDUsvAAAAAAAAAAAAAAAAAAAAgH/3AzvlKuYQvQAA
+   H4sIAAAAAAAAA+3WQWoCMRiA0VRm6UFqRVz0kt2IJxi7Ke7cFXc9T2/QXUsVIop0FHU6mR/fg5BxoQQ/kklKAAAAAAAAAAAAAAAAAAAAAJT0ludl0VVwqfc8r6/4bj1IabEZr4PmZ/pnoktIusVxeAbOdOvULf+9PdYv09yjPjO23eoyS+QP227fJ/bST74nOhv7ZX7iLr97XjU0m2rZuTbeV7p1r817xld7P0XLHquURtV+ftqMcVV6Vffl5ejzbu8592LRLYbj95FuMekWU1O3z+6XwgXst5g+cq+5bgAAAADAnXl+KL0CrqFbTLrFpFtMusU0LL0AAAAAAAAAAAAAAAAAAAAA/t0vQT4F/BC9AAA=
   </data>
  </layer>
  <layer name="Fringe" width="110" height="110">
@@ -63,7 +63,7 @@
    <properties>
     <property name="dest_map" value="043-1"/>
     <property name="dest_x" value="2720"/>
-    <property name="dest_y" value="1760"/>
+    <property name="dest_y" value="1792"/>
    </properties>
   </object>
   <object name="To Sand Storm Upper" type="warp" x="2720" y="1632" width="32" height="32">

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="Music" value="faith.ogg"/>
+  <property name="Name" value="Lighthouse"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="3" source="../tilesets/inn.tsx"/>
+ <tileset firstgid="259" source="../tilesets/inn2.tsx"/>
+ <tileset firstgid="515" source="../tilesets/cave2_sewer_mine_x4.tsx"/>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WPQoCMRAG0Iig9qt22qk3UE+xR/CSnm47R0gR7Cxkx/CKR34mxZCPQKZSygQAAAAAAAAAAAAAwE8sw6qxCWOdj0193dTn7rlnQziFc9jV9SNs63gNt3Cve0OCnnv2XHxv7p57Jo9c5JGLPHKRRy7vP9Ox3vMhXD4yamv7en7unnvmfeQij1zkkYs8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIB/8AJSFDTAQJwAAA==
+  </data>
+ </layer>
+ <layer name="Ground2" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WQQ7BQBQG4JmtWLATsauFCDY4hMv0CC7BDTioEROqCTtT4vuSP53XvsVLX9I0BAAAAAAAAAAAAAAAgPKqlGkj17rO5zrXo0Zf1c2Yf2MdQ9ikbOPj3r51paxdq7aP7/JqH4OUYeFZCKGXv139+L6PMsZ5DxP7KO76z7TK730Zb/U814v4/GyW+/mcQ8qx6yG4O6Wcux4CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICfcgEnDRgnQJwAAA==
+  </data>
+ </layer>
+ <layer name="Ground3" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OsQ2AMBAEwXctOKEX6AA6sPtP+YgUJ2AJzUibXXARAAAAAAAAAAAAAAAA31tKRM3W8rzdsv31R4w6snP2CW4t67NPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDPXMiVc/BAnAAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OMREAAAgEoD8H+0e2gLMukIAEAAAAAAAAAAAAAAAAdl3fAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAewOQfwxYQJwAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3MMQqAMAADwHTppv9/gz/UyZau1rEi3EGGEEgCAAAAAAAAAAAAAAAAAP9QW/aSHC1bGb3rPQ9bnfwAAN85J7leNgAAAAAAAAAAAAAAAAAAAAAAAAAAAACA1W6oNfm2QJwAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RQQrAIAwEwJD/P7qnggg9NNBGdBYGab0sbkZEAgAAAAAAAAAAAAAALCIW6HC6Ozmd43/+2WB+d3vYg3d7jPd8v8vTtw3scapKujvvrJLuzjurpLszAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHCeC3Mz9K9AnAAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="100" height="100" visible="0">
+  <object name="To Lighthouse Beach" type="warp" x="992" y="1280" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="023-1"/>
+    <property name="dest_x" value="1152"/>
+    <property name="dest_y" value="1120"/>
+   </properties>
+  </object>
+  <object name="To Lighthouse Beach" type="warp" x="992" y="992" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="023-1"/>
+    <property name="dest_x" value="1152"/>
+    <property name="dest_y" value="736"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

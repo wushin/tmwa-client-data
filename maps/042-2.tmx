@@ -11,12 +11,12 @@
  <tileset firstgid="547" source="../tilesets/inn_x3.tsx"/>
  <layer name="Ground1" width="70" height="110">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3aMRKCMBBA0Xj/44gn0RvIJeik04HBgUBcZ3nF62j2z5ImGUopAwAAAAAAwEbXS3vRM+qiiy66/BNddNFFF10AAAAAAIBa7gPqunQn7nIfPezLrMtz1B+4H1m6OF900UWXyC43XewLAAAAAAAk4z5gucv0rn7PXVGmLjW2tIuesXWXmjcgXYIu0x1Y6rD2u7Psi/Pl2DM4esbaLi3ejn12jZ6xxb6s3aNvbaNn/GWX7P8RAAAAAG8vID3tAVB4AAA=
+   H4sIAAAAAAAAA+3cQW7CMBAF0PT+xym0PQF0D2q7L5dgh5GQQKGJsOtkhPMWb+fNfE0mC4987LruCAAAAAAAkOn1ZXrRNcpl+lzWF3LRL2O5jPXIWzr/nnxk5hld49S5bNL5bfK5wFzGfKXz38mPXMyXAaX/pXXjuSy1XwAAAAAAoCXuA8pyWS04l12y1y93ufwmh4r90Uou5kudXM57MDk7MNE1zpXLed8jZ9cjusa5cvEdXf1nBzG6Rv0CAAAAAAD8xX3AcC79u/pa71U8ey4lcrKLrnHqXEp2QFYN5NLvgaEcHj3XUr+UvmXSei79t0xqzODoGktzuf0OSt8yGZvP0TXW6Jeceh+dMdE1zplL698RAAAAAFcnAhX9JlB4AAA=
   </data>
  </layer>
  <layer name="Ground2" width="70" height="110">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3cOU7DUBDG8YdYC0CgINEADSDoOQQSW4vEdgC2I9BATQM1DdR0LCcATgBcJR1jyZaSl2fHnjhMZP+Ln4bYEOkbOaHwJzedc00AAAAAAAAAAMSwGBOjBWfeYxMDkFGjIebiuea99udqy+vQ7yQ/b3rnrDNqLIsVxcw6tu+ds86osSW2A3OjRNYZNQ7EYWBGeV6G2vNNiikxXYO9nIqzwAzlWxCLYinlfNrerDNq+Nn8a6TVq3gT7wX3Zp2x33v5EJ/iK+V8lT5HO2I3MEP5vsWP+K3BXo7EcWDW/f/RubgIzLyfrTStf2OdUaPM66JK1wsAAAAAAAAADLqo5zHi8vc7xl1npyPqcuzF71XFnse8C/c0sjodSffjJJ4Rvy9inVEj1OPwexp5eh6X8Yyse9M6o0ZZ90KuXGdHJLl3aZ1Ru5c7cV9gB6Hewq1r74hEknuX1hm1e3kUTwX2EuotPLjOjkhy79I6o3YvZXjOOGed8b/2EvVg0jowVdtLkY5Y1Pco0vWwztjLXrp1xHphnbGXvfSTdUb2AgAAAAAAAAD1wfM8whouu8+RNvMcS/oi1hk1+vE8D78vYp1RI+3exoyYzThf9fsk3D9iL+yl/L10e5ZJXffS7Vkmmu9j64xl7EX7LJOsvVln1LgWN8oddJO8t3XGMq4XvncBAAAAAADg+wNPuKdXUHgAAA==
+   H4sIAAAAAAAAA+3cu0rEUBDG8QNeCxVFwUZtVPRNBG+t4O0BvD2CjdY2Wtto7ftt5yzkgJxMssnkrLOa/8CP4ybLwvex2GTYQQhhAAAAAAAAAACAmBKzYqbl2fTa/ARktFgVa8W5l7xOz90fr7X3xL8PknveGS22xY7hrLt2ltzzzmhxKI6UM+d4Z7Q4FxfKqc2CWBRLPejlRtwqpzYbYlNsVdyv6s07o0XOqerNO6N3L1XjndHiWJwoZ997uRRXytn3Xu7EvXL2vZffGO+MAAAAAAAAAPAfDfc8pkPz/Y65UN7pGO5ynBaf9R/3PNaDvqdRt9MRdz+ui1PbF/HOaKHtcaR7Gk32PB6Kc2g/Ob0zWuSax1DeEYnPLr0zWnt5FW8tOtD2Fl5CeUckPrv0zmjt5UN8tuhF21t4D+Udkfjs0jujtZcc81VzzzujZy91452xSy/WHbEm452xSy+jdsS6jHfGLr2Mc7wz0gsAAAAAAAAA9Ae/56Ebtc8xas+j7lrcF/HOaDGO3/NI90W8M1pUzbJYqbnfZrwz5uwl53hnpBd6oZe/0Yvl/7F3xkn4vmi9eWe0eBLPeSopTfxs74yT8H3RxjsjAAAAAAAAuvkG3nxvolB4AAA=
   </data>
  </layer>
  <layer name="Fringe" width="70" height="110">
@@ -39,21 +39,21 @@
    <properties>
     <property name="dest_map" value="042-1"/>
     <property name="dest_x" value="2080"/>
-    <property name="dest_y" value="3360"/>
+    <property name="dest_y" value="2471"/>
    </properties>
   </object>
   <object name="To Outside" type="warp" x="704" y="2976" width="32" height="32">
    <properties>
     <property name="dest_map" value="042-1"/>
     <property name="dest_x" value="2912"/>
-    <property name="dest_y" value="3296"/>
+    <property name="dest_y" value="2471"/>
    </properties>
   </object>
   <object name="To Outside" type="warp" x="1408" y="2976" width="32" height="32">
    <properties>
     <property name="dest_map" value="042-1"/>
     <property name="dest_x" value="3328"/>
-    <property name="dest_y" value="3296"/>
+    <property name="dest_y" value="2471"/>
    </properties>
   </object>
  </objectgroup>

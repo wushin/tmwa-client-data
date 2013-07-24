@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<effect>
+  <particle position-x="0" position-y="0" position-z="0" lifetime="1">
+    <emitter>
+      <property name="lifetime" value="100"/>
+      <property name="position-y" value="-48"/>
+      <animation imageset="graphics/particles/trap-floor-spikes.png" width="32" height="64">
+        <!-- Spike Trap -->
+        <frame index="1" delay="60"/>
+        <frame index="2" delay="60"/>
+        <frame index="3" delay="60"/>
+        <frame index="4" delay="60"/>
+        <frame index="5" delay="60"/>
+        <frame index="6" delay="60"/>
+        <frame index="7" delay="60"/>
+        <frame index="8" delay="120"/>
+        <frame index="7" delay="60"/>
+        <frame index="6" delay="60"/>
+        <frame index="5" delay="60"/>
+        <frame index="4" delay="60"/>
+        <frame index="3" delay="60"/>
+        <frame index="2" delay="60"/>
+        <frame index="1" delay="60"/>
+        <frame index="0" delay="60"/>
+      </animation>
+    </emitter>
+  </particle>
+</effect>

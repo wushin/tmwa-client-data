@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="120" height="120" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/004-5.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Pirate Den"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="3" source="../tilesets/cave2.tsx"/>
+ <tileset firstgid="259" source="../tilesets/cave2_bilevel.tsx"/>
+ <tileset firstgid="515" source="../tilesets/cave2_x2.tsx"/>
+ <tileset firstgid="547" source="../tilesets/cave2_sewer_mine.tsx"/>
+ <tileset firstgid="803" source="../tilesets/cave2_sewer_mine_x2.tsx"/>
+ <tileset firstgid="883" source="../tilesets/cave2_transistions.tsx"/>
+ <tileset firstgid="1139" source="../tilesets/cave2_sewer_mine_x3.tsx"/>
+ <tileset firstgid="1151" source="../tilesets/cave2_sewer_mine_x4.tsx"/>
+ <tileset firstgid="1167" source="../tilesets/cave2_bilevel_water_lava.tsx"/>
+ <layer name="Ground" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2cTY8UNxCGOzATBJFQwrIsySmBXT6vJOHjCgmb/BYOOUaR8mPJl7RIOXAgUpAibG2XVLHK7iq3u9vtfg+PdkAzo7Wftl1Vtveo67ojAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxy6LjruF7B7wLKuz1xfOs47j1LwP36ILdfO753POo9S3j3DxwPK/i918r9vg/ngty+cFxyPO89S3j3Tx3PKuintfKk78O54G6H8O5/cPxYQT+tldO+D+dC65Zzo4J+qgXtfEtr2s2M/p6bO915vCW1Y2sxmHa+pTUt9HulAp8h33Tn8ZbUjuONOdbOt7Sm5YzfqZ+By8G/v+vO4y2pHY825ljri+a8e5kOctbEKdaC5xtzLPVhOB74nPd45X635ljbhzTnvWzAb+i45XrIFH34y0J+pXmHvivluOV6SKoP/9513cW9jZ1j73izi/e1lvDz1jht6PvIccv1kJTf/5yjg72N645Dx/tdmd8vZ/6wfl/L9ZBUfHXVebpt5Nhx4vhkr6ubaOObsV5TbW7NL69ZpfKdd24M/tTl8Xanq5vMHcMeCm1uzS+vWaXynTPn6M8Mx6/dZ/7a6eomc+YptNcYtrk1v7xmlcp3Pv/INoa91997t9q1cq5clO8jh21uza8l79D6fW30Oqdj7pbvR73asN9/d+d5zsf7ad1KjkvWG2Jutzx+fd57pc9zbgz4zXX7Svi/0vWG+wq31ti7dsL4Uar5+Lz3iz7PuTPg9+3IcSs5LlVveLJBt1L8GOLz3geKeXkKvx6/V1ViHT7dkFs+Vw3tEUgxlZ+HfxPypbF+Y3tVJWItvg792rBbj3auivm90NeXw3hryK+01zCE36saG0/75zlVu1naR2k0c1XK77W+vhzGW1PMz56x8bR/nmPr0NIuSjP0LGv83urry2G8NZVf7jgnnvbPs7QOLe1iClLPstbvnPFV6Dgnnm59D2HoWU7tpVr8XmB7vhcVr/9RPA9hzOXjaescLeX4S3uYCus5CIvfa2zP90Dx+pLSMcfH09Y5mre55bHL20rnMWgsxX5qapJ8XaY939uK10cZjn08bZ2jw2d6aQdz+KXzGDSWYj81NUkpF9a8926mY+sYvJn5uTVCbb0ajKXYz6GaZCwX1r6XO5bOaUn4NVhz95POLtwzfm4NhHeJwjtDY85jaHJhy3vJ8XulX78Ga+5+0tmFx8bPrQHftk8dn/l+ZW3aZ6yrQ2uulAtb3+sd+3Naks9wf8mvwZq7n3R24aXxc2vAt+1Lx1e+X1mbDoV1ldZFf97ij8TrnPM5FmL588/C/2nW01iu0MI6HMvpT9i6aj1Dc9a/nyjhm8dc1vqI1W9LZzRifv26m3M2KuZ7rGNy+i7D71CuUyr+rpHQL8WOqTMW0jkKCb6/NjZO4zG1xW9uP7Tql2LHsWO29BjmMbXGr9XN2OejVkK/FDuWdFvCMY+pyW9qHmlh7E3hd2rOCsRcU4zfVrHmBtJ7pfMyKaxn4KW1WFPDWrpvayA1frV+Q4biL/7s5K7FqRoWxm7a71D/jJ2jx/q9lahhwe+wK03/LOmX50vSfhL8pl1p+6e0X8seIuVLsT3Dpfu0Nvg8bTkrnutY8mvZQ6R8KdwXxtgd9lvqrLj0/WH/x2oY2nla2vtfui9rhPstcVacw+8vhXNDrIZhWYu5Yz/+l+7LGgnjaH5WfMzfw6A7LnzvnJ8/z42vYo4P4FfllzvW/D2MmGu648L3zsPz50UdV9CXNRKLg7xjzd/DCF2T59PId4ZnI0r4XboPaye3Fs2fAXJNnmN3XBDnrsev5Jo8x+64wO+8WO+TaT2Hd1zo7if8zov1PlkJlm7zlojdjYTbNii5z4+5tz5Kn+NYuj3g/2DsbgOM3faB120CnwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOvlAzF/5cAA4QAA
+  </data>
+ </layer>
+ <layer name="Ground2" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cTU7CQBiA4SKykp3RKC7VExj3/sS9mrhXD+Wx1BOoR3FIXGDkt53a9uvzJJNAAoXwdqYlNBQFAAAAAAAAAAAAAAAAAAAAAAAAAF0ynrm909i7iGk4+H1/PP9hS1VpMu/1+tb4ZLD6MWUdZ9r2pk1W7Ud9a1yXs8z7zqouZdYHyruucW2geS/6AgBLOPeOS9u4tI1L27i0jUvbuLSFbur73P3YKorPNL62mn4n1OEidb1M4ypg377P3anb1PUujfuAfSmKx9T1KY1nfVttmMZ2GqMNnxd5fY7udI1rKazP3bVOX+tzd63T9zV1fUvjXd/O2Qt0rZvrm/86D9DXd9jFbgL03cS8ORx5/3joWV/og4MM2zhMY/IzjjJsb57Ia2sOiz6f3Oeakc7To8jZWN96lW2Vq7G+9WuycR19HXvzKdN49vM3f2PL3Xc/7+aoKHffXetBq0zX91GmJtP/33HsbZ8cjbVdrunfyKavP6kwtAWA1Rwv49IW2sv8bJ+mv//yP6p2Nnfbr+pvfnTTbHc9AQAAAAAAAAAAAAAAuuUbwzVyzQDhAAA=
+  </data>
+ </layer>
+ <layer name="Ground3" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RsQnAMBRDQdv7GE8a0nleF8kGIXwQd41awWsNAAAAAAAAAAAAAAAAAAAAAAAAAAAAauxe/QAAAAAAAIAv5nh2jdof/EPfbPpm0zebvtn0zXa9XW99AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAINoBN5R8/wDhAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OoQ0AMAgAQRKGbNh/EQQTVIG4M28/AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODfy2nl7gcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABc0XqIJukA4QAA
+  </data>
+ </layer>
+ <layer name="Over" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cQQqDMBQFQAu9hO3979luSkWsaUQxec5ANi5E8kii4ZthAAAAAAAAAAAAAAAAAAAAAAAgxfhuj8r2POVJATjadE0w12cZF67JeF/327dtVZvJZ8zudT+O98/8Wsp1SsZtWvuWAgAAjre0D0IG2eaSbS7Z5pJtLtnmki30ydiFPhm7AABAGvXNuXzDMqf+nRS//p23TnE2a++6Uv8Yw/lk3I+tWcm4HykZW3v3V3Mulf4HAK6ktXdhAGA/9jj6Vjp3HWiTubdd6m+uYUvGNbXGnK9UWzd/hyKDPAEAAAAAAAAAAAAAAPr0Ah6JZBAA4QAA
+  </data>
+ </layer>
+ <layer name="Collision" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3S0W7jMAxEUcP//9F9KmAITiJRJIeS7gAHLbqJl+T4vq7rBgAAAAAAAAAAAAAAAAAAAAAAAAAAAICFXQVmQFy3v6KeEXHdPqOed3XVo77P6tpbVov6Pquz3Dsyb+8cxvqa6bf9fuS7FDXHyt5u8O0ullTpd2aWVY3exJJK/c7Ms6KMZMzWfv7Xs9R3V/fr+VyvZ/RkZFf17VfuN2NGy7yV98y43f34Wcm3zDxLvZfqbuq5snZWz0K/9Fut395U2Fl9/8xOZ/e2RLX7/fi5m4ibz0S5t7qL7H4zun37jmpndReRu3rc2TN0G7uvZWfv0O0+/b59P2LP9v9R31/VrWV370Tvqr6/slvL/hGJ2ld9f3W3lhtExXtn9f3pd36WU7t92zfiph7vg1c3mTupjWSXeTL3UevZM/sWvaHfNfuN7lixD/3aOqZf+q2yT1Wqe7yl/ftK+1TtSXWPkcy8LzsY2an97PXh7yv3ew98bwU9t5jJav1Gzl2t30979+Rufs/ud/aZ6l6i+/VMdr8ez1T3slK/7bM9Zv42o/qmlWQlc2b1TSsZuc+nz46Efuv223vbX/8e2bH6ntVY7jMT+q3f70zHVeY/ifU+llSa/yTW+4wmcn71DSvj/nv7D/3u6Rn63U8b+t3LWyKeq97zZJao3hvk9PsM/dbmFfqtKSvqPU+VEfWOp/KKeg/Q74k8ot4BsT2rZ0dMx+p54du7eg4AAAAAAAAAAAAAAAAAAAAAAACM+QOjPaxNAOEAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="120" height="120" visible="0">
+  <object name="To Pirates Den" type="warp" x="768" y="2080" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="004-4"/>
+    <property name="dest_x" value="768"/>
+    <property name="dest_y" value="1984"/>
+   </properties>
+  </object>
+  <object name="Grenadier" type="spawn" x="1216" y="2176" width="224" height="192">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="113"/>
+   </properties>
+  </object>
+  <object name="Swashbuckler" type="spawn" x="1216" y="2208" width="256" height="128">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="112"/>
+   </properties>
+  </object>
+  <object name="Thug" type="spawn" x="1152" y="2208" width="288" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="111"/>
+   </properties>
+  </object>
+  <object name="Grenadier" type="spawn" x="1024" y="2688" width="224" height="192">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="113"/>
+   </properties>
+  </object>
+  <object name="Thug" type="spawn" x="960" y="2720" width="288" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="111"/>
+   </properties>
+  </object>
+  <object name="Swashbuckler" type="spawn" x="1024" y="2720" width="256" height="128">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="112"/>
+   </properties>
+  </object>
+  <object name="Grenadier" type="spawn" x="1632" y="1152" width="224" height="192">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="113"/>
+   </properties>
+  </object>
+  <object name="Thug" type="spawn" x="1568" y="1184" width="288" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="111"/>
+   </properties>
+  </object>
+  <object name="Swashbuckler" type="spawn" x="1632" y="1184" width="256" height="128">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="112"/>
+   </properties>
+  </object>
+  <object name="Grenadier" type="spawn" x="2496" y="1152" width="224" height="192">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="113"/>
+   </properties>
+  </object>
+  <object name="Thug" type="spawn" x="2432" y="1184" width="288" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="111"/>
+   </properties>
+  </object>
+  <object name="Swashbuckler" type="spawn" x="2496" y="1184" width="256" height="128">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="112"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

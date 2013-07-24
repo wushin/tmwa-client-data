@@ -936,19 +936,103 @@
   <npc id="376">
     <sprite>npcs/npc-weaver.xml</sprite>
   </npc>
-  <!-- Trapper -->
-  <npc id="377">
-    <sprite>player_male_base.xml</sprite>
-    <sprite>hairstyles/hairstyle05.xml|#8c6625,dab425,ffffff</sprite>
-    <sprite>equipment/head/silkheadband.xml|W:#412300,c9866b,8d4900</sprite>
-    <sprite>equipment/chest/leather-male.xml|#573a26,c9866b,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
-    <sprite>equipment/legs/pants-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
-    <sprite>equipment/feet/furboots-male.xml</sprite>
-  </npc>
   <!-- Supply Chest for South Tulimshar Mine Quest -->
   <npc id="378">
     <sprite>npcs/npc-supply-crate.xml</sprite>
   </npc>
+  <npc id="379">
+    <sprite>npcs/npc-perished-miner.xml</sprite>
+    <particlefx>graphics/particles/ghost-light.xml</particlefx>
+  </npc>
+  <!-- Manakins -->
+  <npc id="380">
+    <sprite>player_female_base.xml</sprite>
+    <sprite>equipment/legs/terranite-female.xml</sprite>
+    <sprite>equipment/chest/terranite-female.xml</sprite>
+    <sprite>equipment/head/terranitehelm.xml</sprite>
+  </npc>
+  <npc id="381">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>equipment/legs/terranite-male.xml</sprite>
+    <sprite>equipment/chest/terranite-male.xml</sprite>
+    <sprite>equipment/head/terranitehelm.xml</sprite>
+  </npc>
+  <npc id="382">
+    <sprite>monsters/terranite.xml</sprite>
+  </npc>
+  <npc id="383">
+    <sprite>player_female_base.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml</sprite>
+    <sprite>hairstyles/hairstyle11.xml|#bb2222,ffee33</sprite>
+    <sprite>equipment/chest/robe-female.xml|#ffffff</sprite>
+    <sprite>equipment/head/deserthat.xml|#ffffff</sprite>
+    <sprite>equipment/feet/boots-female.xml|#a4b2b2,ffffff</sprite>
+  </npc>
+  <npc id="384">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>equipment/legs/chaps-male.xml</sprite>
+    <sprite>equipment/chest/tanktop-male.xml</sprite>
+    <sprite>hairstyles/hairstyle18.xml|#817339,FFE87C</sprite>
+    <sprite>equipment/chest/robe-male.xml|#ffffff</sprite>
+    <sprite>equipment/head/deserthat.xml|#ffffff</sprite>
+    <sprite>equipment/feet/boots-male.xml|#a4b2b2,ffffff</sprite>
+  </npc>
+  <npc id="385">
+    <sprite>player_female_base.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml</sprite>
+    <sprite>equipment/chest/leather-female.xml|#412300,603100,8d4900;#ffff00</sprite>
+    <sprite>equipment/legs/skirt.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+    <sprite>hairstyles/hairstyle11.xml|#bb2222,ffee33</sprite>
+    <sprite>equipment/hands/generic-female.xml|#4e2e18,c8752f</sprite>
+    <sprite>equipment/head/minershat.xml</sprite>
+  </npc>
+  <npc id="386">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>equipment/legs/pants-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+    <sprite>hairstyles/hairstyle14.xml|#817339,FFE87C</sprite>
+    <sprite>equipment/head/minershat.xml</sprite>
+    <sprite>equipment/hands/equipment/hands/generic-male.xml|#4e2e18,c8752f</sprite>
+    <sprite>equipment/chest/leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+  </npc>
+  <!-- Manakins end -->
+  <!-- Slientist Crick -->
+  <npc id="387">
+    <sprite>npcs/npc-scientist.xml</sprite>
+  </npc>
+  <!-- Branch/Rope Tripwire -->
+  <npc id="388">
+    <sprite>npcs/trap-trip-rope.xml</sprite>
+  </npc>
+  <!-- Switch up -->
+  <npc id="389">
+    <sprite variant="0">npcs/switch-lever.xml</sprite>
+  </npc>
+  <!-- Switch down -->
+  <npc id="390">
+    <sprite variant="1">npcs/switch-lever.xml</sprite>
+  </npc>
+  <!-- Switch right -->
+  <npc id="391">
+    <sprite variant="2">npcs/switch-lever.xml</sprite>
+  </npc>
+  <!-- Switch left -->
+  <npc id="392">
+    <sprite variant="3">npcs/switch-lever.xml</sprite>
+  </npc>
+  <!-- Floor Holes -->
+  <npc id="393">
+    <sprite>npcs/trap-trigger-floor-holes.xml</sprite>
+  </npc>
+  <npc id="394">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>equipment/chest/assassin-male.xml</sprite>
+    <sprite>equipment/legs/assassin-male.xml</sprite>
+    <sprite>equipment/head/eyepatch.xml</sprite>
+    <sprite>equipment/feet/assassin-boots-male.xml</sprite>
+    <sprite>monsters/accessories/weapon-bow.xml</sprite>
+  </npc>
+
   <!-- empty (Invisible NPC used in scripts) -->
   <!-- for npcs that shouldn't be selectable (e.g. in magic effects) use 127,
        for warps/doors use 45,

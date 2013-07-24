@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- A Flickering light for lamps. -->
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="position-y" min="0" max="0"/>
+      <property name="position-x" min="0" max="0"/>
+      <property name="position-z" min="0" max="0"/>
+      <property name="lifetime" value="300"/>
+      <property name="fade-in" min="125" max="125"/>
+      <property name="fade-out" min="125" max="125"/>
+      <property name="output" min="1" max="2"/>
+      <property name="output-pause" min="10" max="30"/>
+      <property name="image" value="graphics/particles/light-large-lite.png|W:#ffe691"/>
+    </emitter>
+  </particle>
+</effect>

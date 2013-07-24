@@ -1160,13 +1160,13 @@
         <sprite>equipment/head/eyepatch.xml</sprite>
     </item>
     <item id="622"
-        image="equipment/head/bandana.png"
-        name="Bandana"
-        description="A striped bandana."
+        image="equipment/head/bandana.png|W:#ff4646,ffffff"
+        name="Striped Bandana"
+        description="A red striped bandana."
         type="equip-head"
         weight="20"
         defense="3">
-        <sprite>equipment/head/bandana.xml</sprite>
+        <sprite>equipment/head/bandana.xml|#ff4646,ffffff</sprite>
         <replace sprite="hair">
             <item from="-5"/>
         </replace>
@@ -8513,5 +8513,23 @@
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#EFEFEF</sprite>
     </item>
+    <item id="5110"
+        image="generic/petri-dish.png"
+        name="Slime Collection Recepticle"
+        description="Must be a fancy name for bottle... Hurumph, Slientists. "
+        type="generic"
+        weight="1"/>
+    <item id="5111"
+        image="generic/petri-dish-with-sample.png|W:#72982c,ffffff"
+        name="Green Slime Sample"
+        description="Looking at the sample you notice it's still moving a bit."
+        type="generic"
+        weight="1"/>
+    <item id="5112"
+        image="generic/petri-dish-with-sample.png|W:#4ca1a0,ffffff"
+        name="Sea Slime Sample"
+        description="Looking at the sample you notice it's still moving a bit."
+        type="generic"
+        weight="1"/>
 
 </items>
