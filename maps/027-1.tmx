@@ -895,7 +895,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="To Caretaker's House" type="warp" x="2816" y="2688" width="32" height="32">
    <properties>
     <property name="dest_map" value="027-2"/>
@@ -1052,6 +1052,13 @@
     <property name="eA_spawn" value="265000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="20"/>
+   </properties>
+  </object>
+  <object name="To Crypts" type="warp" x="896" y="2144" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-2"/>
+    <property name="dest_tile_x" value="112"/>
+    <property name="dest_tile_y" value="108"/>
    </properties>
   </object>
  </objectgroup>
