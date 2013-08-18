@@ -895,8 +895,8 @@
   <object name="To Crypts Sub-Basement One" type="warp" x="3968" y="3168" width="160" height="32">
    <properties>
     <property name="dest_map" value="027-4"/>
-    <property name="dest_tile_x" value="112"/>
-    <property name="dest_tile_y" value="77"/>
+    <property name="dest_tile_x" value="125"/>
+    <property name="dest_tile_y" value="18"/>
    </properties>
   </object>
  </objectgroup>
