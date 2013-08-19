@@ -506,4 +506,14 @@
     <particlefx>graphics/particles/monster-angry-green-slime.particle.xml</particlefx>
     <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
   </monster>
+  <monster id="109" name="Wight">
+    <sprite>monsters/skeleton_inv.xml|#497ac3,2053a0,164995,154387</sprite>
+    <sprite>monsters/wight.xml|#164489,1f529f,619aea</sprite>
+    <particlefx>graphics/particles/chillfog.particle.xml</particlefx>
+  </monster>
+  <monster id="110" name="Necromancer">
+    <sprite>monsters/skeleton_inv.xml|#994040,772020,440808,000000</sprite>
+    <sprite>monsters/wight.xml|#bc0000,000000</sprite>
+    <particlefx>graphics/particles/necroblast.particle.xml</particlefx>
+  </monster>
 </monsters>
