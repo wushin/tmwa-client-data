@@ -526,6 +526,6 @@
   </monster>
   <monster id="112" name="Psi-Brain">
     <sprite>monsters/psi-brain.xml</sprite>
-    <particlefx>graphics/sprites/monsters/psi-bubble.xml</particlefx>
+    <sprite>monsters/psi-bubble.xml</sprite>
   </monster>
 </monsters>
