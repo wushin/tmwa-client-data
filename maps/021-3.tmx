@@ -1348,12 +1348,5 @@
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object name="To Catacombs" type="warp" x="916" y="1393" width="27" height="29">
-   <properties>
-    <property name="dest_map" value="058-1"/>
-    <property name="dest_tile_x" value="32"/>
-    <property name="dest_tile_y" value="36"/>
-   </properties>
-  </object>
  </objectgroup>
 </map>
