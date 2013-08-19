@@ -336,6 +336,10 @@
   <monster id="71" name="The Lost">
     <sprite>monsters/skeleton.xml|#aca379</sprite>
     <sprite>equipment/chest/robe-male.xml|#333333</sprite>
+    <sprite>equipment/head/phylactery.xml</sprite>
+    <sprite>equipment/head/evileyes.xml</sprite>
+    <sprite>equipment/hands/magefire.xml</sprite>
+    <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/thelost-attack.particle.xml" action="attack"/>
   </monster>
   <!-- 72 RedBone -->
   <!-- 73 Stalker -->
@@ -515,5 +519,15 @@
     <sprite>monsters/skeleton_inv.xml|#994040,772020,440808,000000</sprite>
     <sprite>monsters/wight.xml|#bc0000,000000</sprite>
     <particlefx>graphics/particles/necroblast.particle.xml</particlefx>
+  </monster>
+  <monster id="111" name="Mana Ghost">
+    <sprite>monsters/mana-ghost.xml</sprite>
+  </monster>
+  <monster id="112" name="Psi-Brain">
+    <sprite>monsters/psi-brain.xml</sprite>
+    <particlefx>graphics/sprites/monsters/psi-bubble.xml</particlefx>
+  </monster>
+  <monster id="113" name="Wraith">
+    <sprite>monsters/wraith.xml</sprite>
   </monster>
 </monsters>
