@@ -1196,115 +1196,11 @@
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1248" y="4320" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="864" y="3136" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="864" y="2432" width="32" height="32"/>
-  <object name="HuntsmanSpider" type="spawn" x="2029" y="665" width="851" height="3313">
-   <properties>
-    <property name="eA_death" value="20000"/>
-    <property name="eA_spawn" value="40000"/>
-    <property name="max_beings" value="10"/>
-    <property name="monster_id" value="81"/>
-   </properties>
-  </object>
-  <object name="VampireBat" type="spawn" x="473" y="532" width="2397" height="3997">
-   <properties>
-    <property name="eA_death" value="20000"/>
-    <property name="eA_spawn" value="40000"/>
-    <property name="max_beings" value="20"/>
-    <property name="monster_id" value="64"/>
-   </properties>
-  </object>
-  <object name="CrotcherScorpion" type="spawn" x="1637" y="702" width="230" height="336">
-   <properties>
-    <property name="eA_death" value="20000"/>
-    <property name="eA_spawn" value="40000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="82"/>
-   </properties>
-  </object>
   <object name="To Catacombs 2" type="warp" x="1696" y="3200" width="32" height="64">
    <properties>
     <property name="dest_map" value="058-2"/>
     <property name="dest_tile_x" value="91"/>
     <property name="dest_tile_y" value="104"/>
-   </properties>
-  </object>
-  <object name="CrotcherScorpion" type="spawn" x="573" y="1582" width="582" height="1008">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="60000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="82"/>
-   </properties>
-  </object>
-  <object name="CrotcherScorpion" type="spawn" x="1197" y="670" width="414" height="232">
-   <properties>
-    <property name="eA_death" value="25000"/>
-    <property name="eA_spawn" value="50000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="82"/>
-   </properties>
-  </object>
-  <object name="CrotcherScorpion" type="spawn" x="717" y="694" width="238" height="288">
-   <properties>
-    <property name="eA_death" value="25000"/>
-    <property name="eA_spawn" value="50000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="82"/>
-   </properties>
-  </object>
-  <object name="Skeleton" type="spawn" x="1605" y="3106" width="326" height="296">
-   <properties>
-    <property name="eA_death" value="50000"/>
-    <property name="eA_spawn" value="80000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="41"/>
-   </properties>
-  </object>
-  <object name="CrotcherScorpion" type="spawn" x="717" y="2726" width="734" height="552">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="60000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="82"/>
-   </properties>
-  </object>
-  <object name="CrotcherScorpion" type="spawn" x="1117" y="3502" width="878" height="920">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="60000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="82"/>
-   </properties>
-  </object>
-  <object name="CrotcherScorpion" type="spawn" x="1262" y="1599" width="215" height="221">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="60000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="82"/>
-   </properties>
-  </object>
-  <object name="CrotcherScorpion" type="spawn" x="1662" y="1628" width="154" height="109">
-   <properties>
-    <property name="eA_death" value="20000"/>
-    <property name="eA_spawn" value="40000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="82"/>
-   </properties>
-  </object>
-  <object name="CrotcherScorpion" type="spawn" x="1841" y="1634" width="143" height="101">
-   <properties>
-    <property name="eA_death" value="20000"/>
-    <property name="eA_spawn" value="40000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="82"/>
-   </properties>
-  </object>
-  <object name="CaveMaggot" type="spawn" x="473" y="532" width="2397" height="3997">
-   <properties>
-    <property name="eA_death" value="20000"/>
-    <property name="eA_spawn" value="40000"/>
-    <property name="max_beings" value="20"/>
-    <property name="monster_id" value="1056"/>
    </properties>
   </object>
  </objectgroup>

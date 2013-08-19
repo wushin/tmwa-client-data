@@ -1026,30 +1026,6 @@
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1600" y="1888" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3424" y="832" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="4096" y="1216" width="32" height="32"/>
-  <object name="LadySkeleton" type="spawn" x="2292" y="1856" width="1800" height="1196">
-   <properties>
-    <property name="eA_death" value="25000"/>
-    <property name="eA_spawn" value="33000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="42"/>
-   </properties>
-  </object>
-  <object name="LadySkeleton" type="spawn" x="1792" y="3172" width="1876" height="1012">
-   <properties>
-    <property name="eA_death" value="25000"/>
-    <property name="eA_spawn" value="33000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="42"/>
-   </properties>
-  </object>
-  <object name="Skeleton" type="spawn" x="1592" y="1952" width="2540" height="2188">
-   <properties>
-    <property name="eA_death" value="25000"/>
-    <property name="eA_spawn" value="30000"/>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="41"/>
-   </properties>
-  </object>
   <object name="To Catacombs 1" type="warp" x="2912" y="3264" width="32" height="64">
    <properties>
     <property name="dest_map" value="058-1"/>
@@ -1062,22 +1038,6 @@
     <property name="dest_map" value="058-3"/>
     <property name="dest_tile_x" value="117"/>
     <property name="dest_tile_y" value="111"/>
-   </properties>
-  </object>
-  <object name="FireSkull" type="spawn" x="3804" y="671" width="555" height="804">
-   <properties>
-    <property name="eA_death" value="25000"/>
-    <property name="eA_spawn" value="50000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="21"/>
-   </properties>
-  </object>
-  <object name="Skeleton" type="spawn" x="1477" y="747" width="2790" height="954">
-   <properties>
-    <property name="eA_death" value="25000"/>
-    <property name="eA_spawn" value="30000"/>
-    <property name="max_beings" value="10"/>
-    <property name="monster_id" value="41"/>
    </properties>
   </object>
  </objectgroup>
