@@ -1019,7 +1019,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="128" height="164">
+ <layer name="Collision" width="128" height="164" visible="0">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -1223,15 +1223,15 @@
   <object name="To Catacombs 2" type="warp" x="1696" y="3200" width="32" height="64">
    <properties>
     <property name="dest_map" value="058-2"/>
-    <property name="dest_x" value="2912"/>
-    <property name="dest_y" value="3328"/>
+    <property name="dest_tile_x" value="91"/>
+    <property name="dest_tile_y" value="104"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="1024" y="1088" width="32" height="64">
    <properties>
-    <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="2560"/>
-    <property name="dest_y" value="1344"/>
+    <property name="dest_map" value="021-3"/>
+    <property name="dest_tile_x" value="28"/>
+    <property name="dest_tile_y" value="43"/>
    </properties>
   </object>
   <object name="CrotcherScorpion" type="spawn" x="573" y="1582" width="582" height="1008">
@@ -1258,12 +1258,12 @@
     <property name="monster_id" value="82"/>
    </properties>
   </object>
-  <object name="Wight" type="spawn" x="1597" y="3118" width="326" height="296">
+  <object name="Skeleton" type="spawn" x="1605" y="3106" width="326" height="296">
    <properties>
     <property name="eA_death" value="50000"/>
     <property name="eA_spawn" value="80000"/>
     <property name="max_beings" value="1"/>
-    <property name="monster_id" value="109"/>
+    <property name="monster_id" value="41"/>
    </properties>
   </object>
   <object name="CrotcherScorpion" type="spawn" x="717" y="2726" width="734" height="552">

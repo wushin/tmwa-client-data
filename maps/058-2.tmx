@@ -1026,50 +1026,26 @@
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1600" y="1888" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3424" y="832" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="4096" y="1216" width="32" height="32"/>
-  <object name="LadySkeleton" type="spawn" x="2580" y="1864" width="1592" height="676">
+  <object name="LadySkeleton" type="spawn" x="2292" y="1856" width="1800" height="1196">
    <properties>
-    <property name="eA_death" value="45000"/>
-    <property name="eA_spawn" value="90000"/>
+    <property name="eA_death" value="25000"/>
+    <property name="eA_spawn" value="33000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="42"/>
    </properties>
   </object>
-  <object name="LadySkeleton" type="spawn" x="2560" y="3660" width="1108" height="468">
+  <object name="LadySkeleton" type="spawn" x="1792" y="3172" width="1876" height="1012">
    <properties>
-    <property name="eA_death" value="45000"/>
-    <property name="eA_spawn" value="90000"/>
+    <property name="eA_death" value="25000"/>
+    <property name="eA_spawn" value="33000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="42"/>
    </properties>
   </object>
-  <object name="LadySkeleton" type="spawn" x="3069" y="2600" width="477" height="462">
+  <object name="Skeleton" type="spawn" x="1592" y="1952" width="2540" height="2188">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="60000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="42"/>
-   </properties>
-  </object>
-  <object name="Wight" type="spawn" x="1204" y="1352" width="1094" height="1611">
-   <properties>
-    <property name="eA_death" value="90000"/>
-    <property name="eA_spawn" value="90000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="109"/>
-   </properties>
-  </object>
-  <object name="Wight" type="spawn" x="2746" y="782" width="358" height="247">
-   <properties>
-    <property name="eA_death" value="60000"/>
-    <property name="eA_spawn" value="90000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="109"/>
-   </properties>
-  </object>
-  <object name="Skeleton" type="spawn" x="1616" y="1936" width="2636" height="2244">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="60000"/>
+    <property name="eA_death" value="25000"/>
+    <property name="eA_spawn" value="30000"/>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="41"/>
    </properties>
@@ -1077,70 +1053,30 @@
   <object name="To Catacombs 1" type="warp" x="2912" y="3264" width="32" height="64">
    <properties>
     <property name="dest_map" value="058-1"/>
-    <property name="dest_x" value="1696"/>
-    <property name="dest_y" value="3200"/>
+    <property name="dest_tile_x" value="53"/>
+    <property name="dest_tile_y" value="98"/>
    </properties>
   </object>
   <object name="To Catacombs 3" type="warp" x="4160" y="1248" width="32" height="64">
    <properties>
     <property name="dest_map" value="058-3"/>
-    <property name="dest_x" value="3744"/>
-    <property name="dest_y" value="3552"/>
+    <property name="dest_tile_x" value="117"/>
+    <property name="dest_tile_y" value="111"/>
    </properties>
   </object>
-  <object name="HuntsmanSpider" type="spawn" x="1724" y="1100" width="1908" height="600">
+  <object name="FireSkull" type="spawn" x="3804" y="671" width="555" height="804">
    <properties>
     <property name="eA_death" value="25000"/>
     <property name="eA_spawn" value="50000"/>
-    <property name="max_beings" value="20"/>
-    <property name="monster_id" value="81"/>
-   </properties>
-  </object>
-  <object name="LadySkeleton" type="spawn" x="3616" y="2516" width="544" height="1180">
-   <properties>
-    <property name="eA_death" value="35000"/>
-    <property name="eA_spawn" value="70000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="42"/>
-   </properties>
-  </object>
-  <object name="Skeleton" type="spawn" x="2139" y="807" width="285" height="247">
-   <properties>
-    <property name="eA_death" value="60000"/>
-    <property name="eA_spawn" value="90000"/>
     <property name="max_beings" value="2"/>
-    <property name="monster_id" value="41"/>
+    <property name="monster_id" value="21"/>
    </properties>
   </object>
-  <object name="DemonicSpirit" type="spawn" x="3900" y="823" width="99" height="68">
+  <object name="Skeleton" type="spawn" x="1469" y="747" width="2294" height="930">
    <properties>
-    <property name="eA_death" value="6000"/>
-    <property name="eA_spawn" value="3000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="99"/>
-   </properties>
-  </object>
-  <object name="DemonicSpirit" type="spawn" x="4285" y="1221" width="48" height="273">
-   <properties>
-    <property name="eA_death" value="10000"/>
-    <property name="eA_spawn" value="20000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="99"/>
-   </properties>
-  </object>
-  <object name="DemonicSpirit" type="spawn" x="3961" y="1427" width="308" height="68">
-   <properties>
-    <property name="eA_death" value="5000"/>
-    <property name="eA_spawn" value="10000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="99"/>
-   </properties>
-  </object>
-  <object name="Skeleton" type="spawn" x="1525" y="891" width="278" height="250">
-   <properties>
-    <property name="eA_death" value="60000"/>
-    <property name="eA_spawn" value="90000"/>
-    <property name="max_beings" value="2"/>
+    <property name="eA_death" value="25000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="6"/>
     <property name="monster_id" value="41"/>
    </properties>
   </object>
