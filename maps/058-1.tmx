@@ -1227,13 +1227,6 @@
     <property name="dest_tile_y" value="104"/>
    </properties>
   </object>
-  <object name="FIXME" type="warp" x="1024" y="1088" width="32" height="64">
-   <properties>
-    <property name="dest_map" value=""/>
-    <property name="dest_tile_x" value=""/>
-    <property name="dest_tile_y" value=""/>
-   </properties>
-  </object>
   <object name="CrotcherScorpion" type="spawn" x="573" y="1582" width="582" height="1008">
    <properties>
     <property name="eA_death" value="30000"/>
