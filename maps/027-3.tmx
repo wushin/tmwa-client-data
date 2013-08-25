@@ -1004,7 +1004,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" width="190" height="120" visible="0">
+ <objectgroup name="Objects" width="190" height="120">
   <object name="To Crypts Entrance" type="warp" x="736" y="2112" width="192" height="32">
    <properties>
     <property name="dest_map" value="027-2"/>
@@ -1019,5 +1019,62 @@
     <property name="dest_tile_y" value="18"/>
    </properties>
   </object>
+  <object name="Skeleton" type="spawn" x="670" y="940" width="969" height="625">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="41"/>
+   </properties>
+  </object>
+  <object name="Skeleton" type="spawn" x="680" y="2402" width="938" height="785">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="41"/>
+   </properties>
+  </object>
+  <object name="Skeleton" type="spawn" x="2180" y="920" width="1949" height="1001">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="41"/>
+   </properties>
+  </object>
+  <object name="LadySkeleton" type="spawn" x="664" y="936" width="976" height="1104">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="42"/>
+   </properties>
+  </object>
+  <object name="LadySkeleton" type="spawn" x="664" y="936" width="972" height="630">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="42"/>
+   </properties>
+  </object>
+  <object name="LadySkeleton" type="spawn" x="3192" y="2096" width="928" height="888">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="42"/>
+   </properties>
+  </object>
+  <object name="Skeleton" type="spawn" x="3188" y="2096" width="909" height="897">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="41"/>
+   </properties>
+  </object>
  </objectgroup>
+ <objectgroup name="Object Layer 2" width="190" height="120"/>
 </map>

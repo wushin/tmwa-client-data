@@ -895,7 +895,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="To Caretaker's House" type="warp" x="2816" y="2688" width="32" height="32">
    <properties>
     <property name="dest_map" value="027-2"/>
@@ -934,22 +934,6 @@
     <property name="monster_id" value="38"/>
    </properties>
   </object>
-  <object name="FireSkull" type="spawn" x="672" y="960" width="2144" height="1504">
-   <properties>
-    <property name="eA_death" value="20000"/>
-    <property name="eA_spawn" value="60000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="21"/>
-   </properties>
-  </object>
-  <object name="PoisonSkull" type="spawn" x="672" y="960" width="2144" height="1504">
-   <properties>
-    <property name="eA_death" value="20000"/>
-    <property name="eA_spawn" value="60000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="22"/>
-   </properties>
-  </object>
   <object name="Skeleton" type="spawn" x="672" y="960" width="2144" height="1504">
    <properties>
     <property name="eA_death" value="8000"/>
@@ -982,22 +966,6 @@
     <property name="monster_id" value="42"/>
    </properties>
   </object>
-  <object name="FireSkull" type="spawn" x="672" y="960" width="1088" height="736">
-   <properties>
-    <property name="eA_death" value="10000"/>
-    <property name="eA_spawn" value="200000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="21"/>
-   </properties>
-  </object>
-  <object name="PoisonSkull" type="spawn" x="672" y="960" width="1088" height="736">
-   <properties>
-    <property name="eA_death" value="10000"/>
-    <property name="eA_spawn" value="200000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="22"/>
-   </properties>
-  </object>
   <object name="Skeleton" type="spawn" x="672" y="960" width="1088" height="736">
    <properties>
     <property name="eA_death" value="20000"/>
@@ -1014,22 +982,6 @@
     <property name="monster_id" value="42"/>
    </properties>
   </object>
-  <object name="FireSkull" type="spawn" x="2848" y="960" width="1056" height="704">
-   <properties>
-    <property name="eA_death" value="25000"/>
-    <property name="eA_spawn" value="28000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="21"/>
-   </properties>
-  </object>
-  <object name="PoisonSkull" type="spawn" x="2848" y="960" width="1056" height="704">
-   <properties>
-    <property name="eA_death" value="20000"/>
-    <property name="eA_spawn" value="30000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="22"/>
-   </properties>
-  </object>
   <object name="Skeleton" type="spawn" x="2848" y="960" width="1056" height="704">
    <properties>
     <property name="eA_death" value="20000"/>
@@ -1044,14 +996,6 @@
     <property name="eA_spawn" value="33000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="42"/>
-   </properties>
-  </object>
-  <object name="JackO" type="spawn" x="864" y="2154" width="96" height="64">
-   <properties>
-    <property name="eA_death" value="200000"/>
-    <property name="eA_spawn" value="265000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="20"/>
    </properties>
   </object>
   <object name="To Crypts" type="warp" x="896" y="2144" width="32" height="32">
