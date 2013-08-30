@@ -1026,7 +1026,7 @@
     <property name="monster_id" value="71"/>
    </properties>
   </object>
-  <object name="TheLost" type="spawn" x="2952" y="2140" width="1297" height="441">
+  <object name="TheLost" type="spawn" x="2860" y="2252" width="1253" height="454">
    <properties>
     <property name="eA_death" value="8000"/>
     <property name="eA_spawn" value="60000"/>
