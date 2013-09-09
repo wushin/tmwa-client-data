@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="190" height="120" tilewidth="32" tileheight="32">
  <properties>
+  <property name="" value="0.25"/>
   <property name="music" value="InquisitiveInn.ogg"/>
-  <property name="name" value="Crypt Sub-Basement Two"/>
+  <property name="name" value="Town Of Dead"/>
+  <property name="overlay0image" value="graphics/images/ambient/night2.png"/>
+  <property name="overlay0keepratio" value="true"/>
+  <property name="overlay1image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="overlay1keepratio" value="true"/>
+  <property name="overlay2image" value="graphics/images/ambient/fog.png"/>
+  <property name="overlay2parallax" value="1.0"/>
+  <property name="overlay2scrollX" value="-0.75"/>
+  <property name="overlay2scrollY" value="-0.25"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../tilesets/Woodland_swamp.tsx"/>
@@ -885,5 +894,65 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" width="190" height="120" visible="0"/>
+ <objectgroup name="Objects" width="190" height="120" visible="0">
+  <object name="ManaGhost" type="spawn" x="672" y="736" width="1760" height="1312">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="12"/>
+    <property name="monster_id" value="111"/>
+   </properties>
+  </object>
+  <object name="ManaGhost" type="spawn" x="2432" y="736" width="512" height="2400">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="111"/>
+   </properties>
+  </object>
+  <object name="TheLost" type="spawn" x="4512" y="2624" width="608" height="352">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="71"/>
+   </properties>
+  </object>
+  <object name="TheLost" type="spawn" x="4896" y="1056" width="448" height="416">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="71"/>
+   </properties>
+  </object>
+  <object name="TheLost" type="spawn" x="3648" y="960" width="512" height="704">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="71"/>
+   </properties>
+  </object>
+  <object name="WickedMushroom" type="spawn" x="2464" y="2016" width="1632" height="1152">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="104"/>
+   </properties>
+  </object>
+  <object name="WickedMushroom" type="spawn" x="4352" y="1376" width="448" height="576">
+   <properties>
+    <property name="eA_death" value="8000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="104"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/lightning-map.xml" type="particle_effect" x="1472" y="1312" width="128" height="96"/>
+  <object name="graphics/particles/lightning-map.xml" type="particle_effect" x="4480" y="1312" width="128" height="96"/>
+  <object name="graphics/particles/lightning-map.xml" type="particle_effect" x="2720" y="2528" width="128" height="96"/>
+ </objectgroup>
 </map>

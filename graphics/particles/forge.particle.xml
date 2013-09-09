@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--
+Small smoke puffs emitted in irregular pulses. Designed for the pipe of the
+nomad NPC.
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="position-x" min="-24" max="56"/>
+      <property name="position-y" min="-42" max="-52"/>
+      <property name="output-pause" min="175" max="250"/>
+      <property name="output" min="0" max="2"/>
+      <property name="lifetime" min="2" max="20"/>
+      <emitter>
+        <property name="image" value="graphics/particles/fog-medium-a.png|W:#9999bb"/>
+        <property name="horizontal-angle" min="0" max="360"/>
+        <property name="vertical-angle" min="50" max="90"/>
+        <property name="power" value="0.5"/>
+        <property name="momentum" value="0.99"/>
+        <property name="gravity" value="0"/>
+        <property name="output" min="0" max="2"/>
+        <property name="lifetime" min="20" max="200"/>
+        <property name="fade-out" value="100"/>
+      </emitter>
+      <emitter>
+        <property name="image" value="graphics/particles/fog-medium-b.png|W:#9999bb"/>
+        <property name="horizontal-angle" min="0" max="360"/>
+        <property name="vertical-angle" min="50" max="90"/>
+        <property name="power" value="0.5"/>
+        <property name="momentum" value="0.99"/>
+        <property name="gravity" value="0"/>
+        <property name="output" min="0" max="2"/>
+        <property name="lifetime" min="20" max="200"/>
+        <property name="fade-out" value="100"/>
+      </emitter>
+      <emitter>
+        <property name="image" value="graphics/particles/fog-medium-c.png|W:#9999bb"/>
+        <property name="horizontal-angle" min="0" max="360"/>
+        <property name="vertical-angle" min="50" max="90"/>
+        <property name="power" value="0.5"/>
+        <property name="momentum" value="0.99"/>
+        <property name="gravity" value="0"/>
+        <property name="output" min="0" max="2"/>
+        <property name="lifetime" min="20" max="200"/>
+        <property name="fade-out" value="100"/>
+      </emitter>
+    </emitter>
+    <emitter>
+      <property name="position-x" min="-14" max="46"/>
+      <property name="position-y" min="-65" max="-52"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
+        <sequence start="0" end="14" delay="20"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" min="10" max="20"/>
+      <property name="output" min="0" max="3"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="15"/>
+    </emitter>
+    <emitter>
+      <property name="position-x" min="5" max="25"/>
+      <property name="position-y" min="5" max="10"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
+        <sequence start="0" end="14" delay="20"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" min="10" max="20"/>
+      <property name="output" min="0" max="3"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="15"/>
+    </emitter>
+  </particle>
+</effect>
