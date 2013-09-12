@@ -23,9 +23,7 @@
  <tileset firstgid="723" source="../tilesets/Woodland_graveyard_x4.tsx"/>
  <tileset firstgid="755" source="../tilesets/Woodland_x5.tsx"/>
  <tileset firstgid="771" source="../tilesets/Woodland_x8.tsx"/>
- <tileset firstgid="787" name="Woodland_graveyard_crypt_x9" tilewidth="32" tileheight="288">
-  <image source="../graphics/tiles/Woodland_graveyard_crypt.png" width="224" height="288"/>
- </tileset>
+ <tileset firstgid="787" source="../tilesets/Woodland_graveyard_crypt_x9.tsx"/>
  <layer name="Ground" width="190" height="120">
   <data encoding="csv">
 20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,
@@ -954,5 +952,68 @@
   <object name="graphics/particles/lightning-map.xml" type="particle_effect" x="1472" y="1312" width="128" height="96"/>
   <object name="graphics/particles/lightning-map.xml" type="particle_effect" x="4480" y="1312" width="128" height="96"/>
   <object name="graphics/particles/lightning-map.xml" type="particle_effect" x="2720" y="2528" width="128" height="96"/>
+  <object name="To The Last Rest" type="warp" x="768" y="1984" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-7"/>
+    <property name="dest_tile_x" value="24"/>
+    <property name="dest_tile_y" value="95"/>
+   </properties>
+  </object>
+  <object name="To The Last Rest" type="warp" x="1248" y="1984" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-7"/>
+    <property name="dest_tile_x" value="58"/>
+    <property name="dest_tile_y" value="95"/>
+   </properties>
+  </object>
+  <object name="To The Last Rest" type="warp" x="1248" y="1632" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-7"/>
+    <property name="dest_tile_x" value="57"/>
+    <property name="dest_tile_y" value="66"/>
+   </properties>
+  </object>
+  <object name="To The Last Rest" type="warp" x="768" y="1632" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-7"/>
+    <property name="dest_tile_x" value="25"/>
+    <property name="dest_tile_y" value="66"/>
+   </properties>
+  </object>
+  <object name="To The Death Labs" type="warp" x="1792" y="1120" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-7"/>
+    <property name="dest_tile_x" value="94"/>
+    <property name="dest_tile_y" value="25"/>
+   </properties>
+  </object>
+  <object name="To The Death Labs" type="warp" x="2080" y="1120" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-7"/>
+    <property name="dest_tile_x" value="101"/>
+    <property name="dest_tile_y" value="25"/>
+   </properties>
+  </object>
+  <object name="To Caretaker's House" type="warp" x="2208" y="1600" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-7"/>
+    <property name="dest_tile_x" value="87"/>
+    <property name="dest_tile_y" value="93"/>
+   </properties>
+  </object>
+  <object name="To Last Bank of the Undead" type="warp" x="800" y="1120" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-7"/>
+    <property name="dest_tile_x" value="29"/>
+    <property name="dest_tile_y" value="33"/>
+   </properties>
+  </object>
+  <object name="To Reaper's Sanctum" type="warp" x="4288" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-8"/>
+    <property name="dest_tile_x" value="43"/>
+    <property name="dest_tile_y" value="52"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
