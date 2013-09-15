@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset name="stone-lab" tilewidth="96" tileheight="128">
- <image source="../graphics/tiles/stone-lab.png" width="384" height="256"/>
+ <image source="../graphics/tiles/stone-lab.png" width="384" height="384"/>
  <tile id="8">
   <properties>
    <property name="animation-delay0" value="5"/>

@@ -5,8 +5,8 @@ Smoke and embers for a glowing forge effect
 <effect>
   <particle position-x="0" position-y="0" position-z="0">
     <emitter>
-      <property name="position-x" min="-24" max="56"/>
-      <property name="position-y" min="-50" max="-30"/>
+      <property name="position-x" min="-14" max="36"/>
+      <property name="position-y" min="-30" max="-20"/>
       <property name="output-pause" value="250"/>
       <property name="output" value="5"/>
       <property name="image" value="graphics/particles/fog-medium-c.png|W:#9999bb"/>
@@ -19,10 +19,11 @@ Smoke and embers for a glowing forge effect
       <property name="fade-out" value="100"/>
     </emitter>
   </particle>
+  <!-- reduce to sparks -->
   <particle position-x="0" position-y="0" position-z="0">
     <emitter>
-      <property name="position-x" min="-14" max="46"/>
-      <property name="position-y" min="-53" max="-33"/>
+      <property name="position-x" min="8" max="28"/>
+      <property name="position-y" min="30" max="-13"/>
       <animation imageset="graphics/particles/hot_coals.png" width="8" height="8">
         <sequence start="0" end="28" delay="100"/>
         <frame index="28" delay="1000"/>
