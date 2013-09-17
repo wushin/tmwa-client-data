@@ -22,16 +22,4 @@ An storm
       <property name="randomness" value="30"/>
     </emitter>
   </particle>
-  <particle position-x="0" position-y="0" position-z="400">
-    <emitter>
-      <property name="position-x" min="-1000" max="1000"/>
-      <property name="position-y" min="-1000" max="1000"/>
-      <property name="lifetime" min="25" max="30"/>
-      <property name="vertical-angle" value="260"/>
-      <property name="power" value="20"/>
-      <property name="output" min="50" max="100"/>
-      <property name="gravity" value="0.04"/>
-      <property name="image" value="graphics/particles/raindrop.png"/>
-    </emitter>
-  </particle>
 </effect>
