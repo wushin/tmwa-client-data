@@ -8681,5 +8681,22 @@
         description="A small tablet with the W craved into it."
         type="generic"
         weight="10"/>
-
+    <item id="5123"
+        image="generic/quill.png"
+        name="Quill of Binding"
+        description="A quill for writing on etheral paper."
+        type="generic"
+        weight="1"/>
+    <item id="5124"
+        image="use/potions/a.png|G:#b30505,f70707"
+        name="Blood Ink"
+        description="A vial of your own blood."
+        type="generic"
+        weight="4"/>
+    <item id="5125"
+        image="generic/cryptkey.png|W:#FFFFFF"
+        name="Underworld Key"
+        description="You can feel the weight of the souls contained inside."
+        type="generic"
+        weight="5"/>
 </items>
