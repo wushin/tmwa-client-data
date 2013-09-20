@@ -1069,5 +1069,6 @@
     <property name="monster_id" value="42"/>
    </properties>
   </object>
+  <object name="graphics/particles/warparea.particle.xml" type="particle_effect" x="2240" y="800" width="64" height="32"/>
  </objectgroup>
 </map>

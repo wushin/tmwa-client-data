@@ -1061,5 +1061,6 @@
    </properties>
   </object>
   <object name="graphics/particles/warparea.particle.xml" type="particle_effect" x="3456" y="2976" width="32" height="32"/>
+  <object name="graphics/particles/warparea.particle.xml" type="particle_effect" x="2336" y="2432" width="64" height="32"/>
  </objectgroup>
 </map>
