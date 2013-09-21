@@ -982,7 +982,7 @@
     <property name="monster_id" value="75"/>
    </properties>
   </object>
-  <object name="TipsySkeleton" type="spawn" x="2752" y="1088" width="384" height="320">
+  <object name="TipsySkeleton" type="spawn" x="3136" y="2880" width="320" height="640">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1049,6 +1049,30 @@
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="64"/>
+   </properties>
+  </object>
+  <object name="DrunkenSkeleton" type="spawn" x="3136" y="2880" width="320" height="640">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="75"/>
+   </properties>
+  </object>
+  <object name="TipsySkeleton" type="spawn" x="3136" y="2880" width="320" height="640">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="76"/>
+   </properties>
+  </object>
+  <object name="DrunkenLadySkeleton" type="spawn" x="2688" y="960" width="384" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="77"/>
    </properties>
   </object>
  </objectgroup>
