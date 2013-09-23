@@ -8711,4 +8711,52 @@
         description="OoOOoo I feel whoosy...."
         type="generic"
         weight="375"/>
+    <item id="5128"
+        image="equipment/head/dark-helm.png"
+        name="Dark Helm"
+        description="The Enegry pulses with the power of the void."
+        effect="M. Attack -80 / +10% HP / 0 Int"
+        type="equip-head"
+        defense="19"
+        weight="800">
+        <sprite>equipment/head/dark-helm.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+            <item from="-6"/>
+            <item from="-9"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="5129"
+        image="equipment/head/underworld-mask.png"
+        name="Underworld Mask"
+        description="Surely, you don't think I jest."
+        effect="M. Attack -40 / Attack Range +1 / 0 Int"
+        type="equip-head"
+        defense="9"
+        weight="100">
+        <sprite>equipment/head/underworld-mask.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+            <item from="-6"/>
+            <item from="-13"/>
+            <item from="-14"/>
+            <item from="-15"/>
+            <item from="-16"/>
+            <item from="-18"/>
+        </replace>
+    </item>
+    <item id="5130"
+        image="equipment/head/phylactery.png"
+        name="Phylactery"
+        description="This phylactery glows with power"
+        effect="M. Attack +5 / Cast Speed +10% / -1/2 Dex"
+        type="equip-head"
+        defense="1"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/phylactery.xml</sprite>
+    </item>
 </items>
