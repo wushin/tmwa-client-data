@@ -8701,8 +8701,8 @@
         weight="5"/>
     <item id="5126"
         image="generic/bottle-empty.png"
-        name="Empty Bottle"
-        description="An empty bottle to fill with your own blood."
+        name="Empty Jar"
+        description="An Empty Jar to fill with your own blood."
         type="generic"
         weight="1"/>
     <item id="5127"
