@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
- 	<imageset name="base" src="graphics/sprites/equipment/head/head-admincap.png" width="28" height="19" />
+ 	<imageset name="base" src="graphics/sprites/equipment/head/admincap.png|W;R" width="28" height="19" />
  
  	<action name="stand" imageset="base">
  		<animation direction="down">
