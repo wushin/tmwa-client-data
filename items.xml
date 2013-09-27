@@ -3743,6 +3743,54 @@
         weight="1">
         <sprite>equipment/head/rosehat.xml|#6666aa,ccccff</sprite>
     </item>
+    <!-- 903 used Radiating Iron Lump -->
+    <item id="904"
+        image="equipment/head/btcap.png|R:#25bdcb"
+        name="Beta Tester Cap"
+        description="A cap for beta testers."
+        type="equip-head"
+        defense="1"
+        weight="20">
+        <sprite>equipment/head/btcap.xml|#d94800</sprite>
+    </item>
+    <item id="905"
+        image="equipment/head/armor-head-afkcap.png|#BF0E08"
+        name="AFK Cap"
+        description="(Away from Keyboard)"
+        type="equip-head"
+        defense="1"
+        weight="20"
+        max-per-slot="1">
+        <sprite>equipment/head/head-afkcap.xml</sprite>
+    </item>
+    <item id="906"
+        image="equipment/head/head-admincap.png|R:#BF0E08"
+        name="Administrator Cap"
+        description="Only for Admins."
+        type="equip-head"
+        defense="1"
+        weight="20">
+        <sprite>equipment/head/head-admincap.xml|#BF0E08</sprite>
+    </item>
+
+    <item id="907"
+        image="equipment/head/mapcap.png|R:#4D6A4D"
+        name="Mappers Cap"
+        description="A cap which identifies you as a mapper."
+        effect="Defense: +1"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/mapcap.xml|#4D6A4D</sprite>
+    </item>
+    <item id="908"
+        image="equipment/head/artcap.png|R:#e68858"
+        name="Artists Cap"
+        description="A cap which identifies you as an artist."
+        effect="Defense: +1"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/artcap.xml|#e68858</sprite>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
