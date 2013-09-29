@@ -952,6 +952,9 @@
   <npc id="379">
     <sprite>npcs/npc-reaper.xml</sprite>
   </npc>
+  <npc id="380">
+    <sprite>npcs/npc-skeletons.xml</sprite>
+  </npc>
   <!-- empty (Invisible NPC used in scripts) -->
   <!-- for npcs that shouldn't be selectable (e.g. in magic effects) use 127,
        for warps/doors use 45,
