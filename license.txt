@@ -500,6 +500,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/particles/fog-medium-b.png (Crush)                                                               (GPLv2), (CC BY-SA 3.0)
     graphics/particles/fog-medium-c.png (Crush)                                                               (GPLv2), (CC BY-SA 3.0)
     graphics/particles/fullbubble-16px.png (????)                                                             (GPLv2)
+    graphics/particles/hot_coals.png (Crush, Wushin)                                                          (GPLv2), (CC BY-SA 3.0)
     graphics/particles/glow-medium.png (Crush)                                                                (GPLv2), (CC BY-SA 3.0)
     graphics/particles/glow-small.png (Crush)                                                                 (GPLv2), (CC BY-SA 3.0)
     graphics/particles/gloworb-medium.png (Crush)                                                             (GPLv2), (CC BY-SA 3.0)
@@ -634,6 +635,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/sprites/equipment/hands/generic-female.png (????)                                                (GPLv2)
     graphics/sprites/equipment/hands/generic-male.png (????)                                                  (GPLv2)
     graphics/sprites/equipment/hands/bromenalgloves-female.png (Skipy)                                        (GPLv2)
+    graphics/sprites/equipment/hands/magefire.png (Strealyn, Wombat)                                          (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/equipment/hands/bromenalgloves-male.png (Skipy)                                          (GPLv2)
 ### Head
     graphics/sprites/equipment/head/antlerhat.png (????)                                                      (GPLv2)
@@ -664,6 +666,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/sprites/equipment/head/eggshell.png (Kyon)                                                       (GPLv2)
     graphics/sprites/equipment/head/elf-nightcap.png (Lien)                                                   (GPLv2)
     graphics/sprites/equipment/head/eyepatch.png (Yosuhara)                                                   (GPLv2)
+    graphics/sprites/equipment/head/evileyes.png (Wombat,Strealyn)                                            (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/equipment/head/fairy_hat.png (Goku)                                                      (GPLv2)
     graphics/sprites/equipment/head/fancyhat.png (Crush)                                                      (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/equipment/head/fluffyhat.png (????)                                                      (GPLv2)
