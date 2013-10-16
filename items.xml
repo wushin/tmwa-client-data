@@ -3743,13 +3743,91 @@
         weight="1">
         <sprite>equipment/head/rosehat.xml|#6666aa,ccccff</sprite>
     </item>
+    <item id="903"
+        image="generic/bloodstone.png"
+        name="Blood Stone"
+        description="A stone as red as blood that emits a strange aura."
+        type="generic"
+        weight="10"/>
+    <item id="904"
+        image="generic/brainstem.png"
+        name="Brain Stem"
+        description="The cortex pulses with enegry."
+        type="generic"
+        weight="10"/>
+    <item id="905"
+        image="generic/cryptkey.png|R:#888888"
+        name="Crypt Key"
+        description="You feel as if the Skeleton Key staring at you."
+        type="generic"
+        weight="2"/>
+    <item id="906"
+        image="generic/ectoplasm.png"
+        name="Ectoplasm"
+        description="Someone blows their nose and you want to keep it?"
+        type="generic"
+        weight="10"/>
+    <item id="907"
+        image="generic/urn.png"
+        name="Urn"
+        description="Contains the spirit of the deceased."
+        type="generic"
+        weight="5"/>
+    <item id="908"
+        image="generic/vampirebatwing.png"
+        name="Vampire Bat Wing"
+        description="The wing of a vampire bat."
+        type="generic"
+        weight="4"/>
+    <item id="909"
+        image="generic/wraithhorn.png"
+        name="Wraith Horn"
+        description="The horn from stalker."
+        type="generic"
+        weight="10"/>
+    <item id="910"
+        image="generic/astral_cube.png"
+        name="Astral Cube"
+        description="The key component to shift worlds."
+        type="generic"
+        weight="4"/>
+    <item id="911"
+        image="generic/runestone_a.png"
+        name="Runestone A"
+        description="A small tablet with the letter A craved into it."
+        type="generic"
+        weight="10"/>
+    <item id="912"
+        image="generic/runestone_l.png"
+        name="Runestone L"
+        description="A small tablet with the letter L craved into it."
+        type="generic"
+        weight="10"/>
+    <item id="913"
+        image="generic/runestone_n.png"
+        name="Runestone N"
+        description="A small tablet with the letter N craved into it."
+        type="generic"
+        weight="10"/>
+    <item id="914"
+        image="generic/runestone_t.png"
+        name="Runestone T"
+        description="A small tablet with the letter T craved into it."
+        type="generic"
+        weight="10"/>
+    <item id="915"
+        image="generic/runestone_w.png"
+        name="Runestone W"
+        description="A small tablet with the W craved into it."
+        type="generic"
+        weight="10"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
     <item id="1198"
         image="generic/spectral-orb.png|R:#ff6600,ff9933,ffff33"
-        name="Jack O Soul"
-        description="The soul of a Jack O."
+        name="Soul"
+        description="A soul."
         type="generic"
         weight="1"/>
     <item id="1199"
@@ -8603,5 +8681,4 @@
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#EFEFEF</sprite>
     </item>
-
 </items>
