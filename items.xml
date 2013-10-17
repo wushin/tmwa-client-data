@@ -3821,6 +3821,51 @@
         description="A small tablet with the W craved into it."
         type="generic"
         weight="10"/>
+    <item id="916"
+        image="equipment/head/dark-helm.png|W:#3f3f3f;"
+        name="Dark Helm"
+        description="Black as night."
+        effect="M. Attack -200 / Hp +10% / Attack Range -4 / Requires Level 60 / Strength 60+ and Vitality 70+ required to activate the bonuses"
+        type="equip-head"
+        defense="19"
+        weight="800"
+        sellProtected="true">
+        <sprite>equipment/head/dark-helm.xml|#3f3f3f</sprite>
+    </item>
+    <item id="917"
+        image="equipment/head/underworld-mask.png"
+        name="Underworld Mask"
+        description="The Grinning Face of Death"
+        effect="M. Attack -100 / Attack Range +1 / Luck + 1 / Requires Level 60 / Agility 60+ and Dexiterity 60+ required to activate the bonuses"
+        type="equip-head"
+        defense="9"
+        weight="100"
+        sellProtected="true">
+        <sprite>equipment/head/underworld-mask.xml</sprite>
+    </item>
+    <item id="918"
+        image="equipment/head/phylactery.png|R:#dcdcdc"
+        name="Phylactery"
+        description="The Once Shimmering Magic Stone is now cracked and cloudy."
+        effect="M. Attack +5 / Attack Speed +10% / Requires Level 60 / Intelligence 90+ required to activate the bonuses"
+        type="equip-head"
+        defense="1"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/phylactery.xml|#dcdcdc</sprite>
+    </item>
+    <item id="919"
+        image="equipment/weapon/sword-dead.png"
+        name="Dead Sword"
+        description="A sword made from the dead."
+        effect="M. Attack -5000 / Damage +90 / Def + 10 / 10% chance to Heal 10% damage done / Intelligence +10 / Requires Level 80 / Vitality 80+ to activate the bonuses"
+        type="equip-1hand"
+        weapon-type="sword"
+        attack-action="attack"
+        weight="500"
+        sellProtected="true">
+        <sprite>weapon-deadsword.xml</sprite>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
