@@ -1011,7 +1011,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" width="196" height="196">
+ <objectgroup name="Objects" width="196" height="196" visible="0">
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2976" y="3136" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2592" y="2752" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="4128" y="3264" width="32" height="32"/>
