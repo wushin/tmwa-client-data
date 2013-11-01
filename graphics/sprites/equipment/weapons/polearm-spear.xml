@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
-  <imageset name="spear" src="graphics/sprites/weapon-polearm-spear.png" width="64" height="64"/>
+  <imageset name="spear" src="graphics/sprites/equipment/weapons/polearm-spear.png" width="64" height="64"/>
   <action name="default" imageset="spear"/>
   <action name="attack_polearm" imageset="spear">
     <animation direction="down">

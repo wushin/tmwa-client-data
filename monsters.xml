@@ -293,11 +293,11 @@
   </monster>
   <monster id="62" name="Bandit">
     <sprite>monsters/bandit.xml</sprite>
-    <sprite>monsters/accessories/weapon-dagger.xml</sprite>
+    <sprite>equipment/weapons/dagger.xml</sprite>
   </monster>
   <monster id="63" name="Bandit Lord">
     <sprite>monsters/bandit-lord.xml</sprite>
-    <sprite>monsters/accessories/weapon-bow.xml</sprite>
+    <sprite>equipment/weapons/bow.xml</sprite>
     <attack id="1" missile-particle="graphics/particles/arrow.particle.xml" action="attack"/>
   </monster>
   <monster id="64" name="Vampire Bat">
@@ -458,7 +458,7 @@
   </monster>
   <monster id="97" name="Sleeping Bandit">
     <sprite>monsters/sleeping-bandit.xml</sprite>
-    <sprite>monsters/accessories/weapon-dagger.xml</sprite>
+    <sprite>equipment/weapons/dagger.xml</sprite>
   </monster>
   <monster id="98" name="Azul Slime">
     <sprite>monsters/slime-littleslime.xml|#3080e4,d2f4ff</sprite>
@@ -484,7 +484,7 @@
     <sprite>equipment/chest/demonwarlordplate-male.xml|#444444,979797</sprite>
     <sprite>equipment/head/bull.xml</sprite>
     <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
-    <sprite>weapon-witchguard-gladius.xml</sprite>
+    <sprite>equipment/weapons/witchguard-gladius.xml</sprite>
   </monster>
   <monster id="102" name="Demonic Mouboo">
     <sprite>monsters/mouboo-demonic.xml</sprite>

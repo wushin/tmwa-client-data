@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
-  <imageset name="sword" src="graphics/sprites/weapon-sword-sword.png" width="64" height="64"/>
+  <imageset name="sword" src="graphics/sprites/equipment/weapons/sword.png" width="64" height="64"/>
   <action name="default" imageset="sword"/>
   <action name="attack_1hand" imageset="sword">
     <animation direction="down">

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
-  <imageset name="great-axe" src="graphics/sprites/weapon-axe-blacksmith.png" width="64" height="64"/>
+  <imageset name="great-axe" src="graphics/sprites/equipment/weapons/axe-two-handed.png" width="64" height="64"/>
   <action name="default" imageset="great-axe"/>
   <action name="attack_2hand" imageset="great-axe">
     <animation direction="down">
