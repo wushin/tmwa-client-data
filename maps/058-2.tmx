@@ -4,6 +4,8 @@
   <property name="minimap" value="graphics/minimaps/058-2.png"/>
   <property name="music" value="Clouds Calling.ogg"/>
   <property name="name" value="Catacombs 2"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="overlay0keepratio" value="true"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../tilesets/cave2.tsx"/>
