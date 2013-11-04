@@ -73,8 +73,8 @@
     <!-- Treating the base sprite as equipment too will be useful when we
          implement other playable races -->
     <item id="-100" type="racesprite" name="Human">
-        <sprite gender="male">base/male.xml</sprite>
-        <sprite gender="female">base/female.xml</sprite>
+        <sprite gender="male">model/male.xml</sprite>
+        <sprite gender="female">model/female.xml</sprite>
     </item>
 
     <!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
@@ -3754,7 +3754,7 @@
         weight="10"
         sellProtected="true"
         drawBefore="boots">
-        <sprite>equipment/override/skeleton.xml</sprite>
+        <sprite>model/skeleton.xml</sprite>
     </item>
     <item id="1198"
         image="generic/spectral-orb.png|R:#ff6600,ff9933,ffff33"
