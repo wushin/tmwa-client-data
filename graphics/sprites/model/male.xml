@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
-  <imageset name="base" src="graphics/sprites/model/male.png" width="64" height="64"/>
+  <imageset name="base" src="graphics/sprites/model/male.png|W;B;R;" width="64" height="64"/>
   <action name="stand" imageset="base">
     <animation direction="down">
       <frame index="0"/>
