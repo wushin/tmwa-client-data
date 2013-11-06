@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
-  <imageset name="witchguardgladius" src="graphics/sprites/equipment/weapons/witchguard-gladius.png" width="64" height="64"/>
-  <action name="default" imageset="witchgaurdgladius"/>
-  <action name="stand" imageset="witchguardgladius">
+  <imageset name="pick-axe" src="graphics/sprites/equipment/weapons/mining-pick.png" width="64" height="64"/>
+  <action name="default" imageset="pick-axe"/>
+  <action name="stand" imageset="pick-axe">
     <animation direction="down">
       <frame index="0" offsetX="0" offsetY="4"/>
     </animation>
@@ -16,21 +16,21 @@
       <frame index="15" offsetX="-13" offsetY="6"/>
     </animation>
   </action>
-  <action name="attack" imageset="witchguardgladius">
+  <action name="attack" imageset="pick-axe">
     <animation direction="down">
-      <sequence start="0" end="3" delay="75"/>
+      <sequence start="0" end="3" delay="100"/>
       <end/>
     </animation>
     <animation direction="left">
-      <sequence start="4" end="7" delay="75"/>
+      <sequence start="4" end="7" delay="100"/>
       <end/>
     </animation>
     <animation direction="up">
-      <sequence start="8" end="11" delay="75"/>
+      <sequence start="8" end="11" delay="100"/>
       <end/>
     </animation>
     <animation direction="right">
-      <sequence start="12" end="15" delay="75"/>
+      <sequence start="12" end="15" delay="100"/>
       <end/>
     </animation>
   </action>
