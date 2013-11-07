@@ -241,9 +241,9 @@
   <npc id="130">
     <sprite>races/talponian-male.xml</sprite>
   </npc>
-  <!-- Nomad, sitting -->
+  <!-- Nomad, sitting (Add to TMWA) -->
   <npc id="131">
-    <sprite variant="7">races/talponian-male.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
     <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
     <sprite>equipment/legs/pants-male.xml|#251e06,443c21,71653b,a0945e</sprite>
     <sprite>equipment/chest/vnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
