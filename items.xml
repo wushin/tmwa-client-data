@@ -80,17 +80,17 @@
     <!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
     <!-- Used for tmwAthena magic system -->
     <item id="16">
-        <!--        <sprite>equipment/weapons/dagger.xml</sprite>-->
+        <!--        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>-->
     </item>
     <item id="30"
         weapon_type="1">
-        <sprite>equipment/weapons/dagger.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
     <item id="31"
         weapon_type="10">
-        <sprite>equipment/weapons/bow.xml</sprite>
+        <sprite>equipment/weapons/bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
     <item id="32"
@@ -99,7 +99,7 @@
     </item>
     <item id="33"
         weapon_type="1">
-        <sprite>equipment/weapons/dagger.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
@@ -268,9 +268,9 @@
         effect="Damage +15"
         type="equip-1hand"
         weapon-type="knife"
-        attack-action="attack"
+        attack-action="attack_dagger_stab"
         weight="200">
-        <sprite>equipment/weapons/dagger.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
@@ -281,9 +281,9 @@
         effect="Damage +10"
         type="equip-1hand"
         weapon-type="knife"
-        attack-action="attack"
+        attack-action="attack_dagger_stab"
         weight="150">
-        <sprite>equipment/weapons/dagger.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sound event="strike">weapons/knives/sharpknife-miss1.ogg</sound>
     </item>
     <item id="523"
@@ -377,7 +377,7 @@
         attack-action="attack_bow"
         weight="600"
         missile-particle="graphics/particles/arrow.particle.xml">
-        <sprite>equipment/weapons/bow.xml</sprite>
+        <sprite>equipment/weapons/bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
     <item id="531"
@@ -430,9 +430,9 @@
         effect="Damage +100"
         type="equip-1hand"
         weapon-type="sword"
-        attack-action="attack"
+        attack-action="attack_dagger_stab"
         weight="2000">
-        <sprite>equipment/weapons/dagger.xml</sprite>
+        <sprite>equipment/weapons/sword-short.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
     </item>
     <item id="537"
         image="generic/treasurekey.png"
@@ -503,7 +503,7 @@
         attack-action="attack_bow"
         weight="1200"
         missile-particle="graphics/particles/arrow.particle.xml">
-        <sprite>equipment/weapons/bow.xml</sprite>
+        <sprite>equipment/weapons/bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
     <item id="546"
@@ -524,7 +524,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="polearm"
-        weight="10"/>
+        attack-action="attack_2hand"
+        weight="10">
+        <sprite>equipment/weapons/polearm-chop.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="548"
         image="equipment/weapon/polearm-halberd.png"
         name="Halberd"
@@ -532,7 +535,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="polearm"
-        weight="1400"/>
+        attack-action="attack_2hand"
+        weight="1400">
+        <sprite>equipment/weapons/polearm-chop.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="549"
         image="equipment/weapon/axe-axe.png"
         name="Axe"
@@ -540,7 +546,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="axe"
-        weight="1200"/>
+        attack-action="attack_chop"
+        weight="1200">
+        <sprite>equipment/weapons/axe-chop.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="550"
         image="equipment/weapon/axe-blacksmithsaxe.png"
         name="Blacksmith's Axe"
@@ -548,8 +557,9 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="axe"
+        attack-action="attack_2hand"
         weight="1200">
-        <sprite>equipment/weapons/axe-two-handed.xml</sprite>
+        <sprite>equipment/weapons/polearm-chop.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
     <item id="551"
         image="generic/hint.png|W:#74e1f4"
@@ -618,7 +628,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
-        weight="300"/>
+        attack-action="attack_chop"
+        weight="300">
+        <sprite>equipment/weapon/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </item>
     <item id="562"
         image="use/food/chickenleg.png"
         name="Chicken Leg"
@@ -691,9 +704,9 @@
         effect="Damage +115"
         type="equip-1hand"
         weapon-type="knife"
-        attack-action="attack"
+        attack-action="attack_dagger_stab"
         weight="450">
-        <sprite>equipment/weapons/dagger.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
     </item>
     <item id="571"
         image="equipment/weapon/dagger-setzer.png"
@@ -702,10 +715,10 @@
         effect="Damage +110"
         type="equip-1hand"
         weapon-type="knife"
-        attack-action="attack"
+        attack-action="attack_dagger_stab"
         weight="900"
         sellProtected="true">
-        <sprite>equipment/weapons/dagger.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
     </item>
     <item id="572"
         image="equipment/weapon/sword-scimitar.png"
@@ -714,7 +727,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
-        weight="200"/>
+        attack-action="attack_chop"
+        weight="200">
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </item>
     <item id="573"
         image="equipment/weapon/sword-falchion.png"
         name="Falchion"
@@ -722,7 +738,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
-        weight="300"/>
+        attack-action="attack_chop"
+        weight="300">
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </item>
     <item id="574"
         image="equipment/weapon/polearm-scorpion.png"
         name="Scorpion"
@@ -730,7 +749,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="polearm"
-        weight="600"/>
+        attack-action="attack_2hand"
+        weight="600">
+        <sprite>equipment/weapons/polearm-stab.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="575"
         image="equipment/weapon/bow-desertbow.png"
         name="Desert Bow"
@@ -740,7 +762,9 @@
         weapon-type="bow"
         attack-action="attack_bow"
         weight="1200"
-        missile-particle="graphics/particles/arrow.particle.xml"/>
+        missile-particle="graphics/particles/arrow.particle.xml">
+        <sprite>equipment/weapons/bow-banshee.xml</sprite>
+    </item>
     <item id="576"
         image="equipment/weapon/sword-beheader.png"
         name="Beheader"
@@ -748,7 +772,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
-        weight="2000"/>
+        attack-action="attack_chop"
+        weight="2000">
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </item>
     <item id="577"
         image="equipment/ammo/bonedarts.png"
         name="Bone Darts"
@@ -756,7 +783,10 @@
         effect="Damage +? / Range ?"
         type="equip-1hand"
         weapon-type="thrown"
-        weight="300"/>
+        attack-action="attack_chop"
+        weight="300">
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </item>
     <item id="578"
         image="equipment/weapon/sword-sandcutter.png"
         name="Sand Cutter"
@@ -764,7 +794,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
-        weight="1500"/>
+        attack-action="attack_chop"
+        weight="1500">
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </item>
     <item id="579"
         image="equipment/weapon/dagger-rockknive.png"
         name="Rock Knife"
@@ -772,11 +805,11 @@
         effect="Damage +110"
         type="equip-1hand"
         weapon-type="knife"
-        attack-action="attack"
+        attack-action="attack_dagger_stab"
         vit="3"
         weight="500"
         sellProtected="true">
-        <sprite>equipment/weapons/dagger.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
     </item>
     <item id="580"
         image="equipment/weapon/staff-staffoflife.png"
@@ -785,7 +818,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="staff"
-        weight="1500"/>
+        attack-action="attack_sword_stab"
+        weight="1500">
+        <sprite>equipment/weapons/polearm-blunt.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="581"
         image="equipment/weapon/staff-crescentrod.png"
         name="Crescent Rod"
@@ -793,7 +829,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="staff"
-        weight="1500"/>
+        attack-action="attack_sword_stab"
+        weight="1500">
+        <sprite>equipment/weapons/polearm-blunt.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="582"
         image="equipment/weapon/staff-staffoffire.png"
         name="Staff of Fire"
@@ -801,7 +840,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="staff"
-        weight="1500"/>
+        attack-action="attack_sword_stab"
+        weight="1500">
+        <sprite>equipment/weapons/polearm-blunt.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="583"
         image="equipment/weapon/staff-staffofice.png"
         name="Staff of Ice"
@@ -809,7 +851,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="staff"
-        weight="1500"/>
+        attack-action="attack_sword_stab"
+        weight="1500">
+        <sprite>equipment/weapons/polearm-blunt.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="584"
         image="equipment/weapon/sword-jackal.png"
         name="Jackal"
@@ -817,7 +862,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
-        weight="100"/>
+        attack-action="attack_chop"
+        weight="100">
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </item>
     <item id="585"
         image="equipment/shield/scarabarmlet.png"
         name="Scarab Armlet"
@@ -837,8 +885,6 @@
         <sprite gender="male">equipment/legs/shorts-male.xml|#a4b2b2,ffffff</sprite>
         <sprite gender="female">equipment/legs/shorts-female.xml|#a4b2b2,ffffff</sprite>
     </item>
-
-
     <item id="587"
         image="equipment/weapon/sword-sword.png"
         name="Sword"
@@ -846,11 +892,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
+	attack-action="attack_chop"
         weight="200">
-        <sprite>equipment/weapons/sword.xml</sprite>
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
     </item>
-
-    <!--
     <item id="588"
         image="equipment/weapon/sword-bastardsword.png"
         name="Bastard Sword"
@@ -858,7 +903,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="sword"
-        weight="10"/>
+	attack-action="attack_2hand"
+        weight="10">
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </item>
     <item id="589"
         image="equipment/weapon/sword-broadsword.png"
         name="Broad Sword"
@@ -866,7 +914,9 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="sword"
+	attack-action="attack_2hand"
         weight="10">
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sound event="hit">weapons/swords/broadsword-hit1.ogg</sound>
     </item>
     <item id="590"
@@ -876,7 +926,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
-        weight="10"/>
+	attack-action="attack_dagger_stab"
+        weight="10">
+        <sprite>equipment/weapons/sword-short.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </item>
     <item id="591"
         image="equipment/weapon/sword-longsword.png"
         name="Long Sword"
@@ -884,7 +937,9 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
+	attack-action="attack_chop"
         weight="10">
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sound event="hit">weapons/swords/longsword-hit1.ogg</sound>
         <sound event="hit">weapons/swords/longsword-hit2.ogg</sound>
         <sound event="strike">weapons/swords/longsword-miss1.ogg</sound>
@@ -896,7 +951,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="knife"
-        weight="10"/>
+        attack-action="attack_dagger_stab"
+        weight="10">
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </item>
     <item id="593"
         image="equipment/weapon/sword-rapier.png"
         name="Rapier"
@@ -904,7 +962,9 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
+	attack-action="attack_sword_stab"
         weight="10">
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sound event="hit">weapons/swords/rapier-hit1.ogg</sound>
     </item>
     <item id="594"
@@ -914,8 +974,9 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="polearm"
+        attack-action="attack_spear"
         weight="700">
-    <sprite>equipment/weapons/polearm-spear.xml</sprite>
+        <sprite>equipment/weapons/polearm-spear.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
     <item id="595"
         image="equipment/weapon/polearm-heavyspear.png"
@@ -924,7 +985,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="polearm"
-        weight="10"/>
+        attack-action="attack_spear"
+        weight="10">
+        <sprite>equipment/weapons/polearm-spear.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="596"
         image="equipment/weapon/polearm-pike.png"
         name="Pike"
@@ -932,7 +996,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="polearm"
-        weight="10"/>
+        attack-action="attack_spear"
+        weight="10">
+        <sprite>equipment/weapons/polearm-spear.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="597"
         image="equipment/weapon/polearm-heavypike.png"
         name="Heavy Pike"
@@ -940,7 +1007,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="polearm"
-        weight="10"/>
+        attack-action="attack_spear"
+        weight="10">
+        <sprite>equipment/weapons/polearm-spear.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="598"
         image="equipment/weapon/polearm-dualspear.png"
         name="Dual Spear"
@@ -948,7 +1018,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="polearm"
-        weight="10"/>
+        attack-action="attack_spear"
+        weight="10">
+        <sprite>equipment/weapons/polearm-spear.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="599"
         image="equipment/weapon/sword-firesword.png"
         name="Fire Sword"
@@ -956,7 +1029,9 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
+        attack-action="attack_chop"
         weight="10">
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sound event="strike">weapons/swords/firesword-miss1.ogg</sound>
     </item>
     <item id="600"
@@ -966,8 +1041,6 @@
         effect="-50 Cooking"
         type="equip-shield"
         weight="10"/>
-    -->
-
     <item id="601"
         image="equipment/shield/steel.png"
         name="Steel Shield"
@@ -992,8 +1065,6 @@
         defense="7"
         type="equip-shield"
         weight="1300"/>
-
-    <!--
     <item id="604"
         image="equipment/shield/knight.png"
         name="Knight Shield"
@@ -1008,7 +1079,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="axe"
-        weight="10"/>
+        attack-action="attack_chop"
+        weight="10">
+        <sprite>equipment/weapons/axe-chop.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="606"
         image="equipment/weapon/axe-hatchet.png"
         name="Hatchet"
@@ -1016,7 +1090,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="axe"
-        weight="10"/>
+        attack-action="attack_chop"
+        weight="10">
+        <sprite>equipment/weapons/axe-chop.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="607"
         image="equipment/weapon/polearm-trident.png"
         name="Trident"
@@ -1024,7 +1101,10 @@
         effect="Damage +?"
         type="equip-2hand"
         weapon-type="polearm"
-        weight="10"/>
+        attack-action="attack_sword_stab"
+        weight="10">
+        <sprite>equipment/weapons/polearm-blunt.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="608"
         image="equipment/shield/blade.png"
         name="Blade Shield"
@@ -1039,9 +1119,10 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="mace"
-        weight="10"/>
-    -->
-
+        attack-action="attack_dagger_stab"
+        weight="10">
+        <sprite>equipment/weapons/wand.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="610"
         image="equipment/legs/shorts.png|W:#255367,266c84,68b0c5,ffffff"
         name="Jeans Shorts"
@@ -1178,10 +1259,10 @@
         effect="Damage +75"
         type="equip-2hand"
         weapon-type="polearm"
-        attack-action="attack"
+        attack-action="attack_2hand"
         weight="1200"
         sellProtected="true">
-        <sprite>equipment/weapons/scythe.xml</sprite>
+        <sprite>equipment/weapons/polearm-stab.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
     <item id="624"
         image="equipment/chest/vnecksweater.png|W:#a4b2b2,ffffff"
@@ -2457,12 +2538,10 @@
         effect="Damage +50 / M. Attack +5"
         type="equip-2hand"
         weapon-type="polearm"
-        attack-action="attack"
+        attack-action="attack_sword_stab"
         weight="1000">
-        <sprite>equipment/weapons/staff.xml</sprite>
+        <sprite>equipment/weapons/polearm-blunt.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
-
-    <!--
     <item id="759"
         image="equipment/head/paladin-helm.png"
         name="Paladin's Helmet"
@@ -2490,8 +2569,6 @@
         defense="21">
         <sprite>equipment/head/desert-helmet.xml</sprite>
     </item>
-    -->
-
     <item id="762"
         image="equipment/ammo/arrow.png|W:#8B4513"
         name="Terranite Arrow"
@@ -2505,8 +2582,6 @@
         description="Some ore collected out of terranite."
         type="generic"
         weight="40"/>
-
-    <!--
     <item id="764"
         image="equipment/head/sailor_hat.png"
         name="Sailor Hat"
@@ -2525,8 +2600,6 @@
         weight="8">
         <sprite>equipment/head/captain-hat.xml</sprite>
     </item>
-    -->
-
     <item id="766"
         image="equipment/head/terranitehelm.png"
         name="Terranite Helmet"
@@ -2663,8 +2736,6 @@
         description="An eye from a zombie."
         type="generic"
         weight="3"/>
-
-    <!--
     <item id="781"
         image="equipment/head/witch-doctor-mask.png"
         name="Witch Doctor's Mask"
@@ -2675,8 +2746,6 @@
         sellProtected="true">
         <sprite>equipment/head/witch-doctor-mask.xml</sprite>
     </item>
-    -->
-
     <item id="782"
         image="equipment/chest/forest-armor.png"
         name="Forest Armor"
@@ -3373,13 +3442,13 @@
         image="equipment/weapon/sword-ice.png"
         name="Ice Gladius"
         description="A sword with a shimmering blue blade."
-        effect="Damage +100"
+        effect="Damage +110"
         type="equip-1hand"
         weapon-type="sword"
-        attack-action="attack"
+        attack-action="attack_dagger_stab"
         luck="1"
         weight="1000">
-        <sprite>equipment/weapons/ice-gladius.xml</sprite>
+        <sprite>equipment/weapons/sword-short.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
@@ -3488,7 +3557,7 @@
         weight="900"
         missile-particle="graphics/particles/arrow-banshee.particle.xml"
         sellProtected="true">
-        <sprite>equipment/weapons/bansheebow.xml</sprite>
+        <sprite>equipment/weapons/bow-banshee.xml</sprite>
     </item>
     <item id="879"
         image="equipment/charms/heart-of-isis.png"
@@ -3779,7 +3848,7 @@
         missile-particle="graphics/particles/arrow.particle.xml"
         weapon-type="bow"
         attack-action="attack_bow">
-        <sprite>equipment/weapons/bow.xml</sprite>
+        <sprite>equipment/weapons/bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
     <item id="1201"
@@ -3790,8 +3859,8 @@
         type="equip-1hand"
         weight="120"
         weapon-type="knife"
-        attack-action="attack">
-        <sprite>equipment/weapons/dagger.xml</sprite>
+        attack-action="attack_dagger_stab">
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
     </item>
     <item id="1202"
         image="equipment/chest/cottonshirt.png|W:#a4b2b2,ffffff"
@@ -3908,9 +3977,10 @@
         effect="Damage +1"
         type="equip-1hand"
         weapon-type="sword"
+        attack-action="attack_dagger_stab"
         weight="1"
         sellProtected="true">
-        <sprite>equipment/weapons/dagger.xml</sprite>
+        <sprite>equipment/weapons/sword-short.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/sabre-hit1.ogg</sound>
     </item>
@@ -3998,8 +4068,6 @@
         sellProtected="true">
         <sprite>equipment/head/skullmask.xml</sprite>
     </item>
-
-    <!--
     <item id="1222"
         image="generic/claylump_small.png"
         name="Small Piece of Clay"
@@ -4038,8 +4106,6 @@
         description="An amulet made for true enchanters."
         type="equip-charm"
         weight="1"/>
-    -->
-
     <item id="1228"
         image="generic/crystal.png|W:#ba58ff,d496ff,ffffff"
         name="Light Crystal"

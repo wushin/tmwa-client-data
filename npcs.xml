@@ -438,7 +438,7 @@
   <!-- Npc Id 181 Open -->
   <!-- Young archer -->
   <npc id="182">
-    <sprite>races/talponian-male.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
   </npc>
   <!-- Skeleton man -->
   <npc id="183">

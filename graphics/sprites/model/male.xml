@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<sprite name="player" action="stand">
+<sprite name="player" aciton="stand" variants="135" variant_offset="1">
   <imageset name="base" src="graphics/sprites/model/male.png|W;B;R;" width="64" height="64"/>
   <action name="stand" imageset="base">
     <animation direction="down">
@@ -57,7 +57,7 @@
       <frame index="62"/>
     </animation>
   </action>
-  <action name="attack" imageset="base">
+  <action name="attack_dagger_stab" imageset="base">
     <animation direction="down">
       <sequence start="9" end="12" delay="75"/>
       <end/>
@@ -72,6 +72,24 @@
     </animation>
     <animation direction="right">
       <sequence start="63" end="66" delay="75"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_sword_stab" imageset="base">
+    <animation direction="down">
+      <sequence start="9" end="12" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="27" end="30" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="45" end="48" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="63" end="66" delay="100"/>
       <end/>
     </animation>
   </action>
@@ -93,7 +111,7 @@
       <end/>
     </animation>
   </action>
-  <action name="attack_polearm" imageset="base">
+  <action name="attack_spear" imageset="base">
     <animation direction="down">
       <sequence start="72" end="75" delay="150"/>
       <end/>
@@ -111,7 +129,7 @@
       <end/>
     </animation>
   </action>
-  <action name="attack_1hand" imageset="base">
+  <action name="attack_chop" imageset="base">
     <animation direction="down">
       <sequence start="90" end="93" delay="100"/>
       <end/>
