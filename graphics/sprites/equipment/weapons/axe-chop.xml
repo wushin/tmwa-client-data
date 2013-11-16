@@ -50,19 +50,19 @@
   </action>
   <action name="attack_chop" imageset="axe-chop">
     <animation direction="down">
-      <sequence offsetY="32" start="90" end="93" delay="100"/>
+      <sequence offsetY="32" start="90" end="93" delay="140"/>
       <end/>
     </animation>
     <animation direction="left">
-      <sequence offsetY="32" start="94" end="97" delay="100"/>
+      <sequence offsetY="32" start="94" end="97" delay="140"/>
       <end/>
     </animation>
     <animation direction="up">
-      <sequence offsetY="32" start="99" end="102" delay="100"/>
+      <sequence offsetY="32" start="99" end="102" delay="140"/>
       <end/>
     </animation>
     <animation direction="right">
-      <sequence offsetY="32" start="103" end="106" delay="100"/>
+      <sequence offsetY="32" start="103" end="106" delay="140"/>
       <end/>
     </animation>
   </action>
