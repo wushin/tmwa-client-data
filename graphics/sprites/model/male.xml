@@ -114,19 +114,19 @@
   </action>
   <action name="attack_spear" imageset="base">
     <animation direction="down">
-      <sequence start="72" end="75" delay="150"/>
+      <sequence start="72" end="75" delay="140"/>
       <end/>
     </animation>
     <animation direction="left">
-      <sequence start="76" end="79" delay="150"/>
+      <sequence start="76" end="79" delay="140"/>
       <end/>
     </animation>
     <animation direction="up">
-      <sequence start="81" end="84" delay="150"/>
+      <sequence start="81" end="84" delay="140"/>
       <end/>
     </animation>
     <animation direction="right">
-      <sequence start="85" end="88" delay="150"/>
+      <sequence start="85" end="88" delay="140"/>
       <end/>
     </animation>
   </action>

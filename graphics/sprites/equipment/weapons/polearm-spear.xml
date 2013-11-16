@@ -60,19 +60,19 @@
   </action>
   <action name="attack_spear" imageset="polearm-spear">
     <animation direction="down">
-      <sequence offsetY="32" start="72" end="75" delay="150"/>
+      <sequence offsetY="32" start="72" end="75" delay="140"/>
       <end/>
     </animation>
     <animation direction="left">
-      <sequence offsetY="32" start="76" end="79" delay="150"/>
+      <sequence offsetY="32" start="76" end="79" delay="140"/>
       <end/>
     </animation>
     <animation direction="up">
-      <sequence offsetY="32" start="81" end="84" delay="150"/>
+      <sequence offsetY="32" start="81" end="84" delay="140"/>
       <end/>
     </animation>
     <animation direction="right">
-      <sequence offsetY="32" start="85" end="88" delay="150"/>
+      <sequence offsetY="32" start="85" end="88" delay="140"/>
       <end/>
     </animation>
   </action>
