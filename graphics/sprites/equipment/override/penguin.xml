@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
-  <imageset name="base" src="graphics/sprites/npcs/penguin.png" width="20" height="21" />
+  <imageset name="base" src="graphics/sprites/equipment/override/penguin.png" width="32" height="33" />
 
   <action name="stand" imageset="base">
     <animation direction="down">
@@ -23,16 +23,22 @@
 
   <action name="walk" imageset="base">
     <animation direction="down">
-      <sequence offsetX="20" start="0" end="3" delay="200" />
+      <sequence offsetX="20" start="0" end="3" delay="100" />
+      <sequence offsetX="20" start="8" end="11" delay="100" />
+      <sequence offsetX="20" start="0" end="3" delay="100" />
+      <sequence offsetX="20" start="56" end="59" delay="100" />
     </animation>
     <animation direction="left">
-      <sequence offsetX="20" start="44" end="47" delay="200" />
+      <sequence offsetX="20" start="44" end="51" delay="100" />
     </animation>
     <animation direction="up">
-      <sequence offsetX="20" start="32" end="35" delay="200" />
+      <sequence offsetX="20" start="32" end="35" delay="100" />
+      <sequence offsetX="20" start="24" end="27" delay="100" />
+      <sequence offsetX="20" start="32" end="35" delay="100" />
+      <sequence offsetX="20" start="40" end="43" delay="100" />
     </animation>
     <animation direction="right">
-      <sequence offsetX="20" start="20" end="23" delay="200" />
+      <sequence offsetX="20" start="16" end="23" delay="100" />
     </animation>
   </action>
 

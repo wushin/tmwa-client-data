@@ -850,5 +850,21 @@
     <property name="monster_id" value="93"/>
    </properties>
   </object>
+  <object name="Santaboo" type="spawn" x="2272" y="2144">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1112"/>
+   </properties>
+  </object>
+  <object name="Reinboo" type="spawn" x="2272" y="2144">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="92"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

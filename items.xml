@@ -3771,7 +3771,7 @@
         type="equip-charm"
         weight="50"
         sellProtected="true">
-        <sprite>npcs/mouboo.xml</sprite>
+        <sprite>equipment/override/mouboo.xml</sprite>
     </item>
     <item id="1196"
         image="use/others/penguin.png"
@@ -3779,8 +3779,9 @@
         description="*tick* *tick* *tick* said the clock to the clock maker."
         type="equip-charm"
         weight="50"
-        sellProtected="true">
-        <sprite>npcs/penguin.xml</sprite>
+        sellProtected="true"
+        drawFirst="1">
+        <sprite>equipment/override/penguin.xml</sprite>
     </item>
     <item id="1197"
         image="equipment/charms/skeletoncharm.png"
