@@ -868,9 +868,9 @@
   </object>
   <object name="To Christmas Inn" type="warp" x="3168" y="1696" width="32" height="32">
    <properties>
-    <property name="dest_map" value="019-1"/>
-    <property name="dest_tile_x" value="109"/>
-    <property name="dest_tile_y" value="103"/>
+    <property name="dest_map" value="030-2"/>
+    <property name="dest_tile_x" value="88"/>
+    <property name="dest_tile_y" value="50"/>
    </properties>
   </object>
  </objectgroup>
