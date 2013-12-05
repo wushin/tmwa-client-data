@@ -3764,24 +3764,13 @@
         weight="1"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
-    <item id="1195"
-        image="use/others/mouboo.png"
-        name="Animatronic Mouboo"
-        description="*tick* *tick* *tick* said the clock to the clock maker."
-        type="equip-charm"
-        weight="50"
-        sellProtected="true">
-        <sprite>equipment/override/mouboo.xml</sprite>
-    </item>
     <item id="1196"
         image="use/others/penguin.png"
-        name="Animatronic Pollett"
+        name="Wooden Pollett Figurine"
         description="*tick* *tick* *tick* said the clock to the clock maker."
-        type="equip-charm"
+        type="generic"
         weight="50"
-        sellProtected="true"
-        drawFirst="1">
-        <sprite>equipment/override/penguin.xml</sprite>
+        sellProtected="true">
     </item>
     <item id="1197"
         image="equipment/charms/skeletoncharm.png"
