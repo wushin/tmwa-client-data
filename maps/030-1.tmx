@@ -827,12 +827,12 @@
     <property name="monster_id" value="36"/>
    </properties>
   </object>
-  <object name="Fluffy" type="spawn" x="0" y="0">
+  <object name="Pollett" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="15"/>
-    <property name="monster_id" value="18"/>
+    <property name="monster_id" value="111"/>
    </properties>
   </object>
   <object name="To Snow Field" type="warp" x="3488" y="928" width="32" height="32">
