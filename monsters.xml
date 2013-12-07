@@ -549,4 +549,8 @@
   <monster id="112" name="Toy Mouboo">
     <sprite>monsters/toy-mouboo.xml</sprite>
   </monster>
+  <monster id="113" name="Coco Slime">
+    <sprite>monsters/slime.xml|#441e00,b37848,f2e4d8</sprite>
+    <sprite>monsters/accessories/slime-seajelly.xml|#b36e36,ffffff</sprite>
+  </monster>
 </monsters>
