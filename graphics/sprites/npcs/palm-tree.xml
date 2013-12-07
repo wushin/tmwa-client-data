@@ -3,7 +3,7 @@
   <imageset name="base" src="graphics/tiles/desert_x5.png" width="98" height="160"/>
   <action name="stand" imageset="base">
     <animation direction="default">
-      <frame offsetX="18" index="0"/>
+      <frame index="0"/>
     </animation>
   </action>
 </sprite>
