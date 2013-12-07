@@ -3,7 +3,7 @@
   <imageset name="base" src="graphics/sprites/npcs/xmas-palm.png" width="95" height="144"/>
   <action name="stand" imageset="base">
     <animation direction="default">
-      <frame offsetX="-18" index="0"/>
+      <frame index="0"/>
     </animation>
   </action>
 </sprite>
