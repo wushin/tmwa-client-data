@@ -967,6 +967,11 @@
   <npc id="384">
     <sprite variant="1">npcs/palm-tree.xml</sprite>
   </npc>
+  <!-- Young Male Wizard In Bubble -->
+  <npc id="385">
+    <sprite variant="58">npcs/npc.xml</sprite>
+    <particlefx>graphics/particles/sphere-white.particle.xml</particlefx>
+  </npc>
   <!-- empty (Invisible NPC used in scripts) -->
   <!-- for npcs that shouldn't be selectable (e.g. in magic effects) use 127,
        for warps/doors use 45,
