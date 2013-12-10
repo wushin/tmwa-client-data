@@ -3275,8 +3275,7 @@
     <item id="856"
         image="equipment/head/knit-cap.png"
         name="Knit Cap"
-        description="A knitted cap keeping your head warm in the crual cold."
-        effect="M. Attack 0"
+        description="A knitted cap keeping your head warm in the cruel cold."
         type="equip-head"
         defense="3"
         weight="50"
@@ -3762,12 +3761,6 @@
         effect="Damage +5"
         type="equip-ammo"
         weight="1"/>
-    <item id="905"
-        image="generic/scroll.png"
-        name="Crutnacker"
-        description="A cursed small nutcracker"
-        type="usable"
-        weight="5"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
     <item id="1188"
