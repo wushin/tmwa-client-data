@@ -3768,13 +3768,6 @@
         description="A cursed small nutcracker"
         type="usable"
         weight="5"/>
-    <item id="906"
-        image="generic/scroll.png"
-        name="Rossy's Wish List"
-        description="It contains a little childs dreams. Handle it with care."
-        type="generic"
-        weight="5"/>
-           
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
     <item id="1188"
