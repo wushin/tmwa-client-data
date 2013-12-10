@@ -3777,6 +3777,14 @@
            
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
+    <item id="1188"
+        image="use/food/snake-egg.png|W:#ffffff;R:#ffffff;G:#ffffff"
+        name="Pollett Egg"
+        description="Mmm.. A nice treat."
+        type="usable"
+        hp="75"
+        mp="10"
+        weight="1"/>
     <item id="1189"
         image="equipment/head/nutcrackerhat.png"
         name="Nutcracker Hat"
