@@ -674,13 +674,5 @@
     <property name="dest_tile_y" value="97"/>
    </properties>
   </object>
-  <object name="CandiedSlime" type="spawn" x="768" y="800" width="2848" height="2336">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="10"/>
-    <property name="monster_id" value="109"/>
-   </properties>
-  </object>
  </objectgroup>
 </map>
