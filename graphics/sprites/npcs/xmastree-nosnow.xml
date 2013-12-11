@@ -3,7 +3,7 @@
   <imageset name="base" src="graphics/sprites/npcs/xmastree-nosnow.png" width="128" height="192"/>
   <action name="stand" imageset="base">
     <animation direction="default">
-      <frame index="0"/>
+      <frame offsetY="18" index="0"/>
     </animation>
   </action>
 </sprite>
