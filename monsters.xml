@@ -537,7 +537,7 @@
     <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
   </monster>
   <monster id="110" name="Santaboo">
-    <sprite>monsters/chirstmas-mouboo.xml</sprite>
+    <sprite>monsters/christmas-mouboo.xml</sprite>
     <sprite>monsters/accessories/mouboo-red-nose.xml</sprite>
     <sprite>monsters/accessories/mouboo-red-saddle.xml</sprite>
     <sprite>monsters/accessories/mouboo-red-shoes.xml</sprite>
