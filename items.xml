@@ -3763,7 +3763,7 @@
         weight="1"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
-    <item id="1188"
+    <item id="1189"
         image="use/food/snake-egg.png|W:#ffffff;R:#ffffff;G:#ffffff"
         name="Pollett Egg"
         description="Mmm.. A nice treat."
@@ -3771,7 +3771,7 @@
         hp="75"
         mp="10"
         weight="1"/>
-    <item id="1189"
+    <item id="1190"
         image="equipment/head/nutcrackerhat.png"
         name="Nutcracker Hat"
         description="Now you will look just like a Nutcracker!"
@@ -3782,12 +3782,6 @@
         sellProtected="true">
         <sprite>equipment/head/nutcrackerhat.xml</sprite>
     </item>
-    <item id="1190"
-        image="generic/presentbox.png|R:#ec2843;W:#1e8c1e"
-        name="Present Box"
-        description="Something mysterious inside... and IT'S ADDRESSED TO YOU! (open me)"
-        type="generic"
-        weight="10"/>
     <item id="1191"
         image="generic/wrapping-paper.png|W:#ffffff"
         name="White Wrap"
