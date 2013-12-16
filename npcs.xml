@@ -972,6 +972,9 @@
     <sprite variant="58">npcs/npc.xml</sprite>
     <particlefx>graphics/particles/sphere-white.particle.xml</particlefx>
   </npc>
+  <npc id="386">
+    <sprite>npcs/present.xml|R:#ec2843;W:#1e8c1e</sprite>
+  </npc>
   <!-- empty (Invisible NPC used in scripts) -->
   <!-- for npcs that shouldn't be selectable (e.g. in magic effects) use 127,
        for warps/doors use 45,
