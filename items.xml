@@ -3763,6 +3763,29 @@
         weight="1"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
+    <item id="1187"
+        image="equipment/feet/assassinboots.png|W:#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
+        name="Red Stockings"
+        description="Boots for a master assassin."
+        effect="M. Attack -3"
+        type="equip-feet"
+        defense="5"
+        weight="10"
+        sellProtected="true">
+        <sprite gender="male">equipment/feet/assassin-boots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+        <sprite gender="female">equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+    </item>
+    <item id="1188"
+        image="equipment/chest/tnecksweater.png|W:#580000"
+        name="Ugly Holiday Sweater"
+        description="A thick, soft, and warm abomination."
+        effect="M. Attack -12"
+        type="equip-torso"
+        defense="6"
+        weight="35">
+        <sprite gender="male">equipment/chest/tnecksweater-male.xml|#580000</sprite>
+        <sprite gender="female">equipment/chest/tnecksweater-female.xml|#580000</sprite>
+    </item>
     <item id="1189"
         image="use/food/snake-egg.png|W:#ffffff;R:#ffffff;G:#ffffff"
         name="Pollett Egg"
