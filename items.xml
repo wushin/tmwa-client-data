@@ -3763,17 +3763,16 @@
         weight="1"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
-    
     <item id="1183"
-        image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#2958b5G:#ff4df0;G:#a7a7a7,d6d6d6,fffffe;C:#2958b5,789eea,c5d8ff"
+        image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#b0242f,e1c130;G:#35bc40;C:#8c7223,e1c130,ffdb63"
         name="Amber Christmas Sweater"
         description="An itchy woolen amber sweater with a pinetree motive."
         effect="M. Attack -12"
         type="equip-torso"
         defense="6"
         weight="35">
-        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#2958b5;#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
-        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#2958b5;#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
+            <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
+            <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
     </item>
     <item id="1184"
         image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f,;G:#8ece91,ffffff;C:#578760,6daa78,92e5a2,9be8a9"
@@ -3807,7 +3806,7 @@
         weight="35">
         <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
         <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
-    </item>
+    </item>           
     <item id="1187"
         image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#2958b5G:#ff4df0;G:#a7a7a7,d6d6d6,fffffe;C:#2958b5,789eea,c5d8ff"
         name="Blue Christmas Sweater"
@@ -3816,10 +3815,22 @@
         defense="5"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/robe-male.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
-        <sprite gender="female">equipment/chest/robe-female.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
     </item>
-     <item id="1188"
+    <item id="1188"
+    image="equipment/feet/assassinboots.png|W:#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
+    name="Red Stockings"
+    description="Boots for a master assassin."
+    effect="M. Attack -3"
+    type="equip-feet"
+    defense="5"
+    weight="10"
+        sellProtected="true">
+            <sprite gender="male">equipment/feet/assassin-boots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+            <sprite gender="female">equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+    </item>
+    <item id="1189"
         image="use/food/snake-egg.png|W:#ffffff;R:#ffffff;G:#ffffff"
         name="Pollett Egg"
         description="Mmm.. A nice treat."
@@ -3827,7 +3838,7 @@
         hp="75"
         mp="10"
         weight="1"/>
-    <item id="1189"
+    <item id="1190"
         image="equipment/head/nutcrackerhat.png"
         name="Nutcracker Hat"
         description="Now you will look just like a Nutcracker!"
@@ -3838,12 +3849,6 @@
         sellProtected="true">
         <sprite>equipment/head/nutcrackerhat.xml</sprite>
     </item>
-    <item id="1190"
-        image="generic/presentbox.png|R:#ec2843;W:#1e8c1e"
-        name="Present Box"
-        description="Something mysterious inside... and IT'S ADDRESSED TO YOU! (open me)"
-        type="generic"
-        weight="10"/>
     <item id="1191"
         image="generic/wrapping-paper.png|W:#ffffff"
         name="White Wrap"
