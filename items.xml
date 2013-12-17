@@ -3763,28 +3763,72 @@
         weight="1"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
-    <item id="1187"
-        image="equipment/feet/assassinboots.png|W:#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
-        name="Red Stockings"
-        description="Boots for a master assassin."
-        effect="M. Attack -3"
-        type="equip-feet"
-        defense="5"
-        weight="10"
-        sellProtected="true">
-        <sprite gender="male">equipment/feet/assassin-boots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
-        <sprite gender="female">equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
-    </item>
-    <item id="1188"
-        image="equipment/chest/tnecksweater.png|W:#580000"
-        name="Ugly Holiday Sweater"
-        description="A thick, soft, and warm abomination."
+    <item id="1183"
+        image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#b0242f,e1c130;G:#35bc40;C:#8c7223,e1c130,ffdb63"
+        name="Amber Christmas Sweater"
+        description="An itchy woolen amber sweater with a pinetree motive."
         effect="M. Attack -12"
         type="equip-torso"
         defense="6"
         weight="35">
-        <sprite gender="male">equipment/chest/tnecksweater-male.xml|#580000</sprite>
-        <sprite gender="female">equipment/chest/tnecksweater-female.xml|#580000</sprite>
+            <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
+            <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
+    </item>
+    <item id="1184"
+        image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f,;G:#8ece91,ffffff;C:#578760,6daa78,92e5a2,9be8a9"
+        name="Funky Christmas Sweater"
+        description="An itchy woolen tan green sweater with holiday motive."
+        effect="M. Attack -12"
+        type="equip-torso"
+        defense="6"
+        weight="35">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,ffffff;#578760,6daa78,92e5a2,9be8a9</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,ffffff;#578760,6daa78,92e5a2,9be8a9</sprite>
+    </item>
+    <item id="1185"
+    image="equipment/chest/ugly-sweater.png|W:#000000,333333;Y:#c44dff;G:#ff4df0;C:#a3a3a3,ffffff"
+        name="Pink Christmas Sweater"
+        description="A light and only slightly itchy pink christmas sweater."
+        type="equip-torso"
+        defense="5"
+        weight="30"
+        sellProtected="true">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-male.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
+    </item>
+    <item id="1186"
+    image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f;G:#8ece91,364c17;C:#49661f"
+        name="Dark Christmas Sweater"
+        description="A thick, warming, yet itchy christmas themed sweater"
+        effect="M. Attack -12"
+        type="equip-torso"
+        defense="6"
+        weight="35">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
+    </item>           
+    <item id="1187"
+        image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#2958b5G:#ff4df0;G:#a7a7a7,d6d6d6,fffffe;C:#2958b5,789eea,c5d8ff"
+        name="Blue Christmas Sweater"
+        description="A light and warming sweater with holiday motive."
+        type="equip-torso"
+        defense="5"
+        weight="30"
+        sellProtected="true">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
+    </item>
+    <item id="1188"
+    image="equipment/feet/assassinboots.png|W:#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
+    name="Red Stockings"
+    description="Boots for a master assassin."
+    effect="M. Attack -3"
+    type="equip-feet"
+    defense="5"
+    weight="10"
+        sellProtected="true">
+            <sprite gender="male">equipment/feet/assassin-boots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+            <sprite gender="female">equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
     </item>
     <item id="1189"
         image="use/food/snake-egg.png|W:#ffffff;R:#ffffff;G:#ffffff"
