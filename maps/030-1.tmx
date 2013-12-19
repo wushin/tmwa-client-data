@@ -823,7 +823,7 @@
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="15"/>
+    <property name="max_beings" value="7"/>
     <property name="monster_id" value="111"/>
    </properties>
   </object>
