@@ -3830,14 +3830,7 @@
             <sprite gender="male">equipment/feet/assassin-boots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
             <sprite gender="female">equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
     </item>
-    <item id="1189"
-        image="use/food/snake-egg.png|W:#ffffff;R:#ffffff;G:#ffffff"
-        name="Pollett Egg"
-        description="Mmm.. A nice treat."
-        type="usable"
-        hp="75"
-        mp="10"
-        weight="1"/>
+    <!-- 1189 Open --> 
     <item id="1190"
         image="equipment/head/nutcrackerhat.png"
         name="Nutcracker Hat"
