@@ -3806,7 +3806,7 @@
         weight="35">
         <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
         <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
-    </item>           
+    </item>
     <item id="1187"
         image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#2958b5G:#ff4df0;G:#a7a7a7,d6d6d6,fffffe;C:#2958b5,789eea,c5d8ff"
         name="Blue Christmas Sweater"
