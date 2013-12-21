@@ -3372,7 +3372,7 @@
         image="equipment/weapon/sword-ice.png"
         name="Ice Gladius"
         description="A sword with a shimmering blue blade."
-        effect="Damage +100"
+        effect="Damage +110"
         type="equip-1hand"
         weapon-type="sword"
         attack-action="attack"
@@ -3786,7 +3786,7 @@
         <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,ffffff;#578760,6daa78,92e5a2,9be8a9</sprite>
     </item>
     <item id="1185"
-    image="equipment/chest/ugly-sweater.png|W:#000000,333333;Y:#c44dff;G:#ff4df0;C:#a3a3a3,ffffff"
+        image="equipment/chest/ugly-sweater.png|W:#000000,333333;Y:#c44dff;G:#ff4df0;C:#a3a3a3,ffffff"
         name="Pink Christmas Sweater"
         description="A light and only slightly itchy pink christmas sweater."
         type="equip-torso"
@@ -3797,7 +3797,7 @@
         <sprite gender="female">equipment/chest/ugly-sweater-male.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
     </item>
     <item id="1186"
-    image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f;G:#8ece91,364c17;C:#49661f"
+        image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f;G:#8ece91,364c17;C:#49661f"
         name="Dark Christmas Sweater"
         description="A thick, warming, yet itchy christmas themed sweater"
         effect="M. Attack -12"
@@ -3806,7 +3806,7 @@
         weight="35">
         <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
         <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
-    </item>           
+    </item>
     <item id="1187"
         image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#2958b5G:#ff4df0;G:#a7a7a7,d6d6d6,fffffe;C:#2958b5,789eea,c5d8ff"
         name="Blue Christmas Sweater"
@@ -3827,8 +3827,8 @@
     defense="5"
     weight="10"
         sellProtected="true">
-            <sprite gender="male">equipment/feet/assassin-boots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
-            <sprite gender="female">equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+        <sprite gender="male">equipment/feet/assassin-boots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+        <sprite gender="female">equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
     </item>
     <item id="1189"
         image="use/food/snake-egg.png|W:#ffffff;R:#ffffff;G:#ffffff"
@@ -3879,14 +3879,6 @@
         description="A role of green wrapping paper."
         type="generic"
         weight="5"/>
-    <item id="1196"
-        image="use/others/penguin.png"
-        name="Wooden Pollett Figurine"
-        description="*tick* *tick* *tick* said the clock to the clock maker."
-        type="generic"
-        weight="50"
-        sellProtected="true">
-    </item>
     <item id="1197"
         image="equipment/charms/skeletoncharm.png"
         name="Jack's Skeleton Charm"
