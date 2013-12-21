@@ -3821,7 +3821,7 @@
     <item id="1188"
         image="equipment/feet/assassinboots.png|W:#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
         name="Red Stockings"
-        description="Boots for a master assassin."
+        description="Someone thought of you at christmas eve."
         effect="M. Attack -3"
         type="equip-feet"
         defense="5"
