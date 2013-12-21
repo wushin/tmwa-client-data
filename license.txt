@@ -927,7 +927,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/tiles/inn.png (Irukard)                                                                              (GPLv2), (CC BY-SA 3.0)
     graphics/tiles/inn2.png (Alige, Irukard, Salmondine)                                                          (GPLv2)
     graphics/tiles/mountain.png (????)                                                                            (GPLv2)
-    graphics/tiles/mushrooms.png (Dave, Len)                                                                    (GPLv2)
+    graphics/tiles/mushrooms.png (Dave, Len)                                                                      (GPLv2)
     graphics/tiles/Pots_x2.png (????)                                                                             (GPLv2)
     graphics/tiles/power_circle_x2.png (????)                                                                     (GPLv2)
     graphics/tiles/set_cave.png (????, PjotrOrial)                                                                (GPLv2)
