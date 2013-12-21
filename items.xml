@@ -3819,13 +3819,13 @@
         <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
     </item>
     <item id="1188"
-        image="equipment/feet/assassinboots.png|W:#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
-        name="Red Stockings"
-        description="Boots for a master assassin."
-        effect="M. Attack -3"
-        type="equip-feet"
-        defense="5"
-        weight="10"
+    image="equipment/feet/assassinboots.png|W:#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
+    name="Red Stockings"
+    description="Someone thought of you at christmas eve."
+    effect="M. Attack -3"
+    type="equip-feet"
+    defense="5"
+    weight="10"
         sellProtected="true">
         <sprite gender="male">equipment/feet/assassin-boots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
         <sprite gender="female">equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
