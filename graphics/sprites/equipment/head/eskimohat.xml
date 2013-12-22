@@ -46,7 +46,7 @@
 		</animation>
 	</action>
 
-	<action name="attack" imageset="base">
+	<action name="attack_dagger_stab" imageset="base">
 		<animation direction="down">
 		  <frame index="0" offsetX="4" offsetY ="-40" delay="75"/>
 		  <frame index="0" offsetX="4" offsetY ="-41" delay="75"/>
