@@ -111,11 +111,11 @@
     <sprite variant="16">equipment/override/adult-head.xml</sprite>
     <sprite variant="26">equipment/override/adult-head.xml</sprite>
   </npc>
-  <!-- Gnome with hat -->
+  <!-- boy with pointy hat -->
   <npc id="113">
-    <sprite>races/talponian-child.xml</sprite>
-    <sprite variant="5">equipment/override/child-head.xml</sprite>
-    <sprite variant="15">equipment/override/child-outfits.xml</sprite>
+    <sprite variant="2">races/talponian-child.xml</sprite>
+    <sprite variant="5">equipment/override/child-head.xml|#902808,d87038,f0b050</sprite>
+    <sprite variant="1">equipment/override/child-outfits.xml</sprite>
   </npc>
   <!-- Little blue-haired girl -->
   <npc id="114">
@@ -420,7 +420,10 @@
   </npc>
   <!-- Wedding Officiator -->
   <npc id="164">
-    <sprite>races/talponian-male.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle19-female.xml|#dbd41e</sprite>
+    <sprite>equipment/head/silkheadband-female.xml|#77a85c,86b36e,9cc27e</sprite>
+    <sprite>equipment/chest/robe-female.xml|#558b39,6b9a4a,77a85c,86b36e,9cc27e</sprite>
   </npc>
   <!-- Dimond/Magician -->
   <npc id="165">
@@ -442,7 +445,10 @@
   </npc>
   <!-- Middle-Aged Wizard -->
   <npc id="168">
-    <sprite>races/talponian-female.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#EFEFEF</sprite>
+    <sprite>hairstyles/hairstyle07-male.xml|#878787,a8a8a8,cacaca</sprite>
+    <sprite variant="16">equipment/override/adult-head.xml</sprite>
   </npc>
   <!-- Miner -->
   <npc id="169">
@@ -680,7 +686,7 @@
   <npc id="265">
     <sprite variant="2">races/talponian-child.xml</sprite>
     <sprite variant="1">equipment/override/child-head.xml|#328abc</sprite>
-    <sprite variant="9">equipment/override/child-outfits.xml|#328abc;#ffffff;#ffffff;#ffffff;#cb1c66;#112f57;#cb1c7b</sprite>
+    <sprite variant="7">equipment/override/child-outfits.xml|#328abc;#ffffff;#ffffff;#ffffff;#cb1c66;#112f57;#cb1c7b</sprite>
   </npc>
   <!-- Chef Skeleton (Shop) -->
   <npc id="300">
