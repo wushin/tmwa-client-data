@@ -14,8 +14,8 @@
     <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
     <sprite>equipment/legs/pants-male.xml|#251e06,443c21,71653b,a0945e</sprite>
     <sprite>equipment/chest/vnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
-    <sprite>hairstyles/hairstyle18.xml|#201820,492613,cf6513,e56a18,ffffff</sprite>
-    <sprite>equipment/head/silkheadband.xml</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#201820,492613,cf6513,e56a18,ffffff</sprite>
+    <sprite>equipment/head/silkheadband-male.xml</sprite>
   </npc>
   <!-- Trader (Shop) -->
   <npc id="101">
@@ -23,7 +23,7 @@
     <sprite>equipment/chest/cotton-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
     <sprite>equipment/legs/pants-male.xml|#202020,414441,b4b6bd,cdcacd,ffffff</sprite>
     <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
-    <sprite>hairstyles/hairstyle02.xml|#201818,313031,424242,4e4e4e</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#201818,313031,424242,4e4e4e</sprite>
     <sprite variant="16">equipment/override/adult-head.xml|#201818,313031,424242,4e4e4e</sprite>
   </npc>
   <!-- The Trainer -->
@@ -32,7 +32,7 @@
     <sprite>equipment/chest/tanktop-male.xml|#cdb784,dec38c,eef1c5,ffffff</sprite>
     <sprite>equipment/legs/shorts-male.xml|#2e0890,7898e8</sprite>
     <sprite>equipment/feet/boots-male.xml|#490000,b66d49</sprite>
-    <sprite>hairstyles/hairstyle18.xml|#817339,ffe87c</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#817339,ffe87c</sprite>
   </npc>
   <!-- Guy in black cloak (Shop) -->
   <npc id="103">
@@ -43,7 +43,7 @@
   <!-- Soldier with sword -->
   <npc id="104">
     <sprite>races/talponian-male.xml</sprite>
-    <sprite>hairstyles/hairstyle03.xml|#201818,313031,424242,4e4e4e</sprite>
+    <sprite>hairstyles/hairstyle03-male.xml|#201818,313031,424242,4e4e4e</sprite>
     <sprite>equipment/head/infantryhelm.xml</sprite>
     <sprite>equipment/chest/vnecksweater-male.xml|#a4b2b2,ffffff</sprite>
     <sprite>equipment/chest/lightplatemail-male.xml</sprite>
@@ -53,7 +53,7 @@
   <!-- Santa Clause -->
   <npc id="105">
     <sprite>races/talponian-male.xml</sprite>
-    <sprite>hairstyles/hairstyle18.xml|#f4f0f0,787c78</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#f4f0f0,787c78</sprite>
     <sprite>equipment/head/santahat.xml</sprite>
     <sprite>equipment/chest/tnecksweater-male.xml|#202020,c00000,d62300,e23500,e26e4b</sprite>
     <sprite>equipment/legs/pants-male.xml|#202020,c00000,d62300,e23500,e26e4b</sprite>
@@ -65,7 +65,7 @@
   <!-- Girl with pink hair and blue top -->
   <npc id="106">
     <sprite>races/talponian-female.xml</sprite>
-    <sprite>hairstyles/hairstyle01.xml|#69006a,880884,a404a2,c000c0,ff40ff</sprite>
+    <sprite>hairstyles/hairstyle01-female.xml|#69006a,880884,a404a2,c000c0,ff40ff</sprite>
     <sprite>equipment/feet/boots-female.xml|#490000,b66d49</sprite>
     <sprite>equipment/legs/skirt.xml|#251e06,443c21,71653b,a0945e</sprite>
     <sprite>equipment/chest/tanktop-female.xml|#1a3a8c,214cb9,4470e0,7898e8</sprite>
@@ -74,7 +74,7 @@
   <npc id="107">
     <sprite>races/talponian-male.xml</sprite>
     <sprite>equipment/head/glasses.xml|#a89feb,d5d1f5</sprite>
-    <sprite>hairstyles/hairstyle01.xml|#404040,606060,808080,a4a4a4,b1b1b1,c0c0c0,e4e4e4</sprite>
+    <sprite>hairstyles/hairstyle01-male.xml|#404040,606060,808080,a4a4a4,b1b1b1,c0c0c0,e4e4e4</sprite>
     <sprite>equipment/legs/pants-male.xml|#010101,202020,404040,606060</sprite>
     <sprite>equipment/chest/tnecksweater-male.xml|#808080,b1b1b1,cacaca</sprite>
     <sprite>equipment/chest/tanktop-male.xml|#404040,606060,808080,9f9f9f</sprite>
