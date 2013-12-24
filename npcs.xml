@@ -260,8 +260,12 @@
   </npc>
   <!-- Nomad, sitting with pipe -->
   <npc id="132">
-    <sprite variant="7">races/talponian-male.xml</sprite>
-    <particlefx>graphics/particles/nomadpipe.particle.xml</particlefx>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
+    <sprite>equipment/legs/pants-male.xml|#251e06,443c21,71653b,a0945e</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/head/deserthat-male.xml|#ffffff</sprite>
+    <sprite>equipment/head/goggles-male.xml|#787878,f7f7f7</sprite>
   </npc>
   <!-- Npc Id 133 Open -->
   <!-- Npc Id 134 Open -->
@@ -318,14 +322,31 @@
   <!-- Mechanic with tool -->
   <npc id="147">
     <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4f</sprite>
+    <sprite>equipment/feet/boots-male.xml|#4f2d29,c89078</sprite>
+    <sprite variant="25">equipment/override/adult-head.xml</sprite>
+    <sprite variant="2">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Chef -->
   <npc id="148">
     <sprite>races/talponian-male.xml</sprite>
+    <sprite variant="1">equipment/override/adult-outfits.xml</sprite>
+    <sprite>equipment/legs/pants-male.xml|#001720,001b25,003e55,035776</sprite>
+    <sprite variant="26">equipment/override/adult-head.xml</sprite>
+    <sprite>equipment/head/chefhat-male.xml</sprite>
+    <sprite variant="24">equipment/override/adult-head.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
   </npc>
   <!-- Desert Banker -->
   <npc id="149">
     <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/chainmail-male.xml|#eef1c5,ffffff</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/legs/pants-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/feet/boots-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite variant="27">equipment/override/adult-head.xml</sprite>
+    <sprite>equipment/head/monocle-male.xml</sprite>
   </npc>
   <!-- Investigator -->
   <npc id="150">
@@ -380,6 +401,10 @@
   <!-- Trainer 2 -->
   <npc id="157">
     <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/tanktop-male.xml|#cdb784,dec38c,eef1c5,ffffff</sprite>
+    <sprite>equipment/legs/shorts-male.xml|#2e0890,7898e8</sprite>
+    <sprite>equipment/feet/boots-male.xml|#490000,b66d49</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#817339,ffe87c</sprite>
   </npc>
   <!-- Young Male Wizard -->
   <npc id="158">
@@ -390,8 +415,9 @@
   <!-- Old man -->
   <npc id="159">
     <sprite>races/talponian-male.xml</sprite>
-    <sprite variant="9">equipment/override/adult-head.xml</sprite>
-    <sprite variant="23">equipment/override/adult-head.xml</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#291b07,4a310c,6c4818,7a5525,89693b,9c7b52,af946e</sprite>
+    <sprite>equipment/legs/skirt-male.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4f</sprite>
+    <sprite variant="22">equipment/override/adult-head.xml</sprite>
     <sprite variant="27">equipment/override/adult-head.xml</sprite>
   </npc>
   <!-- Generic Man -->
@@ -417,6 +443,11 @@
   <!-- Flower Girl (Shop) -->
   <npc id="163">
     <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle13-female.xml|#878787,a8a8a8,cacaca,fdfdfd</sprite>
+    <sprite>equipment/chest/cotton-female.xml|#ffffff</sprite>
+    <sprite>equipment/chest/tanktop-female.xml|#730417,9c061f,c40727,d9082b,ee092f</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#783f48,a15461,c96979,f37f92,f7a8b5</sprite>
+    <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
   </npc>
   <!-- Wedding Officiator -->
   <npc id="164">
@@ -523,6 +554,12 @@
   <!-- Gambler -->
   <npc id="193">
     <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/chainmail-male.xml|#eef1c5,ffffff</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/legs/pants-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/feet/boots-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite variant="27">equipment/override/adult-head.xml</sprite>
+    <sprite>equipment/head/tophat-male.xml</sprite>
   </npc>
   <!-- Npc Id 194 Open -->
   <!-- Angela outside -->
@@ -935,6 +972,8 @@
   <!-- Blonde girl with spinning wheel by Chef Chelios-->
   <npc id="376">
     <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#dbd41e,867f1a,a49c2e,b2aa4f,c6c170,d9d394,e0dcb3</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#FFF528</sprite>
   </npc>
   <!-- Trapper -->
   <npc id="377">
