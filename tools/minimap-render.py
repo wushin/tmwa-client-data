@@ -165,3 +165,6 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
+#!/bin/bash
+# will combine all together into a world map
+# montage -mode concatenate -tile x10 ./graphics/minimaps/*[0-9]-1.png ./graphics/world-map.png
