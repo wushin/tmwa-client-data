@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="image" value="graphics/particles/heart-op.png|W"/>
+      <property name="vertical-angle" value="90"/>
+      <property name="power" min="0.5" max="0.5"/>
+      <property name="lifetime" min="15" max="40"/>
+      <property name="output" min="1" max="1"/>
+      <property name="output-pause" value="2"/>
+      <property name="position-x" min="-40" max="40"/>
+      <property name="position-y" min="-30" max="8"/>
+      <property name="position-z" min="-90" max="90"/>
+      <property name="alpha" value="0.8"/>
+    </emitter>
+  </particle>
+</effect>
