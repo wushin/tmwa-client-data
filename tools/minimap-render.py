@@ -16,7 +16,7 @@ CLIENT_DATA_ROOT = os.path.realpath(
 
 class MinimapRenderer(object):
 
-    MAP_RE = re.compile(r'^\d{3}-\d{1}(\.tmx)?$')
+    MAP_RE = re.compile(r'^\d{3}-\d{3}-\d{1}(\.tmx)?$')
     PROGRAMS = {
         'default': {
             'tmxrasterizer': 'tmxrasterizer',
@@ -165,6 +165,3 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
-#!/bin/bash
-# will combine all together into a world map
-# montage -mode concatenate -tile x10 ./graphics/minimaps/*[0-9]-1.png ./graphics/world-map.png
