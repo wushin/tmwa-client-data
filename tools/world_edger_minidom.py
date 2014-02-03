@@ -93,12 +93,16 @@ class parseMap:
         return
 
     def mapCopyTiles(self):
+        # Check if Layer Needs Edit
+        if (not (self.layername in self.layeredges.keys())):
+            #print ("Nothing to copy on this layer")
+            return
         # Edit Tilesets
         if (len(set(self.layeredges[self.layername]['Tilesets'].iteritems())-set(self.tilesets.iteritems()))):
-            print (self.layeredges[self.layername]['Tilesets'])
-            print (self.tilesets)
-            print ("Sets Differ!")
-            sys.exit(2)
+            for tileset in (self.layeredges[self.layername]['Tilesets']):
+                # Should add logic to check if tileset is within range of another.
+                if not tileset in self.tilesets.keys():
+                    self.tilesets[tileset] = self.layeredges[self.layername]['Tilesets'][tileset]
         # Edit Layer Data
         reader = csv.reader(self.data.strip().split('\n'), delimiter=',')
         copiedrows = ""
