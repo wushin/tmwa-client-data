@@ -34,19 +34,22 @@ OUTER_LIMITX = 25
 OUTER_LIMITY = 20
 CLIENT_MAPS = 'maps'
 MAP_RE = re.compile(r'^\d{3}-\d{3}-\d{1}(\.tmx)?$')
+GROUND_RE = re.compile('ground', re.I)
+FRINGE_RE = re.compile('fringe', re.I)
+OVER_RE = re.compile('over', re.I)
+LAYER_ORDER = set(['Over','Fringe','Ground'])
+LAYER_START = 1
+LAYER_MAX = 5
 
 class parseMap:
 
-    def __init__(self, map, copydata = False, layeredges = {}, direction = False):
+    def __init__(self, map):
         self.tilesets = {'0': 'null'}
         self.layername = ""
         self.data = ""
         self.layercopy = {}
-        self.layeredges = layeredges
-        self.copydata = copydata
-        self.direction = direction
+        self.layeredges = {}
         mapdata = xml.dom.minidom.parse(map)
-        self.tmxout = mapdata
         self.handleMap(mapdata)
 
     def handleMap(self, mapdata):
@@ -81,28 +84,98 @@ class parseMap:
 
     def handleLayerData(self):
         self.data = self.layerData[0].firstChild.nodeValue
-        if(self.layername == 'Collision'):
-            return
-        if(self.copydata):
-            self.mapCopyTiles()
-        else:
-            self.findTilesToCopy()
+        self.findTilesToCopy()
+        return
+
+    def handleObjects(self, objects):
+        return
+
+    def findTilesToCopy(self):
+        self.layeredges[self.layername] = {'north': {}, 'south': {}, 'west': {}, 'east': {}, 'Tilesets': self.tilesets}
+        reader = csv.reader(self.data.strip().split('\n'), delimiter=',')
+        for row in reader:
+            self.layeredges[self.layername]['west'][reader.line_num] = row[EDGE_COLLISION:(EDGE_COLLISION*2)]
+            self.layeredges[self.layername]['east'][reader.line_num] = row[(self.mapwidth - (EDGE_COLLISION*2)):(self.mapwidth - EDGE_COLLISION)]
+            if(reader.line_num in range(EDGE_COLLISION,((EDGE_COLLISION*2) + 1))):
+                self.layeredges[self.layername]['south'][reader.line_num] = row
+            if(reader.line_num in range((self.mapheight - (EDGE_COLLISION*2)),(self.mapheight - (EDGE_COLLISION - 1)))):
+                self.layeredges[self.layername]['north'][reader.line_num] = row
+
+class copyMap:
+
+    def __init__(self, map, layeredges = {}, direction = False):
+        self.tilesets = {'0': 'null'}
+        self.layername = ""
+        self.data = ""
+        self.error = False
+        self.layercopy = {}
+        self.layeredges = layeredges
+        self.direction = direction
+        mapdata = xml.dom.minidom.parse(map)
+        self.tmxout = mapdata
+        self.handleMap(mapdata)
+
+    def handleMap(self, mapdata):
+        maptags = mapdata.getElementsByTagName("map")
+        self.mapwidth = int(maptags[0].attributes['width'].value)
+        self.mapheight = int(maptags[0].attributes['height'].value)
+        mapProperties = mapdata.getElementsByTagName("property")
+        self.handleMapProperties(mapProperties)
+        self.xmlTileSets = mapdata.getElementsByTagName("tileset")
+        self.handleTileSets()
+        layers = mapdata.getElementsByTagName("layer")
+        self.handleLayers(layers)
+        objects = mapdata.getElementsByTagName("objectgroup")
+        self.handleObjects(objects)
+        return
+
+    def handleMapProperties(self, mapProperties):
+        return
+
+    def handleTileSets(self):
+        for tileSet in self.xmlTileSets:
+            self.tilesets[tileSet.attributes['firstgid'].value] = tileSet.attributes['source'].value
+        return
+
+    def handleLayers(self, layers):
+        # Check if Map Needs Layer
+        # Gather All Layers and Datas from Both sides at once.
+        # Layers List Ground1, Ground2
+        for layer in layers:
+            if (layer.attributes['name'].value) in self.layeredges.keys():
+                self.layeredges[layer.attributes['name'].value]['LayerCopy'] = layer
+                self.handleLayerData()
+        return
+
+    def handleLayerData(self):
+        layerstart = LAYER_START
+        for layer in LAYER_ORDER:
+            while layerstart <= LAYER_MAX:
+                self.layername = layer + str(layerstart)
+                if(self.layername in self.layeredges.keys()):
+                    singlelayer = self.layeredges[self.layername]
+                    if ('LayerCopy' in singlelayer.keys()):
+                        self.layerData = (singlelayer['LayerCopy'])
+                        self.data = self.layerData.firstChild.nodeValue
+                        self.mapCopyTiles()
+                layerstart = layerstart + 1
         return
 
     def handleObjects(self, objects):
         return
 
     def mapCopyTiles(self):
-        # Check if Layer Needs Edit
-        if (not (self.layername in self.layeredges.keys())):
-            #print ("Nothing to copy on this layer")
-            return
         # Edit Tilesets
         if (len(set(self.layeredges[self.layername]['Tilesets'].iteritems())-set(self.tilesets.iteritems()))):
             for tileset in (self.layeredges[self.layername]['Tilesets']):
                 # Should add logic to check if tileset is within range of another.
                 if not tileset in self.tilesets.keys():
-                    self.tilesets[tileset] = self.layeredges[self.layername]['Tilesets'][tileset]
+                    # Append Each Tileset
+                    newTileSet = self.tmxout.createElement('tileset')
+                    newTileSet.attributes['name'] = self.layeredges[self.layername]['Tilesets'][tileset]
+                    print (newTileSet)
+                    sys.exit(2)
+                    #self.tilesets[tileset] = self.layeredges[self.layername]['Tilesets'][tileset]
         # Edit Layer Data
         reader = csv.reader(self.data.strip().split('\n'), delimiter=',')
         copiedrows = ""
@@ -126,19 +199,8 @@ class parseMap:
             else:
                 copiedrows += (','.join(row))
             copiedrows += "\n"
-        self.layerData[0].firstChild.nodeValue = "\n" + copiedrows
+        self.layerData.firstChild.nodeValue = "\n" + copiedrows
         return
-
-    def findTilesToCopy(self):
-        self.layeredges[self.layername] = {'north': {}, 'south': {}, 'west': {}, 'east': {}, 'Tilesets': self.tilesets}
-        reader = csv.reader(self.data.strip().split('\n'), delimiter=',')
-        for row in reader:
-            self.layeredges[self.layername]['west'][reader.line_num] = row[EDGE_COLLISION:(EDGE_COLLISION*2)]
-            self.layeredges[self.layername]['east'][reader.line_num] = row[(self.mapwidth - (EDGE_COLLISION*2)):(self.mapwidth - EDGE_COLLISION)]
-            if(reader.line_num in range(EDGE_COLLISION,((EDGE_COLLISION*2) + 1))):
-                self.layeredges[self.layername]['south'][reader.line_num] = row
-            if(reader.line_num in range((self.mapheight - (EDGE_COLLISION*2)),(self.mapheight - (EDGE_COLLISION - 1)))):
-                self.layeredges[self.layername]['north'][reader.line_num] = row
 
 def main(argv):
     _, client_data = argv
@@ -167,13 +229,16 @@ def main(argv):
             if (int(mapy) == OUTER_LIMITY):
                 mapysouth = 1
 
-            print ("base map: %s.tmx" % (base))
             # Get/Open/Parse Adjacent Maps
             adjacentmaps = {'south': "%s-%03d-%s.tmx" % (mapx, mapynorth, level), 'north': "%s-%03d-%s.tmx" % (mapx, mapysouth, level), 'west': "%03d-%s-%s.tmx" % (mapxwest, mapy, level), 'east': "%03d-%s-%s.tmx" % (mapxeast, mapy, level)}
             for mapdirection in adjacentmaps:
-                print ("%s map: %s" % (mapdirection, adjacentmaps[mapdirection]))
                 mapname = posixpath.join(tmx_dir, adjacentmaps[mapdirection])
-                MapData = parseMap(mapname, True, mainMapData.layeredges, mapdirection)
+                MapData = copyMap(mapname, mainMapData.layeredges, mapdirection)
+                if (MapData.error):
+                    print ("base map: %s.tmx" % (base))
+                    print ("%s map: %s" % (mapdirection, adjacentmaps[mapdirection]))
+                    print (MapData.error)
+                    sys.exit(2)
                 newxml = MapData.tmxout.toxml('utf-8').replace('?>','?>\n')
                 map_file = open(mapname, "w")
                 map_file.write(newxml)
