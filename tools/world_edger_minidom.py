@@ -98,8 +98,7 @@ class copyMap:
 
     def __init__(self, map, layeredges = {}, direction = False):
         self.tilesets = {}
-        self.layername = ""
-        self.data = ""
+        self.data = {}
         self.layercopy = {}
         self.layeredges = layeredges
         self.layeredges['LayerCopy'] = {}
@@ -167,11 +166,21 @@ class copyMap:
         for mapLayer in LAYERS:
             for mapLayerNeed in layersNeeded:
                 if (re.search(mapLayer, mapLayerNeed)):
-                    # Merge Map Data
-                    #self.data = self.layerData.firstChild.nodeValue
-                    #self.mapCopyTiles()
-                    # Append Layers to Map
+                    # Merge Map Data/ create layer element
                     print ("Merging %s layer data" % (mapLayerNeed))
+                    newLayer = self.tmxout.createElement('layer')
+                    newLayer.attributes['name'] = mapLayerNeed
+                    newLayer.attributes['width'] = str(self.mapwidth)
+                    newLayer.attributes['height'] = str(self.mapheight)
+                    newData = self.tmxout.createElement('data')
+                    newData.attributes['encoding'] = 'csv'
+                    self.data['LayerCopy'] = self.layeredges['LayerCopy'][mapLayerNeed]
+                    self.data['BaseLayers'] = self.layeredges['BaseLayers'][mapLayerNeed]
+                    self.mapCopyTiles()
+                    newDataValue = self.tmxout.createTextNode(self.newMapData)
+                    newData.appendChild(newDataValue)
+                    newLayer.appendChild(newData)
+                    self.tmxout.documentElement.appendChild(newLayer)
         return
 
     def handleObjects(self):
@@ -181,29 +190,30 @@ class copyMap:
         return
 
     def mapCopyTiles(self):
-        reader = csv.reader(self.data.strip().split('\n'), delimiter=',')
+        # Add Data Element
+        reader = csv.reader(self.data['LayerCopy'].strip().split('\n'), delimiter=',')
         copiedrows = ""
         for row in reader:
             if(reader.line_num in range(1,(EDGE_COLLISION + 1)) and self.direction == 'north'):
-                copiedrows += (','.join(self.layeredges[self.layername]['north'][(reader.line_num + (self.mapheight - (EDGE_COLLISION*2)))][:-1])) + ","
+                copiedrows += (','.join(self.data['BaseLayers']['north'][(reader.line_num + (self.mapheight - (EDGE_COLLISION*2)))][:-1])) + ","
             elif(reader.line_num in range((self.mapheight - (EDGE_COLLISION - 1)),(self.mapheight + 1)) and self.direction == 'south'):
                 if(reader.line_num == self.mapheight):
-                    copiedrows += (','.join(self.layeredges[self.layername]['south'][(reader.line_num - (self.mapheight - (EDGE_COLLISION*2)))][:-1]))
+                    copiedrows += (','.join(self.data['BaseLayers']['south'][(reader.line_num - (self.mapheight - (EDGE_COLLISION*2)))][:-1]))
                 else:
-                    copiedrows += (','.join(self.layeredges[self.layername]['south'][(reader.line_num - (self.mapheight - (EDGE_COLLISION*2)))][:-1])) + ","
+                    copiedrows += (','.join(self.data['BaseLayers']['south'][(reader.line_num - (self.mapheight - (EDGE_COLLISION*2)))][:-1])) + ","
             elif(self.direction == 'west'):
-                westrow = self.layeredges[self.layername]['west'][reader.line_num]
+                westrow = self.data['BaseLayers']['west'][reader.line_num]
                 if(reader.line_num == self.mapheight):
                     copiedrows += (','.join(row[:(self.mapwidth - EDGE_COLLISION)] + westrow))
                 else:
                     copiedrows += (','.join(row[:(self.mapwidth - EDGE_COLLISION)] + westrow)) + ","
             elif(self.direction == 'east'):
-                eastrow = self.layeredges[self.layername]['east'][reader.line_num]
+                eastrow = self.data['BaseLayers']['east'][reader.line_num]
                 copiedrows += (','.join(eastrow + row[EDGE_COLLISION:]))
             else:
                 copiedrows += (','.join(row))
             copiedrows += "\n"
-        self.layerData.firstChild.nodeValue = "\n" + copiedrows
+        self.newMapData = "\n" + copiedrows
         return
 
 def main(argv):
@@ -240,10 +250,10 @@ def main(argv):
                 print ("%s map: %s" % (mapdirection, adjacentmaps[mapdirection]))
                 mapname = posixpath.join(tmx_dir, adjacentmaps[mapdirection])
                 MapData = copyMap(mapname, mainMapData.layeredges, mapdirection)
-                #newxml = MapData.tmxout.toxml('utf-8').replace('?>','?>\n')
-                #map_file = open(mapname, "w")
-                #map_file.write(newxml)
-                #map_file.close()
+                newxml = MapData.tmxout.toxml('utf-8').replace('?>','?>\n')
+                map_file = open(mapname, "w")
+                map_file.write(newxml)
+                map_file.close()
 
 if __name__ == '__main__':
     main(sys.argv)
