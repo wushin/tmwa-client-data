@@ -35,12 +35,7 @@ OUTER_LIMITX = 25
 OUTER_LIMITY = 20
 CLIENT_MAPS = 'maps'
 MAP_RE = re.compile(r'^\d{3}-\d{3}-\d{1}(\.tmx)?$')
-GROUND_RE = re.compile('ground', re.I)
-FRINGE_RE = re.compile('fringe', re.I)
-OVER_RE = re.compile('over', re.I)
-LAYER_ORDER = set(['Over','Fringe','Ground'])
-LAYER_START = 1
-LAYER_MAX = 5
+LAYERS = ['Ground','Over','Fringe','Collision']
 
 class parseMap:
 
@@ -162,30 +157,25 @@ class copyMap:
         return
 
     def handleLayerData(self):
-        print (self.layeredges['BaseLayers'].keys())
-        print (self.layeredges['LayerCopy'].keys())
-        #print (self.tmxout.toxml())
-        sys.exit(2)
-        layerstart = LAYER_START
-        for layer in LAYER_ORDER:
-            while layerstart <= LAYER_MAX:
-                self.layername = layer + str(layerstart)
-                if(self.layername in self.layeredges.keys()):
-                    singlelayer = self.layeredges[self.layername]
-                    if ('LayerCopy' in singlelayer.keys()):
-                        print (singlelayer.keys())
-                        self.layerData = (singlelayer['LayerCopy'])
-                        self.data = self.layerData.firstChild.nodeValue
-                        self.mapCopyTiles()
-                    else:
-                        print ("Create Layer")
-                        print (self.layername)
-                layerstart = layerstart + 1
+        layersMissing = set(self.layeredges['BaseLayers'].keys()).difference(set(self.layeredges['LayerCopy'].keys()))
+        layersNeeded = sorted(list(set(self.layeredges['LayerCopy'].keys()).union(set(self.layeredges['BaseLayers'].keys()))))
+        for layerMissed in layersMissing:
+            # New Layer
+            print ("Handle Missing Layer: %s" % (layerMissed))
+        for mapLayer in LAYERS:
+            for mapLayerNeed in layersNeeded:
+                if (re.search(mapLayer, mapLayerNeed)):
+                    # Merge Map Data
+                    #self.data = self.layerData.firstChild.nodeValue
+                    #self.mapCopyTiles()
+                    # Append Layers to Map
+                    print ("Merging %s layer data" % (mapLayerNeed))
         return
 
     def handleObjects(self):
-        objects = self.mapdata.getElementsByTagName("objectgroup")
-        # Create element objectgroup, For element in element attach node
+        mapObjects = self.mapdata.getElementsByTagName("objectgroup")
+        for mapObject in mapObjects:
+            self.tmxout.documentElement.appendChild(mapObject)
         return
 
     def mapCopyTiles(self):
@@ -243,11 +233,11 @@ def main(argv):
 
             # Get/Open/Parse Adjacent Maps
             adjacentmaps = {'south': "%s-%03d-%s.tmx" % (mapx, mapynorth, level), 'north': "%s-%03d-%s.tmx" % (mapx, mapysouth, level), 'west': "%03d-%s-%s.tmx" % (mapxwest, mapy, level), 'east': "%03d-%s-%s.tmx" % (mapxeast, mapy, level)}
+            print ("base map: %s.tmx" % (base))
             for mapdirection in adjacentmaps:
+                print ("%s map: %s" % (mapdirection, adjacentmaps[mapdirection]))
                 mapname = posixpath.join(tmx_dir, adjacentmaps[mapdirection])
                 MapData = copyMap(mapname, mainMapData.layeredges, mapdirection)
-                print ("base map: %s.tmx" % (base))
-                print ("%s map: %s" % (mapdirection, adjacentmaps[mapdirection]))
                 #newxml = MapData.tmxout.toxml('utf-8').replace('?>','?>\n')
                 #map_file = open(mapname, "w")
                 #map_file.write(newxml)
