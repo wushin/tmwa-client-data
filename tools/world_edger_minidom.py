@@ -28,6 +28,7 @@ import sys
 import csv
 import posixpath
 import xml.dom.minidom
+from xml.dom.minidom import getDOMImplementation
 
 EDGE_COLLISION = 20
 OUTER_LIMITX = 25
@@ -44,38 +45,33 @@ LAYER_MAX = 5
 class parseMap:
 
     def __init__(self, map):
-        self.tilesets = {'0': 'null'}
         self.layername = ""
         self.data = ""
         self.layercopy = {}
-        self.layeredges = {}
-        mapdata = xml.dom.minidom.parse(map)
-        self.handleMap(mapdata)
+        self.layeredges = {'BaseLayers': {}}
+        self.mapdata = xml.dom.minidom.parse(map)
+        self.handleMap()
 
-    def handleMap(self, mapdata):
-        maptags = mapdata.getElementsByTagName("map")
-        self.mapwidth = int(maptags[0].attributes['width'].value)
-        self.mapheight = int(maptags[0].attributes['height'].value)
-        mapProperties = mapdata.getElementsByTagName("property")
-        self.handleMapProperties(mapProperties)
-        tileSets = mapdata.getElementsByTagName("tileset")
-        self.handleTileSets(tileSets)
-        layers = mapdata.getElementsByTagName("layer")
-        self.handleLayers(layers)
-        objects = mapdata.getElementsByTagName("objectgroup")
-        self.handleObjects(objects)
+    def handleMap(self):
+        maptags = self.mapdata.documentElement
+        self.mapwidth = int(maptags.attributes['width'].value)
+        self.mapheight = int(maptags.attributes['height'].value)
+        self.handleMapProperties()
+        self.handleTileSets()
+        self.handleLayers()
+        self.handleObjects()
         return
 
-    def handleMapProperties(self, mapProperties):
+    def handleMapProperties(self):
+        self.layeredges['mapProperties'] = self.mapdata.getElementsByTagName("property")
         return
 
-    def handleTileSets(self, tileSets):
-        for tileSet in tileSets:
-            self.tilesets[tileSet.attributes['firstgid'].value] = tileSet.attributes['source'].value
-        self.layeredges['Tilesets'] = self.tilesets
+    def handleTileSets(self):
+        self.layeredges['Tilesets'] = self.mapdata.getElementsByTagName("tileset")
         return
 
-    def handleLayers(self, layers):
+    def handleLayers(self):
+        layers = self.mapdata.getElementsByTagName("layer")
         for layer in layers:
             self.layername = layer.attributes['name'].value
             self.layerData = layer.getElementsByTagName("data")
@@ -88,72 +84,88 @@ class parseMap:
         self.findTilesToCopy()
         return
 
-    def handleObjects(self, objects):
+    def handleObjects(self):
+        self.layeredges['objects'] = self.mapdata.getElementsByTagName("objectgroup")
         return
 
     def findTilesToCopy(self):
-        self.layeredges[self.layername] = {'north': {}, 'south': {}, 'west': {}, 'east': {}}
+        self.layeredges['BaseLayers'][self.layername] = {'north': {}, 'south': {}, 'west': {}, 'east': {}}
         reader = csv.reader(self.data.strip().split('\n'), delimiter=',')
         for row in reader:
-            self.layeredges[self.layername]['west'][reader.line_num] = row[EDGE_COLLISION:(EDGE_COLLISION*2)]
-            self.layeredges[self.layername]['east'][reader.line_num] = row[(self.mapwidth - (EDGE_COLLISION*2)):(self.mapwidth - EDGE_COLLISION)]
+            self.layeredges['BaseLayers'][self.layername]['west'][reader.line_num] = row[EDGE_COLLISION:(EDGE_COLLISION*2)]
+            self.layeredges['BaseLayers'][self.layername]['east'][reader.line_num] = row[(self.mapwidth - (EDGE_COLLISION*2)):(self.mapwidth - EDGE_COLLISION)]
             if(reader.line_num in range(EDGE_COLLISION,((EDGE_COLLISION*2) + 1))):
-                self.layeredges[self.layername]['south'][reader.line_num] = row
+                self.layeredges['BaseLayers'][self.layername]['south'][reader.line_num] = row
             if(reader.line_num in range((self.mapheight - (EDGE_COLLISION*2)),(self.mapheight - (EDGE_COLLISION - 1)))):
-                self.layeredges[self.layername]['north'][reader.line_num] = row
+                self.layeredges['BaseLayers'][self.layername]['north'][reader.line_num] = row
 
 class copyMap:
 
     def __init__(self, map, layeredges = {}, direction = False):
-        self.tilesets = {'0': 'null'}
+        self.tilesets = {}
         self.layername = ""
         self.data = ""
         self.layercopy = {}
         self.layeredges = layeredges
+        self.layeredges['LayerCopy'] = {}
         self.direction = direction
-        mapdata = xml.dom.minidom.parse(map)
-        self.tmxout = mapdata
-        self.handleMap(mapdata)
+        self.mapdata = xml.dom.minidom.parse(map)
+        self.tmxout = getDOMImplementation().createDocument(None, 'map', None)
+        self.handleMap()
 
-    def handleMap(self, mapdata):
-        self.maptags = mapdata.getElementsByTagName("map")
-        self.mapwidth = int(self.maptags[0].attributes['width'].value)
-        self.mapheight = int(self.maptags[0].attributes['height'].value)
-        mapProperties = mapdata.getElementsByTagName("property")
-        self.handleMapProperties(mapProperties)
-        self.xmlTileSets = mapdata.getElementsByTagName("tileset")
+    def handleMap(self):
+        self.maptags = self.mapdata.documentElement
+        self.mapwidth = int(self.maptags.attributes['width'].value)
+        self.mapheight = int(self.maptags.attributes['height'].value)
+        self.tmxout.documentElement.setAttribute(u'width', str(self.mapwidth))
+        self.tmxout.documentElement.setAttribute(u'height', str(self.mapheight))
+        self.handleMapProperties()
         self.handleTileSets()
-        layers = mapdata.getElementsByTagName("layer")
-        self.handleLayers(layers)
-        objects = mapdata.getElementsByTagName("objectgroup")
-        self.handleObjects(objects)
+        self.handleLayers()
+        self.handleObjects()
         return
 
-    def handleMapProperties(self, mapProperties):
+    def handleMapProperties(self):
+        mapProperties = self.mapdata.getElementsByTagName("property")
+        newMapProps = self.tmxout.createElement("properties")
+        for mapProp in mapProperties:
+            newProp = self.tmxout.createElement("property")
+            newProp.setAttribute(u'name', str(mapProp.attributes['name'].value))
+            newProp.setAttribute(u'value', str(mapProp.attributes['value'].value))
+            newMapProps.appendChild(newProp)
+        self.tmxout.documentElement.appendChild(newMapProps)
         return
 
     def handleTileSets(self):
+        self.xmlTileSets = self.mapdata.getElementsByTagName("tileset")
+        tileGids = []
         for tileSet in self.xmlTileSets:
-            self.tilesets[tileSet.attributes['firstgid'].value] = tileSet.attributes['source'].value
-        if (len(set(self.layeredges['Tilesets'].iteritems())-set(self.tilesets.iteritems()))):
-            for tileset in (self.layeredges['Tilesets']):
-                # Should add logic to check if tileset is within range of another.
-                if not tileset in self.tilesets.keys():
-                    # Append Each Tileset
-                    newTileSet = self.tmxout.createElement('tileset')
-                    newTileSet.attributes['firstgid'] = tileset
-                    newTileSet.attributes['source'] = self.layeredges['Tilesets'][tileset]
-                    self.maptags[-1].appendChild(newTileSet)
+            newTileSet = self.tmxout.createElement('tileset')
+            newTileSet.attributes['firstgid'] = tileSet.attributes['firstgid'].value
+            newTileSet.attributes['source'] = tileSet.attributes['source'].value
+            self.tmxout.documentElement.appendChild(newTileSet)
+            tileGids.append(tileSet.attributes['firstgid'].value)
+        # Append Each Tileset
+        for tileSet in self.layeredges['Tilesets']:
+            newTileSet = self.tmxout.createElement('tileset')
+            if not tileSet.attributes['firstgid'].value in tileGids:
+                newTileSet.attributes['firstgid'] = tileSet.attributes['firstgid'].value
+                newTileSet.attributes['source'] = tileSet.attributes['source'].value
+                self.tmxout.documentElement.appendChild(newTileSet)
         return
 
-    def handleLayers(self, layers):
+    def handleLayers(self):
+        layers = self.mapdata.getElementsByTagName("layer")
         for layer in layers:
-            if (layer.attributes['name'].value) in self.layeredges.keys():
-                self.layeredges[layer.attributes['name'].value]['LayerCopy'] = layer
-                self.handleLayerData()
+            self.layeredges['LayerCopy'][layer.attributes['name'].value] = layer
+        self.handleLayerData()
         return
 
     def handleLayerData(self):
+        print (self.layeredges['BaseLayers'].keys())
+        print (self.layeredges['LayerCopy'].keys())
+        #print (self.tmxout.toxml())
+        sys.exit(2)
         layerstart = LAYER_START
         for layer in LAYER_ORDER:
             while layerstart <= LAYER_MAX:
@@ -171,7 +183,9 @@ class copyMap:
                 layerstart = layerstart + 1
         return
 
-    def handleObjects(self, objects):
+    def handleObjects(self):
+        objects = self.mapdata.getElementsByTagName("objectgroup")
+        # Create element objectgroup, For element in element attach node
         return
 
     def mapCopyTiles(self):
@@ -234,10 +248,10 @@ def main(argv):
                 MapData = copyMap(mapname, mainMapData.layeredges, mapdirection)
                 print ("base map: %s.tmx" % (base))
                 print ("%s map: %s" % (mapdirection, adjacentmaps[mapdirection]))
-                newxml = MapData.tmxout.toxml('utf-8').replace('?>','?>\n')
-                map_file = open(mapname, "w")
-                map_file.write(newxml)
-                map_file.close()
+                #newxml = MapData.tmxout.toxml('utf-8').replace('?>','?>\n')
+                #map_file = open(mapname, "w")
+                #map_file.write(newxml)
+                #map_file.close()
 
 if __name__ == '__main__':
     main(sys.argv)
