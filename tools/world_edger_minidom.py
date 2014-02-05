@@ -111,8 +111,11 @@ class copyMap:
         self.maptags = self.mapdata.documentElement
         self.mapwidth = int(self.maptags.attributes['width'].value)
         self.mapheight = int(self.maptags.attributes['height'].value)
+        self.tmxout.documentElement.setAttribute(u'orientation', u'orthogonal')
         self.tmxout.documentElement.setAttribute(u'width', str(self.mapwidth))
         self.tmxout.documentElement.setAttribute(u'height', str(self.mapheight))
+        self.tmxout.documentElement.setAttribute(u'tilewidth', u'32')
+        self.tmxout.documentElement.setAttribute(u'tileheight', u'32')
         self.handleMapProperties()
         self.handleTileSets()
         self.handleLayers()
@@ -159,15 +162,11 @@ class copyMap:
         layersMissing = set(self.layeredges['BaseLayers'].keys()).difference(set(self.layeredges['LayerCopy'].keys()))
         layersNeeded = sorted(list(set(self.layeredges['LayerCopy'].keys()).union(set(self.layeredges['BaseLayers'].keys()))))
         for layerMissed in layersMissing:
-            # New Layer
-            print ("Handle Missing Layer: %s" % (layerMissed))
-            fakedData = (','.join(['0'] * self.mapwidth).join(['\n'] * self.mapheight))
+            fakedData = ((','.join(['0'] * self.mapwidth) + ',').join(['\n'] * (self.mapheight + 1)))
             self.layeredges['LayerCopy'][layerMissed] = fakedData
         for mapLayer in LAYERS:
             for mapLayerNeed in layersNeeded:
                 if (re.search(mapLayer, mapLayerNeed)):
-                    # Merge Map Data/ create layer element
-                    print ("Merging %s layer data" % (mapLayerNeed))
                     newLayer = self.tmxout.createElement('layer')
                     newLayer.attributes['name'] = mapLayerNeed
                     newLayer.attributes['width'] = str(self.mapwidth)
@@ -175,8 +174,11 @@ class copyMap:
                     newData = self.tmxout.createElement('data')
                     newData.attributes['encoding'] = 'csv'
                     self.data['LayerCopy'] = self.layeredges['LayerCopy'][mapLayerNeed]
-                    self.data['BaseLayers'] = self.layeredges['BaseLayers'][mapLayerNeed]
-                    self.mapCopyTiles()
+                    if mapLayerNeed in self.layeredges['BaseLayers'].keys():
+                        self.data['BaseLayers'] = self.layeredges['BaseLayers'][mapLayerNeed]
+                        self.mapCopyTiles()
+                    else:
+                        self.newMapData = self.layeredges['LayerCopy'][mapLayerNeed]
                     newDataValue = self.tmxout.createTextNode(self.newMapData)
                     newData.appendChild(newDataValue)
                     newLayer.appendChild(newData)
@@ -190,7 +192,6 @@ class copyMap:
         return
 
     def mapCopyTiles(self):
-        # Add Data Element
         reader = csv.reader(self.data['LayerCopy'].strip().split('\n'), delimiter=',')
         copiedrows = ""
         for row in reader:
