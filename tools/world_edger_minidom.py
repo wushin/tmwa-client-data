@@ -35,7 +35,7 @@ OUTER_LIMITX = 25
 OUTER_LIMITY = 20
 CLIENT_MAPS = 'maps'
 MAP_RE = re.compile(r'^\d{3}-\d{3}-\d{1}(\.tmx)?$')
-LAYERS = ['Ground','Over','Fringe','Collision']
+LAYERS = ['Ground', 'Fringe', 'Over', 'Collision']
 
 class parseMap:
 
@@ -152,7 +152,7 @@ class copyMap:
     def handleLayers(self):
         layers = self.mapdata.getElementsByTagName("layer")
         for layer in layers:
-            self.layeredges['LayerCopy'][layer.attributes['name'].value] = layer
+            self.layeredges['LayerCopy'][layer.attributes['name'].value] = layer.getElementsByTagName("data")[0].childNodes[0].nodeValue
         self.handleLayerData()
         return
 
@@ -162,6 +162,8 @@ class copyMap:
         for layerMissed in layersMissing:
             # New Layer
             print ("Handle Missing Layer: %s" % (layerMissed))
+            fakedData = (','.join(['0'] * self.mapwidth).join(['\n'] * self.mapheight))
+            self.layeredges['LayerCopy'][layerMissed] = fakedData
         for mapLayer in LAYERS:
             for mapLayerNeed in layersNeeded:
                 if (re.search(mapLayer, mapLayerNeed)):
