@@ -146,7 +146,6 @@ class copyMap:
         # Append Each Tileset
         for tileSet in self.layeredges['Tilesets']:
             newTileSet = self.tmxout.createElement('tileset')
-            # Maybe Sort tileGid set and check range
             # Pull up and Offset self.layerEdges All base on tileset modifications
             if not tileSet.attributes['firstgid'].value in tileGids:
                 newTileSet.attributes['firstgid'] = tileSet.attributes['firstgid'].value
@@ -254,7 +253,7 @@ def main(argv):
                 print ("%s map: %s" % (mapdirection, adjacentmaps[mapdirection]))
                 mapname = posixpath.join(tmx_dir, adjacentmaps[mapdirection])
                 MapData = copyMap(mapname, mainMapData.layeredges, mapdirection)
-                newxml = MapData.tmxout.toprettyxml()
+                newxml = MapData.tmxout.toprettyxml(encoding="utf-8")
                 map_file = open(mapname, "w")
                 map_file.write(newxml)
                 map_file.close()
