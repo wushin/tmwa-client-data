@@ -70,7 +70,8 @@ class parseMap:
         for layer in layers:
             self.layername = layer.attributes['name'].value
             self.layerData = layer.getElementsByTagName("data")
-            self.handleLayerData()
+            if(self.layername != 'Collision'):
+                self.handleLayerData()
             self.layercopy[self.layername] = self.data
         return
 
@@ -145,6 +146,8 @@ class copyMap:
         # Append Each Tileset
         for tileSet in self.layeredges['Tilesets']:
             newTileSet = self.tmxout.createElement('tileset')
+            # Maybe Sort tileGid set and check range
+            # Pull up and Offset self.layerEdges All base on tileset modifications
             if not tileSet.attributes['firstgid'].value in tileGids:
                 newTileSet.attributes['firstgid'] = tileSet.attributes['firstgid'].value
                 newTileSet.attributes['source'] = tileSet.attributes['source'].value
@@ -244,7 +247,7 @@ def main(argv):
             if (int(mapy) == OUTER_LIMITY):
                 mapysouth = 1
 
-            # Get/Open/Parse Adjacent Maps
+            # Get/Open/Parse Adjacent Maps Possibly make a map property
             adjacentmaps = {'south': "%s-%03d-%s.tmx" % (mapx, mapynorth, level), 'north': "%s-%03d-%s.tmx" % (mapx, mapysouth, level), 'west': "%03d-%s-%s.tmx" % (mapxwest, mapy, level), 'east': "%03d-%s-%s.tmx" % (mapxeast, mapy, level)}
             print ("base map: %s.tmx" % (base))
             for mapdirection in adjacentmaps:
