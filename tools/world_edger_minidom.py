@@ -163,7 +163,7 @@ class copyMap:
         layersNeeded = sorted(list(set(self.layeredges['LayerCopy'].keys()).union(set(self.layeredges['BaseLayers'].keys()))))
         for layerMissed in layersMissing:
             fakedData = ((','.join(['0'] * self.mapwidth) + ',').join(['\n'] * (self.mapheight + 1)))
-            self.layeredges['LayerCopy'][layerMissed] = fakedData
+            self.layeredges['LayerCopy'][layerMissed] = fakedData[:-2] + "\n"
         for mapLayer in LAYERS:
             for mapLayerNeed in layersNeeded:
                 if (re.search(mapLayer, mapLayerNeed)):
@@ -251,7 +251,7 @@ def main(argv):
                 print ("%s map: %s" % (mapdirection, adjacentmaps[mapdirection]))
                 mapname = posixpath.join(tmx_dir, adjacentmaps[mapdirection])
                 MapData = copyMap(mapname, mainMapData.layeredges, mapdirection)
-                newxml = MapData.tmxout.toxml('utf-8').replace('?>','?>\n')
+                newxml = MapData.tmxout.toprettyxml()
                 map_file = open(mapname, "w")
                 map_file.write(newxml)
                 map_file.close()
