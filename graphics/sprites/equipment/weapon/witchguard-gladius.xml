@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
-  <imageset name="witchguardgladius" src="graphics/sprites/weapon-witchguard-gladius.png" width="64" height="64"/>
+  <imageset name="witchguardgladius" src="graphics/sprites/weapon/witchguard-gladius.png" width="64" height="64"/>
   <action name="default" imageset="witchguardgladius"/>
   <action name="attack" imageset="witchguardgladius">
     <animation direction="down">

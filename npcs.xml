@@ -472,7 +472,7 @@
     <sprite>equipment/head/wizard-hat.xml|#4f0a76,8010c0,d699f7</sprite>
     <sprite>equipment/chest/robe-female.xml|#4f0a76,8010c0,d699f7</sprite>
     <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
-    <sprite>weapon-staff.xml</sprite>
+    <sprite>equipment/weapon/staff.xml</sprite>
   </npc>
   <npc id="209">
     <sprite>player_female_base.xml</sprite>

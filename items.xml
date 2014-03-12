@@ -7,7 +7,7 @@
     events related to the item.
 
     The 'weapon_type' attribute is kept for 0.0 client compatibility. Not to be
-    confused with 'weapon-type'.
+    confused with 'equipment/weapon/type'.
 -->
 <items>
     <version revision="$Revision$" />
@@ -80,36 +80,36 @@
     <!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
     <!-- Used for tmwAthena magic system -->
     <item id="16">
-        <!--        <sprite>weapon-dagger.xml</sprite>-->
+        <!--        <sprite>equipment/weapon/dagger.xml</sprite>-->
     </item>
     <item id="30"
         weapon_type="1">
-        <sprite>weapon-dagger.xml</sprite>
+        <sprite>equipment/weapon/dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
     <item id="31"
         weapon_type="10">
-        <sprite>weapon-bow.xml</sprite>
+        <sprite>equipment/weapon/bow.xml</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
     <item id="32"
         weapon_type="11">
-        <sprite>weapon-scythe.xml</sprite>
+        <sprite>equipment/weapon/scythe.xml</sprite>
     </item>
     <item id="33"
         weapon_type="1">
-        <sprite>weapon-dagger.xml</sprite>
+        <sprite>equipment/weapon/dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
     <item id="34"
         weapon_type="1"> <!-- magic fist -->
-        <sprite>weapon-fist.xml</sprite>
+        <sprite>equipment/weapon/fist.xml</sprite>
     </item>
     <item id="35"
         weapon_type="11">
-        <sprite>weapon-staff.xml</sprite>
+        <sprite>equipment/weapon/staff.xml</sprite>
     </item>
 
 
@@ -267,10 +267,10 @@
         description="A simple dagger."
         effect="Damage +15"
         type="equip-1hand"
-        weapon-type="knife"
+        equipment/weapon/type="knife"
         attack-action="attack"
         weight="200">
-        <sprite>weapon-dagger.xml</sprite>
+        <sprite>equipment/weapon/dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
@@ -280,10 +280,10 @@
         description="A really sharp knife. Don't hurt yourself!"
         effect="Damage +10"
         type="equip-1hand"
-        weapon-type="knife"
+        equipment/weapon/type="knife"
         attack-action="attack"
         weight="150">
-        <sprite>weapon-dagger.xml</sprite>
+        <sprite>equipment/weapon/dagger.xml</sprite>
         <sound event="strike">weapons/knives/sharpknife-miss1.ogg</sound>
     </item>
     <item id="523"
@@ -373,11 +373,11 @@
         description="A bow for short distances."
         effect="Damage +50 / Range 5"
         type="equip-2hand"
-        weapon-type="bow"
+        equipment/weapon/type="bow"
         attack-action="attack_bow"
         weight="600"
         missile-particle="graphics/particles/arrow.particle.xml">
-        <sprite>weapon-bow.xml</sprite>
+        <sprite>equipment/weapon/bow.xml</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
     <item id="531"
@@ -429,10 +429,10 @@
         description="A small but sharp sword."
         effect="Damage +100"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         attack-action="attack"
         weight="2000">
-        <sprite>weapon-dagger.xml</sprite>
+        <sprite>equipment/weapon/dagger.xml</sprite>
     </item>
     <item id="537"
         image="generic/treasurekey.png"
@@ -499,11 +499,11 @@
         description="A bow usually used for hunting."
         effect="Damage +70 / Range 5"
         type="equip-2hand"
-        weapon-type="bow"
+        equipment/weapon/type="bow"
         attack-action="attack_bow"
         weight="1200"
         missile-particle="graphics/particles/arrow.particle.xml">
-        <sprite>weapon-bow.xml</sprite>
+        <sprite>equipment/weapon/bow.xml</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
     <item id="546"
@@ -523,7 +523,7 @@
         description="A bardiche."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
+        equipment/weapon/type="polearm"
         weight="10"/>
     <item id="548"
         image="equipment/weapon/polearm-halberd.png"
@@ -531,7 +531,7 @@
         description="A weapon usually carried by guards."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
+        equipment/weapon/type="polearm"
         weight="1400"/>
     <item id="549"
         image="equipment/weapon/axe-axe.png"
@@ -539,18 +539,18 @@
         description="An axe."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="axe"
+        equipment/weapon/type="axe"
         weight="1200"/>
-    <item id="550"
+    <!-- item id="550"
         image="equipment/weapon/axe-blacksmithsaxe.png"
         name="Blacksmith's Axe"
         description="An axe usually used by blacksmiths."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="axe"
+        equipment/weapon/type="axe"
         weight="1200">
-        <sprite>weapon-axe-blacksmith.xml</sprite>
-    </item>
+        <sprite>equipment/weapon/axe-blacksmith.xml</sprite>
+    </item -->
     <item id="551"
         image="generic/hint.png|W:#74e1f4"
         name="Aqua Hint"
@@ -617,7 +617,7 @@
         description="A sword with a very sharp, curved, single-edged blade."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="300"/>
     <item id="562"
         image="use/food/chickenleg.png"
@@ -690,10 +690,10 @@
         description="A knife masterly carved out of a bone."
         effect="Damage +115"
         type="equip-1hand"
-        weapon-type="knife"
+        equipment/weapon/type="knife"
         attack-action="attack"
         weight="450">
-        <sprite>weapon-dagger.xml</sprite>
+        <sprite>equipment/weapon/dagger.xml</sprite>
     </item>
     <item id="571"
         image="equipment/weapon/dagger-setzer.png"
@@ -701,11 +701,11 @@
         description="A sharp knife, named after a famous gambler."
         effect="Damage +110"
         type="equip-1hand"
-        weapon-type="knife"
+        equipment/weapon/type="knife"
         attack-action="attack"
         weight="900"
         sellProtected="true">
-        <sprite>weapon-dagger.xml</sprite>
+        <sprite>equipment/weapon/dagger.xml</sprite>
     </item>
     <item id="572"
         image="equipment/weapon/sword-scimitar.png"
@@ -713,7 +713,7 @@
         description="A sword with a heavy, curved, single-edged blade."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="200"/>
     <item id="573"
         image="equipment/weapon/sword-falchion.png"
@@ -721,7 +721,7 @@
         description="A heavy one-handed, single-edged sword."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="300"/>
     <item id="574"
         image="equipment/weapon/polearm-scorpion.png"
@@ -729,7 +729,7 @@
         description="A well crafted glaive."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
+        equipment/weapon/type="polearm"
         weight="600"/>
     <item id="575"
         image="equipment/weapon/bow-desertbow.png"
@@ -737,7 +737,7 @@
         description="A tonorian short bow."
         effect="Damage +? / Range ?"
         type="equip-2hand"
-        weapon-type="bow"
+        equipment/weapon/type="bow"
         attack-action="attack_bow"
         weight="1200"
         missile-particle="graphics/particles/arrow.particle.xml"/>
@@ -747,7 +747,7 @@
         description="An oddly designed sword especially made for beheading enemies."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="2000"/>
     <item id="577"
         image="equipment/ammo/bonedarts.png"
@@ -755,7 +755,7 @@
         description="Darts made of bones."
         effect="Damage +? / Range ?"
         type="equip-1hand"
-        weapon-type="thrown"
+        equipment/weapon/type="thrown"
         weight="300"/>
     <item id="578"
         image="equipment/weapon/sword-sandcutter.png"
@@ -763,7 +763,7 @@
         description="A sand cutter."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="1500"/>
     <item id="579"
         image="equipment/weapon/dagger-rockknive.png"
@@ -771,12 +771,12 @@
         description="A knife made of stone."
         effect="Damage +110"
         type="equip-1hand"
-        weapon-type="knife"
+        equipment/weapon/type="knife"
         attack-action="attack"
         vit="3"
         weight="500"
         sellProtected="true">
-        <sprite>weapon-dagger.xml</sprite>
+        <sprite>equipment/weapon/dagger.xml</sprite>
     </item>
     <item id="580"
         image="equipment/weapon/staff-staffoflife.png"
@@ -784,7 +784,7 @@
         description="A staff that increases healing magic."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="staff"
+        equipment/weapon/type="staff"
         weight="1500"/>
     <item id="581"
         image="equipment/weapon/staff-crescentrod.png"
@@ -792,7 +792,7 @@
         description="A crescent rod."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="staff"
+        equipment/weapon/type="staff"
         weight="1500"/>
     <item id="582"
         image="equipment/weapon/staff-staffoffire.png"
@@ -800,7 +800,7 @@
         description="A staff that increases fire magic."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="staff"
+        equipment/weapon/type="staff"
         weight="1500"/>
     <item id="583"
         image="equipment/weapon/staff-staffofice.png"
@@ -808,7 +808,7 @@
         description="A staff that increases ice magic."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="staff"
+        equipment/weapon/type="staff"
         weight="1500"/>
     <item id="584"
         image="equipment/weapon/sword-jackal.png"
@@ -816,7 +816,7 @@
         description="A jackal."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="100"/>
     <item id="585"
         image="equipment/shield/scarabarmlet.png"
@@ -839,16 +839,16 @@
     </item>
 
 
-    <item id="587"
+    <!-- item id="587"
         image="equipment/weapon/sword-sword.png"
         name="Sword"
         description="A simple but reliable sword."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="200">
-        <sprite>weapon-sword-sword.xml</sprite>
-    </item>
+        <sprite>equipment/weapon/sword-sword.xml</sprite>
+    </item -->
 
     <!--
     <item id="588"
@@ -857,7 +857,7 @@
         description="A large two handed sword."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="10"/>
     <item id="589"
         image="equipment/weapon/sword-broadsword.png"
@@ -865,7 +865,7 @@
         description="A two handed sword with a very broad blade."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="10">
         <sound event="hit">weapons/swords/broadsword-hit1.ogg</sound>
     </item>
@@ -875,7 +875,7 @@
         description="A short and powerful sword."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="10"/>
     <item id="591"
         image="equipment/weapon/sword-longsword.png"
@@ -883,7 +883,7 @@
         description="A sword with a long and agile blade."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="10">
         <sound event="hit">weapons/swords/longsword-hit1.ogg</sound>
         <sound event="hit">weapons/swords/longsword-hit2.ogg</sound>
@@ -895,7 +895,7 @@
         description="A dagger with a long and thin blade."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="knife"
+        equipment/weapon/type="knife"
         weight="10"/>
     <item id="593"
         image="equipment/weapon/sword-rapier.png"
@@ -903,7 +903,7 @@
         description="A light sword made for duels."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="10">
         <sound event="hit">weapons/swords/rapier-hit1.ogg</sound>
     </item>
@@ -913,9 +913,9 @@
         description="A light spear with a wooden pole."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
+        equipment/weapon/type="polearm"
         weight="700">
-    <sprite>weapon-polearm-spear.xml</sprite>
+    <sprite>equipment/weapon/polearm-spear.xml</sprite>
     </item>
     <item id="595"
         image="equipment/weapon/polearm-heavyspear.png"
@@ -923,7 +923,7 @@
         description="A heavy spear with a wooden pole."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
+        equipment/weapon/type="polearm"
         weight="10"/>
     <item id="596"
         image="equipment/weapon/polearm-pike.png"
@@ -931,7 +931,7 @@
         description="A light spear with an iron pole."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
+        equipment/weapon/type="polearm"
         weight="10"/>
     <item id="597"
         image="equipment/weapon/polearm-heavypike.png"
@@ -939,7 +939,7 @@
         description="A heavy spear with an iron pole."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
+        equipment/weapon/type="polearm"
         weight="10"/>
     <item id="598"
         image="equipment/weapon/polearm-dualspear.png"
@@ -947,7 +947,7 @@
         description="A spear with two tops."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
+        equipment/weapon/type="polearm"
         weight="10"/>
     <item id="599"
         image="equipment/weapon/sword-firesword.png"
@@ -955,7 +955,7 @@
         description="A magical sword enchanted with the power of fire."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="10">
         <sound event="strike">weapons/swords/firesword-miss1.ogg</sound>
     </item>
@@ -1007,7 +1007,7 @@
         description="A butcher's tool that also makes a nice one handed battle axe."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="axe"
+        equipment/weapon/type="axe"
         weight="10"/>
     <item id="606"
         image="equipment/weapon/axe-hatchet.png"
@@ -1015,7 +1015,7 @@
         description="A short one handed axe."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="axe"
+        equipment/weapon/type="axe"
         weight="10"/>
     <item id="607"
         image="equipment/weapon/polearm-trident.png"
@@ -1023,7 +1023,7 @@
         description="A spear with three heads."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
+        equipment/weapon/type="polearm"
         weight="10"/>
     <item id="608"
         image="equipment/shield/blade.png"
@@ -1038,7 +1038,7 @@
         description="A primitive wooden club."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="mace"
+        equipment/weapon/type="mace"
         weight="10"/>
     -->
 
@@ -1177,11 +1177,11 @@
         description="Usually used for farming but also usable as a weapon. Slow but deadly."
         effect="Damage +75"
         type="equip-2hand"
-        weapon-type="polearm"
+        equipment/weapon/type="polearm"
         attack-action="attack"
         weight="1200"
         sellProtected="true">
-        <sprite>weapon-scythe.xml</sprite>
+        <sprite>equipment/weapon/scythe.xml</sprite>
     </item>
     <item id="624"
         image="equipment/chest/vnecksweater.png|W:#a4b2b2,ffffff"
@@ -2456,10 +2456,10 @@
         description="A basic wooden staff."
         effect="Damage +50 / M. Attack +5"
         type="equip-2hand"
-        weapon-type="polearm"
+        equipment/weapon/type="polearm"
         attack-action="attack"
         weight="1000">
-        <sprite>weapon-staff.xml</sprite>
+        <sprite>equipment/weapon/staff.xml</sprite>
     </item>
 
     <!--
@@ -3374,11 +3374,11 @@
         description="A sword with a shimmering blue blade."
         effect="Damage +110"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         attack-action="attack"
         luck="1"
         weight="1000">
-        <sprite>weapon-ice-gladius.xml</sprite>
+        <sprite>equipment/weapon/ice-gladius.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
@@ -3482,12 +3482,12 @@
         description="A bow that has been enchanted by the dark powers of a witch."
         effect="Damage +90 / Range 6 / Attack Speed +20% / Critical Damage +70 / -150 HP / Defense -40% / VIT Defense -35% / Vanishes HP by 4% of damages dealt / Requires Level 90 / Dexterity 80+ required to activate the bonuses"
         type="equip-2hand"
-        weapon-type="bow"
+        equipment/weapon/type="bow"
         attack-action="attack_bow"
         weight="900"
         missile-particle="graphics/particles/arrow-banshee.particle.xml"
         sellProtected="true">
-        <sprite>weapon-bansheebow.xml</sprite>
+        <sprite>equipment/weapon/bansheebow.xml</sprite>
     </item>
     <item id="879"
         image="equipment/charms/heart-of-isis.png"
@@ -3748,11 +3748,11 @@
         description="In the right hands, everything is a weapon."
         effect="Damage +5 / Range 3"
         type="equip-2hand"
-        weapon-type="bow"
+        equipment/weapon/type="bow"
         attack-action="attack_bow"
         weight="10"
         missile-particle="graphics/particles/stoneprojectile.particle.xml">
-        <sprite>weapon-slingshot.xml</sprite>
+        <sprite>equipment/weapon/slingshot.xml</sprite>
     </item>
     <item id="904"
         image="equipment/ammo/stoneprojectile-icon.png"
@@ -3910,9 +3910,9 @@
         type="equip-2hand"
         weight="20"
         missile-particle="graphics/particles/arrow.particle.xml"
-        weapon-type="bow"
+        equipment/weapon/type="bow"
         attack-action="attack_bow">
-        <sprite>weapon-bow.xml</sprite>
+        <sprite>equipment/weapon/bow.xml</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
     <item id="1201"
@@ -3922,9 +3922,9 @@
         effect="Damage +5"
         type="equip-1hand"
         weight="120"
-        weapon-type="knife"
+        equipment/weapon/type="knife"
         attack-action="attack">
-        <sprite>weapon-dagger.xml</sprite>
+        <sprite>equipment/weapon/dagger.xml</sprite>
     </item>
     <item id="1202"
         image="equipment/chest/cottonshirt.png|W:#a4b2b2,ffffff"
@@ -4040,10 +4040,10 @@
         description="A toy item, doesn't do much damage."
         effect="Damage +1"
         type="equip-1hand"
-        weapon-type="sword"
+        equipment/weapon/type="sword"
         weight="1"
         sellProtected="true">
-        <sprite>weapon-dagger.xml</sprite>
+        <sprite>equipment/weapon/dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/sabre-hit1.ogg</sound>
     </item>

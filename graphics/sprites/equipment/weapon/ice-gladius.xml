@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
-  <imageset name="icegladius" src="graphics/sprites/weapon-ice-gladius.png" width="64" height="64"/>
+  <imageset name="icegladius" src="graphics/sprites/weapon/ice-gladius.png" width="64" height="64"/>
   <action name="default" imageset="icegladius"/>
   <action name="attack" imageset="icegladius">
     <animation direction="down">
