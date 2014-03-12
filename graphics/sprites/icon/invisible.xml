@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
-  <imageset name="base" src="graphics/sprites/icon-invisible.png" width="16" height="24"/>
+  <imageset name="base" src="graphics/sprites/icon/invisible.png" width="16" height="24"/>
   <action name="default" imageset="base">
     <animation direction="default">
       <frame index="0" offsetY="0" delay="2000"/>
