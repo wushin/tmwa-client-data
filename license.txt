@@ -723,7 +723,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/sprites/equipment/head/warlordhelm.png (Black Don)                                               (GPLv2)
     graphics/sprites/equipment/head/witch-doctor-mask.png (Black Don)                                         (GPLv2)
     graphics/sprites/equipment/head/witch-hat.png (Meway)                                                     (GPLv2), (CC BY-SA 3.0)
-    graphics/sprites/equipment/head/wizard-hat.png (Chayenne, Crush, Hal9000)                                  (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/equipment/head/wizard-hat.png (Chayenne, Crush, Hal9000)                                 (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/equipment/head/xmaself.png (????)                                                        (GPLv2)
     graphics/sprites/equipment/head/yeti-mask.png (Skipy)                                                     (GPLv2)
 ### Legs

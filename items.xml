@@ -3971,7 +3971,7 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
-        <sprite gender="female">equipment/chest/ugly-sweater-male.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
     </item>
     <item id="1186"
         image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f;G:#8ece91,364c17;C:#49661f"
