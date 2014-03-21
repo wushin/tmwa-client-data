@@ -772,7 +772,7 @@
   </npc>
   <!-- Chef Skeleton (Shop) -->
   <npc id="300">
-    <sprite variant="0">model/skeleton.xml</sprite>
+    <sprite variant="0">monsters/skeleton.xml</sprite>
   </npc>
   <!-- Barmaid (Shop) -->
   <npc id="301">
@@ -784,11 +784,11 @@
   </npc>
   <!-- Drunk Lover -->
   <npc id="303">
-    <sprite variant="7">model/unique.xml</sprite>
+    <sprite variant="6">model/unique.xml</sprite>
   </npc>
   <!-- Magic Undead Shop (Shop) -->
   <npc id="304">
-    <sprite>model/zombie.xml</sprite>
+    <sprite variant="0">monsters/zombie.xml</sprite>
   </npc>
   <!-- Werewolf -->
   <npc id="305">
@@ -800,7 +800,7 @@
   </npc>
   <!-- Horned mage (Golbenez) -->
   <npc id="307">
-    <sprite>model/zombie.xml</sprite>
+    <sprite>monsters/zombie.xml</sprite>
   </npc>
   <!-- Drunker -->
   <npc id="308">
@@ -808,11 +808,11 @@
   </npc>
   <!-- Chief Barman -->
   <npc id="309">
-    <sprite variant="0">model/skeleton.xml</sprite>
+    <sprite variant="0">monsters/skeleton.xml</sprite>
   </npc>
   <!-- Barman -->
   <npc id="310">
-    <sprite variant="0">model/skeleton.xml</sprite>
+    <sprite variant="0">monsters/skeleton.xml</sprite>
   </npc>
   <!-- SwordGuy -->
   <npc id="311">
@@ -982,7 +982,7 @@
   <!-- Sages End -->
   <!-- A skeleton with a note -->
   <npc id="367">
-    <sprite variant="7">model/skeleton.xml</sprite>
+    <sprite variant="7">monsters/skeleton.xml</sprite>
     <!-- Needs to use Death Frame -->
   </npc>
   <!-- Magical Power Circle area -->
