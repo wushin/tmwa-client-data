@@ -789,6 +789,7 @@
   <!-- Magic Undead Shop (Shop) -->
   <npc id="304">
     <sprite variant="0">monsters/zombie.xml</sprite>
+    <sprite variant="28">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Werewolf -->
   <npc id="305">
@@ -800,7 +801,9 @@
   </npc>
   <!-- Horned mage (Golbenez) -->
   <npc id="307">
-    <sprite>monsters/zombie.xml</sprite>
+    <sprite variant="34">equipment/override/adult-head.xml</sprite>
+    <sprite variant="29">equipment/override/adult-outfits.xml</sprite>
+    <sprite variant="29">equipment/override/adult-head.xml</sprite>
   </npc>
   <!-- Drunker -->
   <npc id="308">
