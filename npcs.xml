@@ -263,7 +263,7 @@
     <sprite>equipment/chest/vnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
     <sprite>equipment/head/deserthat-male.xml|#ffffff</sprite>
     <sprite>equipment/head/goggles-male.xml|#787878,f7f7f7</sprite>
-    <!-- Needs Pipe Yet -->
+    <sprite>equipment/head/pipe.xml</sprite>
   </npc>
   <!-- Npc Id 133 Open -->
   <!-- Npc Id 134 Open -->
