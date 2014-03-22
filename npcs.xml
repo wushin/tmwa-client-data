@@ -982,7 +982,7 @@
   <!-- Sages End -->
   <!-- A skeleton with a note -->
   <npc id="367">
-    <sprite variant="7">monsters/skeleton.xml</sprite>
+    <sprite variant="8">monsters/skeleton.xml</sprite>
     <!-- Needs to use Death Frame -->
   </npc>
   <!-- Magical Power Circle area -->
