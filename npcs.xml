@@ -55,7 +55,7 @@
   <npc id="105">
     <sprite>races/talponian-male.xml</sprite>
     <sprite>hairstyles/hairstyle18-male.xml|#f4f0f0,787c78</sprite>
-    <sprite>equipment/head/santahat-male.xml</sprite>
+    <sprite>equipment/head/santahat-male.xml|</sprite>
     <sprite>equipment/chest/tnecksweater-male.xml|#202020,c00000,d62300,e23500,e26e4b</sprite>
     <sprite>equipment/legs/pants-male.xml|#202020,c00000,d62300,e23500,e26e4b</sprite>
     <sprite variant="13">equipment/override/adult-outfits.xml</sprite>
@@ -115,13 +115,13 @@
   <npc id="113">
     <sprite variant="2">races/talponian-child.xml</sprite>
     <sprite variant="5">equipment/override/child-head.xml|#902808,d87038,f0b050</sprite>
-    <sprite variant="1">equipment/override/child-outfits.xml</sprite>
+    <sprite variant="1">equipment/override/child-outfits.xml|#563116,bc5326,f0682e;#594524;#;#ffffff;#623a34,f0c2b4;#ffffff;#f5c27f</sprite>
   </npc>
   <!-- Little blue-haired girl -->
   <npc id="114">
     <sprite variant="2">races/talponian-child.xml</sprite>
     <sprite variant="0">equipment/override/child-head.xml|#201820,5c47a5,8d74d9,7eafee,b9daff,ffffff</sprite>
-    <sprite variant="5">equipment/override/child-outfits.xml|#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#7b5541,ac794a,c5a16a,ac9962,deca8b</sprite>
+    <sprite variant="5">equipment/override/child-outfits.xml|#ffffff;#ffffff;#ffffff;#ffffff;#623a34,f0c2b4;#ffffff;#7b5541,ac794a,c5a16a,ac9962,deca8b</sprite>
   </npc>
   <!-- Guy with red hair and green cloak (Shop) -->
   <npc id="115">
@@ -954,7 +954,7 @@
   <npc id="329">
     <sprite>races/talponian-male.xml</sprite>
     <sprite variant="9">equipment/override/adult-outfits.xml</sprite>
-    <sprite>equipment/head/santahat-male.xml</sprite>
+    <sprite>equipment/head/santahat-male.xml|#104010,208020,30c030;#87876c,bbc39c,edf4e1,ffffff</sprite>
   </npc>
   <!-- Nutcracker -->
   <npc id="330">
@@ -1067,7 +1067,7 @@
     <sprite>equipment/feet/boots-female.xml|#212121</sprite>
     <sprite>hairstyles/hairstyle08-female.xml|#994312,c55818,e46c28</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#8000FF</sprite>
-    <sprite>equipment/head/santahat-female.xml|#16486e,498ec5;#8000FF</sprite>
+    <sprite>equipment/head/santahat-female.xml|#16486e,498ec5,222255,6666ff;#7eafee,222255,6666ff,ffffff</sprite>
   </npc>
   <!-- Man with short beard and white-blue clothes including cape (helper) -->
   <npc id="365">
@@ -1076,7 +1076,7 @@
     <sprite>hairstyles/hairstyle02-male.xml|#994312,c55818,e46c28</sprite>
     <sprite>equipment/head/beard.xml|#994312,c55818,e46c28</sprite>
     <sprite>equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#41B3FF</sprite>
-    <sprite>equipment/head/santahat-male.xml|#16486e,498ec5,e4f2fc;#41B3FF</sprite>
+    <sprite>equipment/head/santahat-male.xml|#16486e,498ec5,e4f2fc;#7eafee,bbc39c,edf4e1,ffffff</sprite>
   </npc>
   <!-- Man with short beard and white-blue clothes (helper) -->
   <npc id="366">
@@ -1085,7 +1085,7 @@
     <sprite>hairstyles/hairstyle02-male.xml|#5b280a,994312,c55818</sprite>
     <sprite>equipment/head/beard.xml|#5b280a,994312,c55818</sprite>
     <sprite>equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#EFEFEF</sprite>
-    <sprite>equipment/head/santahat-male.xml|#222255,6666ff;#EFEFEF</sprite>
+    <sprite>equipment/head/santahat-male.xml|#16486e,498ec5,e4f2fc;#7eafee,bbc39c,edf4e1,ffffff</sprite>
   </npc>
   <!-- Sages End -->
   <!-- A skeleton with a note -->
