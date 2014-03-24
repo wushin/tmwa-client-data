@@ -24,7 +24,7 @@
     <sprite>equipment/legs/pants-male.xml|#202020,414441,b4b6bd,cdcacd,ffffff</sprite>
     <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
     <sprite>hairstyles/hairstyle02-male.xml|#201818,313031,424242,4e4e4e</sprite>
-    <sprite variant="16">equipment/override/adult-head.xml|#201818,313031,424242,4e4e4e</sprite>
+    <sprite>equipment/head/goatee.xml|#212121,ffffff</sprite>
   </npc>
   <!-- The Trainer -->
   <npc id="102">
@@ -108,7 +108,7 @@
     <sprite>equipment/legs/pants-male.xml|#966200,734a00</sprite>
     <sprite>equipment/chest/tnecksweater-male.xml|#808080,b1b1b1,cacaca</sprite>
     <sprite>equipment/chest/tanktop-male.xml|#3c3000,2e3f00,0d6400,007300</sprite>
-    <sprite variant="16">equipment/override/adult-head.xml</sprite>
+    <sprite>equipment/head/goatee.xml|#212121,ffffff</sprite>
     <sprite variant="26">equipment/override/adult-head.xml</sprite>
   </npc>
   <!-- boy with pointy hat -->
@@ -270,8 +270,11 @@
   <!-- Guy with sword over shoulder (Shop) -->
   <npc id="135">
     <sprite>races/talponian-male.xml</sprite>
-    <!-- Leather Armor -->
-    <!-- Sword -->
+    <sprite>equipment/feet/boots-male.xml|#4f2d29,c89078</sprite>
+    <sprite>equipment/chest/leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+    <sprite>equipment/legs/pants-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+    <sprite>hairstyles/hairstyle01-male.xml|#623413,7a4218,9f5620,c46a28</sprite>
+    <sprite>equipment/hands/generic-male.xml|#4e2e18,c8752f</sprite>
   </npc>
   <!-- Creepy surgeon guy -->
   <npc id="136">
@@ -286,34 +289,25 @@
   </npc>
   <!-- pirate captain-->
   <npc id="138">
-    <sprite>races/talponian-male.xml</sprite>
-    <sprite>equipment/chest/chainmail-male.xml|#eef1c5,ffffff</sprite>
-    <sprite>equipment/chest/vnecksweater-male.xml|#001720,001b25,003e55,035776</sprite>
-    <sprite>equipment/legs/pants-male.xml|#001720,001b25,003e55,035776</sprite>
-    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
-    <sprite>equipment/head/piratehat-male.xml</sprite>
+    <sprite variant="24">model/unique.xml</sprite>
     <!-- Pegleg --> 
   </npc>
   <!-- Girl in playboy bunny costume (Shop) -->
   <npc id="139">
-    <sprite>races/talponian-female.xml</sprite>
+    <sprite variant="25">model/unique.xml</sprite>
     <!-- Bunny Suit -->
     <!-- Silk Stockings -->
   </npc>
   <!-- Woman with green dress and apron -->
   <npc id="140">
     <sprite>races/talponian-female.xml</sprite>
-    <!-- Hair -->
-    <!-- Apron -->
-    <!-- Green Fine Dress -->
+    <sprite>equipment/chest/fine-dress-female.xml|#304c16,628c3c,75ab46,7dc14c</sprite>
+    <sprite>hairstyles/hairstyle19-female.xml|#8b3535,a43e3e,b94747,cc4a4a</sprite>
+    <sprite variant="10">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Lumberjack -->
   <npc id="141">
-    <sprite>races/talponian-male.xml</sprite>
-    <!-- Hair -->
-    <!-- Flannel -->
-    <!-- Jean Pants -->
-    <!-- Axe -->
+    <sprite>npcs/npc-lumberjack.xml</sprite>
   </npc>
   <!-- Farmer -->
   <npc id="142">
@@ -456,6 +450,12 @@
   <!-- Generic Banker -->
   <npc id="161">
     <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle06-male.xml|#573a26,ffffff</sprite>
+    <sprite>equipment/chest/chainmail-male.xml|#eef1c5,ffffff</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/legs/pants-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/feet/boots-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/head/monocle-male.xml</sprite>
   </npc>
   <!-- Generic Desert Man -->
   <npc id="162">
@@ -507,7 +507,7 @@
     <sprite>races/talponian-male.xml</sprite>
     <sprite>equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#EFEFEF</sprite>
     <sprite>hairstyles/hairstyle07-male.xml|#878787,a8a8a8,cacaca</sprite>
-    <sprite variant="16">equipment/override/adult-head.xml</sprite>
+    <sprite>equipment/head/goatee.xml|#212121,ffffff</sprite>
   </npc>
   <!-- Miner -->
   <npc id="169">
@@ -579,6 +579,11 @@
   <!-- Olana -->
   <npc id="190">
     <sprite>races/talponian-female.xml</sprite>
+    <sprite variant="8">equipment/override/adult-head.xml</sprite>
+    <sprite>hairstyles/hairstyle13-female.xml|#878787,a8a8a8,cacaca,fdfdfd</sprite>
+    <sprite>equipment/chest/cotton-female.xml|#dbd41e</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#5b4976</sprite>
+    <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
   </npc>
   <!-- Npc Id 191-192 Open -->
   <npc id="192">
@@ -892,8 +897,9 @@
   <!-- Dyer -->
   <npc id="326">
     <sprite>races/talponian-male.xml</sprite>
-    <!-- this guy needs to not look weaksauce -->
-    <!-- If I see someone commit his hair that person will be punished -->
+    <sprite>equipment/chest/vnecksweater-male.xml|#800000,9d1f1f,b52424,df2c2c,f13030</sprite>
+    <sprite>equipment/legs/pants-male.xml|#592f36,6e3741,803e4b,9a4859,bd5666</sprite>
+    <sprite>equipment/feet/boots-male.xml|#800000,9d1f1f,b52424,df2c2c,f13030</sprite>
   </npc>
   <!-- Npc Id 327 Open -->
   <!-- Elf -->
