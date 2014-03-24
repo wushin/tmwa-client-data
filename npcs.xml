@@ -311,10 +311,15 @@
   <!-- Farmer -->
   <npc id="142">
     <sprite>races/talponian-male.xml</sprite>
+    <sprite gender="male">equipment/head/rangerhat-male.xml</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4f</sprite>
+    <sprite>equipment/feet/boots-male.xml|#4f2d29,c89078</sprite>
+    <sprite>equipment/weapons/polearm-stab-male.xml</sprite>
   </npc>
   <!-- Indian Chief-->
   <npc id="143">
-    <sprite>races/talponian-male.xml</sprite>
+    <sprite variant="20">model/unique.xml</sprite>
   </npc>
   <!-- Npc Id 144 Open -->
   <!-- Magic mouth -->
@@ -525,13 +530,9 @@
     <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
     <sprite>equipment/weapons/axe-stab.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
   </npc>
-  <!-- Christmas Reinboo -->
-  <npc id="170">
-    <sprite variant="0">monsters/mouboo.xml</sprite>
-  </npc>
   <!-- Injured Mouboo -->
   <npc id="171">
-    <sprite variant="0">monsters/mouboo.xml</sprite>
+    <sprite variant="59">monsters/mouboo.xml</sprite>
   </npc>
   <!-- Katze -->
   <npc id="172">
@@ -542,12 +543,19 @@
     <sprite variant="10">model/unique.xml</sprite>
   </npc>
   <!-- Kadiya (Omar's sick daughter) -->
-  <npc id="174" nameOffsetX="16" targetOffsetX="16">
-    <sprite>model/child-in-bed.xml</sprite>
+  <npc id="174">
+    <sprite variant="5">races/talponian-child.xml</sprite>
+    <sprite variant="2">equipment/override/child-head.xml|#1e0b26,461959,5a2073</sprite>
+    <sprite variant="10">equipment/override/child-outfits.xml|#5b4976;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#36a1bc</sprite>
   </npc>
   <!-- Miriam the cat burglar -->
   <npc id="175">
     <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle12-female.xml|#1e0b26,461959,5a2073</sprite>
+    <sprite>equipment/feet/assassin-boots-female.xml</sprite>
+    <sprite>equipment/legs/assassin-female.xml</sprite>
+    <sprite>equipment/chest/assassin-female.xml</sprite>
+    <sprite>equipment/hands/assassin-female.xml</sprite>
     <!-- Assassin's Gear -->
   </npc>
   <!-- Lou Rette the gambler -->
@@ -558,7 +566,7 @@
   <!-- Npc Id 178 Open -->
   <!-- Exotic Trader (Shop) -->
   <npc id="179">
-    <sprite>races/talponian-female.xml</sprite>
+    <sprite variant="22">model/unique.xml</sprite>
   </npc>
   <!-- Npc Id 180 Open -->
   <!-- Npc Id 181 Open -->
