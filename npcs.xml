@@ -296,8 +296,6 @@
   <!-- Girl in playboy bunny costume (Shop) -->
   <npc id="139">
     <sprite variant="25">model/unique.xml</sprite>
-    <!-- Bunny Suit -->
-    <!-- Silk Stockings -->
   </npc>
   <!-- Woman with green dress and apron -->
   <npc id="140">
@@ -628,6 +626,7 @@
   <npc id="195">
     <sprite>races/talponian-female.xml</sprite>
     <sprite>equipment/feet/furboots-female.xml</sprite>
+    <sprite>hairstyles/hairstyle08-female.xml|#994312,c55818,e46c28</sprite>
     <sprite>equipment/head/knit-cap-female.xml</sprite>
     <sprite>equipment/legs/skirt-female.xml|#571207,6f1c0f,942300,9c2920,c1352e,d13435,ff625a</sprite>
     <sprite>equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
@@ -637,13 +636,13 @@
   <!-- Angela inside -->
   <npc id="196">
     <sprite>races/talponian-female.xml</sprite>
-    <!-- Fine Red Dress -->
-    <!-- Silk Stockings -->
+    <sprite>hairstyles/hairstyle08-female.xml|#994312,c55818,e46c28</sprite>
+    <sprite>equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+    <sprite>equipment/chest/fine-dress-female.xml|#571207,6f1c0f,942300,9c2920,c1352e,d13435,ff625a</sprite>
   </npc>
   <!-- Cindy inside -->
   <npc id="197">
-    <sprite>model/child-female.xml</sprite>
-    <!-- Cindy 1/2 hidden moved to child sprite -->
+    <sprite variant="26">model/unique.xml</sprite>
   </npc>
   <!-- Cindy in cage -->
   <npc id="198">
