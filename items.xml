@@ -3447,7 +3447,7 @@
         <sprite gender="female">equipment/head/sunglasses-female.xml</sprite>
     </item>
     <item id="856"
-        image="equipment/head/knit-cap.png"
+        image="equipment/head/knit-cap.png;"
         name="Knit Cap"
         description="A knitted cap keeping your head warm in the cruel cold."
         type="equip-head"
@@ -3473,8 +3473,8 @@
             <item from="-14" to="-8"/>
             <item from="-15" to="-17"/>
         </replace>
-        <sprite gender="male">equipment/head/knit-cap-male.xml</sprite>
-        <sprite gender="female">equipment/head/knit-cap-female.xml</sprite>
+        <sprite gender="male">equipment/head/knit-cap-male.xml|#ffffff;#2958b5,3c6cce,90b3fb,c5d8ff;#2453b3,3561bf,638bdc,7799de,b0caff;</sprite>
+        <sprite gender="female">equipment/head/knit-cap-female.xml|#ffffff;#2958b5,3c6cce,90b3fb,c5d8ff;#2453b3,3561bf,638bdc,7799de,b0caff;</sprite>
     </item>
     <item id="857"
         image="equipment/legs/pants.png|W:#2a2117,2f2112,493219,61411e,724c22,a97e4f"
@@ -4635,10 +4635,30 @@
         defense="3"
         weight="50"
         sellProtected="true">
-        <sprite gender="male">equipment/head/witch-hat-male.xml</sprite>
-        <sprite gender="female">equipment/head/witch-hat-female.xml</sprite>
-        <replace direction="upall" sprite="hair">
+        <sprite gender="male">equipment/head/witch-hat-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/head/witch-hat-female.xml|#070707,202020,303030,404040	</sprite>
+       <replace sprite="hair">
             <item from="-5"/>
+        </replace>
+        <replace direction="left" sprite="hair">
+            <item from="-13"/>
+            <item from="-14" to="-16"/>
+            <item from="-15" to="-8"/>
+        </replace>
+        <replace direction="right" sprite="hair">
+            <item from="-13"/>
+            <item from="-14" to="-16"/>
+            <item from="-15" to="-8"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-14" to="-13"/>
+            <item from="-15" to="-13"/>
+            <item from="-18" to="-6"/>
+        </replace>
+        <replace direction="downall" sprite="hair">
+            <item from="-14" to="-13"/>
+            <item from="-15" to="-13"/>
+            <item from="-9" to="-1"/>
         </replace>
     </item>
     <item id="1279"
@@ -4759,8 +4779,8 @@
         type="equip-torso"
         defense="2"
         weight="20">
-        <sprite gender="male">equipment/chest/cotton-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/chest/cotton-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/chest/cotton-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/chest/cotton-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2057"
         image="equipment/chest/cottonshirt.png|W:#80280f,b04810,ef681f,ffb830"
@@ -4870,8 +4890,8 @@
         type="equip-torso"
         defense="8"
         weight="35">
-        <sprite gender="male">equipment/chest/vnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/chest/vnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/chest/vnecksweater-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/chest/vnecksweater-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2067"
         image="equipment/chest/vnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
@@ -4981,8 +5001,8 @@
         type="equip-torso"
         defense="6"
         weight="35">
-        <sprite gender="male">equipment/chest/tnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/chest/tnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/chest/tnecksweater-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/chest/tnecksweater-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2077"
         image="equipment/chest/tnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
@@ -5091,8 +5111,8 @@
         defense="5"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/chest/robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/chest/robe-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/chest/robe-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2087"
         image="equipment/chest/silk-robe.png|W:#80280f,b04810,ef681f,ffb830"
@@ -5200,8 +5220,8 @@
         type="equip-torso"
         defense="2"
         weight="12">
-        <sprite gender="male">equipment/chest/tanktop-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/chest/tanktop-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/chest/tanktop-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/chest/tanktop-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2097"
         image="equipment/chest/tanktop.png|W:#80280f,b04810,ef681f,ffb830"
@@ -5309,8 +5329,8 @@
         type="equip-legs"
         defense="4"
         weight="20">
-        <sprite gender="male">equipment/legs/skirt-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/legs/skirt-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/legs/skirt-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/legs/skirt-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2107"
         image="equipment/legs/skirt.png|W:#80280f,b04810,ef681f,ffb830"
@@ -5420,8 +5440,8 @@
         type="equip-legs"
         defense="2"
         weight="20">
-        <sprite gender="male">equipment/legs/shorts-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/legs/shorts-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/legs/shorts-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/legs/shorts-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2117"
         image="equipment/legs/shorts.png|W:#80280f,b04810,ef681f,ffb830"
@@ -5531,8 +5551,8 @@
         type="equip-torso"
         defense="2"
         weight="8">
-        <sprite gender="male">equipment/chest/shorttanktop-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/chest/shorttanktop-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/chest/shorttanktop-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/chest/shorttanktop-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2127"
         image="equipment/chest/tanktop-short.png|W:#80280f,b04810,ef681f,ffb830"
@@ -5677,8 +5697,8 @@
         type="equip-head"
         defense="3"
         weight="20">
-        <sprite gender="male">equipment/head/deserthat-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/head/deserthat-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/head/deserthat-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/head/deserthat-female.xml|#070707,202020,303030,404040</sprite>
         <replace sprite="hair">
             <item from="-5"/>
         </replace>
@@ -5805,8 +5825,8 @@
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite gender="male">equipment/head/standardheadband-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/head/standardheadband-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/head/standardheadband-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/head/standardheadband-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2147"
         image="equipment/head/standardheadband.png|W:#80280f,b04810,ef681f,ffb830"
@@ -5913,8 +5933,8 @@
         type="equip-feet"
         defense="1"
         weight="30">
-        <sprite gender="male">equipment/feet/boots-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/feet/boots-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2157"
         image="equipment/feet/boots.png|W:#80280f,b04810,ef681f,ffb830"
@@ -6024,8 +6044,8 @@
         type="equip-arms"
         defense="1"
         weight="20">
-        <sprite gender="male">equipment/hands/generic-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/hands/generic-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/hands/generic-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/hands/generic-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2167"
         image="equipment/hands/basicgloves.png|W:#80280f,b04810,ef681f,ffb830"
@@ -6135,8 +6155,8 @@
         type="equip-legs"
         defense="4"
         weight="8">
-        <sprite gender="male">equipment/legs/miniskirt-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/legs/miniskirt-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/legs/miniskirt-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/legs/miniskirt-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2177"
         image="equipment/legs/miniskirt.png|W:#80280f,b04810,ef681f,ffb830"
@@ -6246,8 +6266,8 @@
         type="equip-legs"
         weight="25"
         defense="4">
-        <sprite gender="male">equipment/legs/pants-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/legs/pants-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/legs/pants-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2187"
         image="equipment/legs/pants.png|W:#80280f,b04810,ef681f,ffb830"
@@ -6363,8 +6383,8 @@
         defense="5"
         weight="15"
         sellProtected="true">
-        <sprite gender="male">equipment/head/rabbit-ears-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/head/rabbit-ears-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/head/rabbit-ears-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/head/rabbit-ears-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2197"
         image="equipment/head/rabbit-ears.png|W:#80280f,b04810,ef681f,ffb830"
@@ -6491,8 +6511,8 @@
         int="3"
         weight="20"
         sellProtected="true">
-        <sprite gender="male">equipment/head/wizard-hat-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/head/wizard-hat-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/head/wizard-hat-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/head/wizard-hat-female.xml|#070707,202020,303030,404040</sprite>
     </item>
     <item id="2207"
         image="equipment/head/wizard-hat.png|W:#80280f,b04810,ef681f,ffb830"
@@ -6651,8 +6671,8 @@
         defense="10"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/head/bowler-hat-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/head/bowler-hat-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/head/bowler-hat-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/head/bowler-hat-female.xml|#070707,202020,303030,404040</sprite>
         <replace sprite="hair">
             <item from="-5"/>
         </replace>
@@ -6803,8 +6823,8 @@
         agi="1"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#ec3e3e</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#ec3e3e</sprite>
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#070707,202020,303030,404040;#ec3e3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#070707,202020,303030,404040;#ec3e3e</sprite>
     </item>
     <item id="2227"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#ec3e3e"
@@ -6963,8 +6983,8 @@
         defense="10"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/head/bowler-hat-brown-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/head/bowler-hat-brown-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/head/bowler-hat-brown-male.xml|#070707,202020,303030,404040</sprite>
+        <sprite gender="female">equipment/head/bowler-hat-brown-female.xml|#070707,202020,303030,404040</sprite>
         <replace sprite="hair">
             <item from="-5"/>
         </replace>
@@ -7688,8 +7708,8 @@
         agi="1"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#09BC09</sprite>
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#070707,202020,303030,404040;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#070707,202020,303030,404040;#09BC09</sprite>
     </item>
     <item id="5007"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#09BC09"
@@ -7831,8 +7851,8 @@
         agi="1"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#2050BE</sprite>
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#070707,202020,303030,404040;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#070707,202020,303030,404040;#2050BE</sprite>
     </item>
     <item id="5018"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#2050BE"
@@ -7974,8 +7994,8 @@
         agi="1"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#FFF528</sprite>
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#070707,202020,303030,404040;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#070707,202020,303030,404040;#FFF528</sprite>
     </item>
     <item id="5029"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#FFF528"
@@ -8117,8 +8137,8 @@
         agi="1"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#41B3FF</sprite>
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#070707,202020,303030,404040;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#070707,202020,303030,404040;#41B3FF</sprite>
     </item>
     <item id="5040"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#41B3FF"
@@ -8260,8 +8280,8 @@
         agi="1"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#E975FD</sprite>
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#070707,202020,303030,404040;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#070707,202020,303030,404040;#E975FD</sprite>
     </item>
     <item id="5051"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#E975FD"
@@ -8403,8 +8423,8 @@
         agi="1"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#262626</sprite>
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#070707,202020,303030,404040;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#070707,202020,303030,404040;#262626</sprite>
     </item>
     <item id="5062"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#262626"
@@ -8546,8 +8566,8 @@
         agi="1"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#ED8200</sprite>
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#070707,202020,303030,404040;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#070707,202020,303030,404040;#ED8200</sprite>
     </item>
     <item id="5073"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#ED8200"
@@ -8689,8 +8709,8 @@
         agi="1"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#8000FF</sprite>
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#070707,202020,303030,404040;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#070707,202020,303030,404040;#8000FF</sprite>
     </item>
     <item id="5084"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#8000FF"
@@ -8832,8 +8852,8 @@
         agi="1"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#2B9D27</sprite>
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#070707,202020,303030,404040;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#070707,202020,303030,404040;#2B9D27</sprite>
     </item>
     <item id="5095"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#2B9D27"
@@ -8975,8 +8995,8 @@
         agi="1"
         weight="30"
         sellProtected="true">
-        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#070707,202020,303030,404040;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#070707,202020,303030,404040;#EFEFEF</sprite>
     </item>
     <item id="5106"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#EFEFEF"
