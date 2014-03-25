@@ -368,10 +368,10 @@
   <!-- Investigator -->
   <npc id="150">
     <sprite>races/talponian-male.xml</sprite>
-    <sprite>equipment/head/bowler-hat-male.xml|#001720,001b25,003e55,035776</sprite>
+    <sprite>equipment/head/inspector-hat-male.xml|#001720,003e55,035776</sprite>
     <sprite>equipment/chest/chainmail-male.xml|#eef1c5,ffffff</sprite>
-    <sprite>equipment/chest/vnecksweater-male.xml|#001720,001b25,003e55,035776</sprite>
     <sprite>equipment/legs/pants-male.xml|#001720,001b25,003e55,035776</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#001720,001b25,003e55,035776</sprite>
     <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
   </npc>
   <!-- Lora Tay -->
