@@ -2629,6 +2629,7 @@
         weapon-type="polearm"
         attack-action="attack_sword_stab"
         weight="1000">
+        <drawBefore name="hat" direction="left"/>
         <sprite>equipment/weapons/polearm-blunt.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
     <item id="759"
