@@ -103,32 +103,32 @@
     </item>
     <item id="30"
         weapon_type="1">
-        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+        <sprite>equipment/weapons/wand.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
     <item id="31"
         weapon_type="10">
-        <sprite>equipment/weapons/bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+        <sprite>equipment/weapons/wand.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
     <item id="32"
         weapon_type="11">
-        <sprite>equipment/weapons/scythe.xml</sprite>
+        <sprite>equipment/weapons/wand.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
     <item id="33"
         weapon_type="1">
-        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+        <sprite>equipment/weapons/wand.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
     <item id="34"
         weapon_type="1"> <!-- magic fist -->
-        <sprite>equipment/weapons/fist.xml</sprite>
+        <sprite>equipment/weapons/wand.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
     <item id="35"
         weapon_type="11">
-        <sprite>equipment/weapons/staff.xml</sprite>
+        <sprite>equipment/weapons/wand.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
 
 
@@ -415,35 +415,6 @@
         missile-particle="graphics/particles/arrow.particle.xml">
         <sprite>equipment/weapons/bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
-    </item>
-    <item id="530"
-        image="equipment/head/bucket.png"
-        name="Bucket Hat"
-        description="Nice to use as a helmet... or to hide your face."
-        type="equip-head"
-        defense="???"
-        weight="???"
-        sellProtected="true">
-        <sprite gender="male">equipment/head/bucket-male.xml</sprite>
-        <sprite gender="female">equipment/head/bucket-female.xml</sprite>
-        <replace sprite="hair">
-            <item from="-1"/>
-            <item from="-2"/>
-            <item from="-3"/>
-            <item from="-4"/>
-            <item from="-5"/>
-            <item from="-6"/>
-            <item from="-7"/>
-            <item from="-9"/>
-            <item from="-10"/>
-            <item from="-12"/>
-            <item from="-13"/>
-            <item from="-14"/>
-            <item from="-15"/>
-            <item from="-16"/>
-            <item from="-17"/>
-            <item from="-18"/>
-        </replace>
     </item>
     <item id="531"
         image="equipment/hands/minergloves.png"
@@ -1030,7 +1001,7 @@
         weight="700">
         <sprite>equipment/weapons/polearm-spear.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
-    <item id="595"
+    <!-- item id="595"
         image="equipment/weapon/polearm-heavyspear.png"
         name="Heavy Spear"
         description="A heavy spear with a wooden pole."
@@ -1063,7 +1034,7 @@
         weight="1500">
         <sprite>equipment/weapons/polearm-spear.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
-    <!-- item id="598"
+    <item id="598"
         image="equipment/weapon/polearm-dualspear.png"
         name="Dual Spear"
         description="A spear with two tops."
@@ -1073,7 +1044,7 @@
         attack-action="attack_spear"
         weight="10">
     </item -->
-    <item id="599"
+    <!-- item id="599"
         image="equipment/weapon/sword-firesword.png"
         name="Fire Sword"
         description="A magical sword enchanted with the power of fire."
@@ -1085,7 +1056,7 @@
         <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sound event="strike">weapons/swords/firesword-miss1.ogg</sound>
     </item>
-    <!-- item id="600"
+    <item id="600"
         image="equipment/shield/brit.png"
         name="Brit Shield"
         description="A legendary shield that is said to save queens and rule waves."
@@ -3953,6 +3924,35 @@
         effect="Damage +5"
         type="equip-ammo"
         weight="1"/>
+    <item id="905"
+        image="equipment/head/bucket.png"
+        name="Bucket Hat"
+        description="Nice to use as a helmet... or to hide your face."
+        type="equip-head"
+        defense="???"
+        weight="???"
+        sellProtected="true">
+        <sprite gender="male">equipment/head/bucket-male.xml</sprite>
+        <sprite gender="female">equipment/head/bucket-female.xml</sprite>
+        <replace sprite="hair">
+            <item from="-1"/>
+            <item from="-2"/>
+            <item from="-3"/>
+            <item from="-4"/>
+            <item from="-5"/>
+            <item from="-6"/>
+            <item from="-7"/>
+            <item from="-9"/>
+            <item from="-10"/>
+            <item from="-12"/>
+            <item from="-13"/>
+            <item from="-14"/>
+            <item from="-15"/>
+            <item from="-16"/>
+            <item from="-17"/>
+            <item from="-18"/>
+        </replace>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
     <item id="1183"
