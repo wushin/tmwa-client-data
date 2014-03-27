@@ -1234,5 +1234,56 @@
        for 'hidden' npcs the client shouldn't know about use 32767 -->
   <npc id="400">
   </npc>
+  <!-- Manakins -->
+  <npc id="401">
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/legs/terranite-female.xml</sprite>
+    <sprite>equipment/chest/terranite-female.xml</sprite>
+    <sprite>equipment/head/terranitehelm-female.xml</sprite>
+  </npc>
+  <npc id="402">
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/legs/terranite-male.xml</sprite>
+    <sprite>equipment/chest/terranite-male.xml</sprite>
+    <sprite>equipment/head/terranitehelm-male.xml</sprite>
+  </npc>
+  <npc id="403">
+    <sprite>monsters/terranite.xml</sprite>
+  </npc>
+  <npc id="404">
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#bb2222,ffee33</sprite>
+    <sprite>equipment/chest/robe-female.xml|#ffffff</sprite>
+    <sprite>equipment/head/deserthat-female.xml|#ffffff</sprite>
+    <sprite>equipment/feet/boots-female.xml|#a4b2b2,ffffff</sprite>
+  </npc>
+  <npc id="405">
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/legs/chaps-male.xml</sprite>
+    <sprite>equipment/chest/tanktop-male.xml</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#817339,FFE87C</sprite>
+    <sprite>equipment/chest/robe-male.xml|#ffffff</sprite>
+    <sprite>equipment/head/deserthat-male.xml|#ffffff</sprite>
+    <sprite>equipment/feet/boots-male.xml|#a4b2b2,ffffff</sprite>
+  </npc>
+  <npc id="406">
+    <sprite>races/gispaan-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml</sprite>
+    <sprite>equipment/chest/leather-female.xml|#412300,603100,8d4900;#ffff00</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+    <sprite>hairstyles/hairstyle11-male.xml|#bb2222,ffee33</sprite>
+    <sprite>equipment/hands/generic-female.xml|#4e2e18,c8752f</sprite>
+    <sprite>equipment/head/minershat-female.xml</sprite>
+  </npc>
+  <npc id="407">
+    <sprite>races/gispaan-male.xml</sprite>
+    <sprite>equipment/legs/pants-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+    <sprite>hairstyles/hairstyle14-male.xml|#817339,FFE87C</sprite>
+    <sprite>equipment/head/minershat-male.xml</sprite>
+    <sprite>equipment/ands/generic-male.xml|#4e2e18,c8752f</sprite>
+    <sprite>equipment/chest/leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+  </npc>
   <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
 </npcs>
