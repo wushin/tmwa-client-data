@@ -3955,6 +3955,12 @@
     </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
+    <item id="1182"
+        image="generic/petri-dish.png"
+        name="Slime Collection Recepticle"
+        description="Must be a fancy name for bottle... Hurumph, Slientists. "
+        type="generic"
+        weight="1"/>
     <item id="1183"
         image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#b0242f,e1c130;G:#35bc40;C:#8c7223,e1c130,ffdb63"
         name="Amber Christmas Sweater"
@@ -9051,4 +9057,16 @@
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#EFEFEF</sprite>
     </item>
+    <item id="5110"
+        image="generic/petri-dish-with-sample.png|W:#72982c,ffffff"
+        name="Green Slime Sample"
+        description="Looking at the sample you notice it's still moving a bit."
+        type="generic"
+        weight="1"/>
+    <item id="5111"
+        image="generic/petri-dish-with-sample.png|W:#4ca1a0,ffffff"
+        name="Sea Slime Sample"
+        description="Looking at the sample you notice it's still moving a bit."
+        type="generic"
+        weight="1"/>
 </items>
