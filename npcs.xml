@@ -1046,18 +1046,79 @@
   <npc id="354">
     <sprite>npcs/sittingsage.xml</sprite>
   </npc>
-  <!-- Npc Open Ids 355-361 -->
-  <!-- Man with brown hair, short beard, wearing blue clothes with white borders, leaning on a cane -->
+  <!-- Yellow Sage -->
+  <npc id="355">
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#846211,dab333,fffb93,ffffff;#ec3e3e</sprite>
+    <sprite>equipment/legs/pants-female.xml|#846211</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#bb2222,ffee33</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#ec3e3e</sprite>
+    <sprite>equipment/head/wizard-hat-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+    <sprite>equipment/weapons/polearm-blunt-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+  </npc>
+  <!-- Red Sage -->
   <npc id="356">
-    <sprite variant="7">races/talponian-female.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
     <sprite>equipment/feet/boots-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     <sprite>equipment/legs/pants-female.xml|#09BC09</sprite>
+    <sprite>hairstyles/hairstyle08-female.xml|#994312,c55818,e46c28</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#09BC09</sprite>
     <sprite>equipment/head/wizard-hat-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     <sprite>equipment/weapons/polearm-blunt-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
   </npc>
+  <!-- Green Sage -->
+  <npc id="357">
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#104010,208020,30c030</sprite>
+    <sprite>equipment/legs/pants-male.xml|#115511</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#994312,c55818,e46c28</sprite>
+    <sprite>equipment/head/beard.xml|#5b280a,994312,c55818,e46c28</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#ec3e3e</sprite>
+    <sprite>equipment/head/wizard-hat-male.xml|#104010,208020,30c030</sprite>
+    <sprite>equipment/weapons/polearm-blunt-male.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+  </npc>
+  <!-- Purple Sage -->
+  <npc id="358">
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#4f0a76,8010c0,d699f7;#ec3e3e</sprite>
+    <sprite>equipment/legs/pants-male.xml|#4f0a76</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#817339,FFE87C</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#ec3e3e</sprite>
+    <sprite>equipment/head/wizard-hat-male.xml|#4f0a76,8010c0,d699f7</sprite>
+  </npc>
+  <!-- Pink Sage -->
+  <npc id="359">
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#ec3e3e</sprite>
+    <sprite>equipment/legs/pants-male.xml|#56002f</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#201818,313031,424242,4e4e4e</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#ec3e3e</sprite>
+    <sprite>equipment/head/wizard-hat-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+    <sprite>equipment/weapons/polearm-blunt-male.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+  </npc>
+  <!-- Black Sage -->
+  <npc id="360">
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#070707,202020,303030,404040</sprite>
+    <sprite>equipment/legs/pants-female.xml|#070707</sprite>
+    <sprite>hairstyles/hairstyle01-female.xml|#69006a,880884,a404a2,c000c0,ff40ff</sprite>
+    <sprite>equipment/chest/robe-female.xml|#000000</sprite>
+    <sprite>equipment/head/wizard-hat-female.xml|#070707,202020,303030,404040</sprite>
+    <sprite>equipment/weapons/polearm-stab-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+  </npc>
+  <!-- White Sage -->
+  <npc id="361">
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#070707,202020,303030,404040</sprite>
+    <sprite>equipment/legs/pants-female.xml|#070707</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#dbd41e,867f1a,a49c2e,b2aa4f,c6c170,d9d394,e0dcb3</sprite>
+    <sprite>equipment/chest/robe-female.xml|#5e7480,f1ffff,ffffff</sprite>
+    <sprite>equipment/head/circlet-female.xml</sprite>
+    <sprite>equipment/weapons/polearm-stab-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+  </npc>
+  <!-- Blue Sage -->
   <npc id="362">
-    <sprite variant="7">races/talponian-male.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
     <sprite>equipment/feet/boots-male.xml|#212121</sprite>
     <sprite>equipment/legs/pants-male.xml|#222255</sprite>
     <sprite>equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#2050BE</sprite>
@@ -1068,7 +1129,7 @@
   </npc>
   <!-- Woman wearing blue clothes with white borders (helper) -->
   <npc id="363">
-    <sprite variant="7">races/talponian-female.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
     <sprite>equipment/feet/boots-female.xml|#212121</sprite>
     <sprite>hairstyles/hairstyle08-female.xml|#994312,c55818,e46c28</sprite>
     <sprite>equipment/legs/pants-female.xml|#16486e,498ec5,e4f2fc</sprite>
@@ -1077,7 +1138,7 @@
   </npc>
   <!-- Man with short beard and white-blue clothes including cape (helper) -->
   <npc id="365">
-    <sprite variant="7">races/talponian-male.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
     <sprite>equipment/feet/boots-male.xml|#212121</sprite>
     <sprite>hairstyles/hairstyle02-male.xml|#994312,c55818,e46c28</sprite>
     <sprite>equipment/head/beard.xml|#994312,c55818,e46c28</sprite>
@@ -1087,7 +1148,7 @@
   </npc>
   <!-- Man with short beard and white-blue clothes (helper) -->
   <npc id="366">
-    <sprite variant="7">races/talponian-male.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
     <sprite>equipment/feet/boots-male.xml|#212121</sprite>
     <sprite>hairstyles/hairstyle02-male.xml|#5b280a,994312,c55818</sprite>
     <sprite>equipment/head/beard.xml|#5b280a,994312,c55818</sprite>
