@@ -10,8 +10,8 @@
  </tileset>
  <tileset firstgid="3" source="../tilesets/inn.tsx"/>
  <tileset firstgid="259" source="../tilesets/inn2.tsx"/>
- <tileset firstgid="515" source="../tilesets/tulimshar1_indoors.tsx"/>
- <tileset firstgid="665" source="../tilesets/tulimshar_indoors_x3.tsx"/>
+ <tileset firstgid="515" source="../tilesets/desert_city_indoors.tsx"/>
+ <tileset firstgid="665" source="../tilesets/desert_city_indoors_x3.tsx"/>
  <tileset firstgid="710" source="../tilesets/Tulimshar-noble_x2.tsx"/>
  <tileset firstgid="742" source="../tilesets/cave2_sewer_mine.tsx"/>
  <tileset firstgid="998" source="../tilesets/woodland_indoor_x2.tsx"/>

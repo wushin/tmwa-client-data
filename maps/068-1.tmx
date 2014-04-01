@@ -11,11 +11,11 @@
  <tileset firstgid="515" source="../tilesets/desert_x2.tsx"/>
  <tileset firstgid="563" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="595" source="../tilesets/desert_x5.tsx"/>
- <tileset firstgid="601" source="../tilesets/tulimshar1.tsx"/>
+ <tileset firstgid="601" source="../tilesets/desert_city.tsx"/>
  <tileset firstgid="857" source="../tilesets/trans_woodland-desert.tsx"/>
- <tileset firstgid="985" source="../tilesets/Tulimshar_Docks.tsx"/>
+ <tileset firstgid="985" source="../tilesets/Docks.tsx"/>
  <tileset firstgid="1145" source="../tilesets/desert3.tsx"/>
- <tileset firstgid="1225" source="../tilesets/Tulimshar_Docks_x2.tsx"/>
+ <tileset firstgid="1225" source="../tilesets/Docks_x2.tsx"/>
  <tileset firstgid="1305" source="../tilesets/desert-castle.tsx"/>
  <tileset firstgid="1561" source="../tilesets/inn2.tsx"/>
  <tileset firstgid="1817" source="../tilesets/Woodland_x3.tsx"/>

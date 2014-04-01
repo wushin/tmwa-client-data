@@ -21,7 +21,7 @@
  <tileset firstgid="1139" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="1155" source="../tilesets/desert_x5.tsx"/>
  <tileset firstgid="1161" source="../tilesets/trans_woodland-desert.tsx"/>
- <tileset firstgid="1289" source="../tilesets/tulimshar1.tsx"/>
+ <tileset firstgid="1289" source="../tilesets/desert_city.tsx"/>
  <tileset firstgid="1545" source="../tilesets/mountain.tsx"/>
  <layer name="Ground" width="190" height="80">
   <data encoding="csv">

@@ -11,7 +11,7 @@
  <tileset firstgid="515" source="../tilesets/desert_x2.tsx"/>
  <tileset firstgid="563" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="595" source="../tilesets/desert_x5.tsx"/>
- <tileset firstgid="601" source="../tilesets/tulimshar1.tsx"/>
+ <tileset firstgid="601" source="../tilesets/desert_city.tsx"/>
  <tileset firstgid="857" source="../tilesets/trans_woodland-desert.tsx"/>
  <tileset firstgid="985" source="../tilesets/desert3.tsx"/>
  <tileset firstgid="1065" source="../tilesets/water-overflow.tsx"/>

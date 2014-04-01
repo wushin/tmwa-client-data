@@ -6,8 +6,8 @@
   <property name="name" value="Tulimshar Noble Indoors"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/tulimshar1_indoors.tsx"/>
- <tileset firstgid="153" source="../tilesets/tulimshar_indoors_x3.tsx"/>
+ <tileset firstgid="3" source="../tilesets/desert_city_indoors.tsx"/>
+ <tileset firstgid="153" source="../tilesets/desert_city_indoors_x3.tsx"/>
  <tileset firstgid="198" source="../tilesets/inn.tsx"/>
  <tileset firstgid="454" source="../tilesets/inn2.tsx"/>
  <tileset firstgid="710" source="../tilesets/Tulimshar-noble_x2.tsx"/>
