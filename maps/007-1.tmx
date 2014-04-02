@@ -10,14 +10,14 @@
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/Woodland_ground.tsx"/>
- <tileset firstgid="259" source="../tilesets/Woodland_x2.tsx"/>
- <tileset firstgid="291" source="../tilesets/Woodland_x3.tsx"/>
+ <tileset firstgid="3" source="../tilesets/woodland_ground.tsx"/>
+ <tileset firstgid="259" source="../tilesets/woodland_x2.tsx"/>
+ <tileset firstgid="291" source="../tilesets/woodland_x3.tsx"/>
  <tileset firstgid="323" source="../tilesets/woodland_indoor.tsx"/>
- <tileset firstgid="579" source="../tilesets/Woodland_village.tsx"/>
- <tileset firstgid="835" source="../tilesets/Woodland_village_x2.tsx"/>
+ <tileset firstgid="579" source="../tilesets/woodland_village.tsx"/>
+ <tileset firstgid="835" source="../tilesets/woodland_village_x2.tsx"/>
  <tileset firstgid="851" source="../tilesets/desert1.tsx"/>
- <tileset firstgid="1107" source="../tilesets/trans_woodland-desert.tsx"/>
+ <tileset firstgid="1107" source="../tilesets/trans_woodland_desert.tsx"/>
  <layer name="Ground" width="144" height="124">
   <data encoding="csv">
 196,197,213,229,3,3,3,101,102,103,101,84,87,3,3,19,19,19,19,19,19,19,19,19,19,19,19,19,19,3,85,87,3,3,3,3,3,3,3,3,108,46,94,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,92,93,94,85,83,103,122,40,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,

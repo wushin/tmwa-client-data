@@ -12,14 +12,14 @@
  <tileset firstgid="563" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="595" source="../tilesets/desert_x5.tsx"/>
  <tileset firstgid="601" source="../tilesets/desert_city.tsx"/>
- <tileset firstgid="857" source="../tilesets/trans_woodland-desert.tsx"/>
- <tileset firstgid="985" source="../tilesets/Docks.tsx"/>
+ <tileset firstgid="857" source="../tilesets/trans_woodland_desert.tsx"/>
+ <tileset firstgid="985" source="../tilesets/docks.tsx"/>
  <tileset firstgid="1145" source="../tilesets/desert3.tsx"/>
- <tileset firstgid="1225" name="Docks_x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Docks_x2.png" width="512" height="320"/>
+ <tileset firstgid="1225" name="docks_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/docks_x2.png" width="512" height="320"/>
  </tileset>
- <tileset firstgid="1305" source="../tilesets/water-overflow.tsx"/>
- <tileset firstgid="1377" source="../tilesets/water-overflow.tsx"/>
+ <tileset firstgid="1305" source="../tilesets/water_overflow.tsx"/>
+ <tileset firstgid="1377" source="../tilesets/water_overflow.tsx"/>
  <tileset firstgid="1449" source="../tilesets/water.tsx"/>
  <tileset firstgid="1614" source="../tilesets/waterflow.tsx"/>
  <layer name="Ground1" width="119" height="122">

@@ -9,18 +9,18 @@
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/Woodland_ground.tsx"/>
- <tileset firstgid="259" source="../tilesets/Woodland_x2.tsx"/>
- <tileset firstgid="291" source="../tilesets/Woodland_x3.tsx"/>
- <tileset firstgid="323" source="../tilesets/Woodland_village.tsx"/>
- <tileset firstgid="579" source="../tilesets/Woodland_village_x2.tsx"/>
+ <tileset firstgid="3" source="../tilesets/woodland_ground.tsx"/>
+ <tileset firstgid="259" source="../tilesets/woodland_x2.tsx"/>
+ <tileset firstgid="291" source="../tilesets/woodland_x3.tsx"/>
+ <tileset firstgid="323" source="../tilesets/woodland_village.tsx"/>
+ <tileset firstgid="579" source="../tilesets/woodland_village_x2.tsx"/>
  <tileset firstgid="595" source="../tilesets/soulmenhirs_x2.tsx"/>
  <tileset firstgid="611" source="../tilesets/desert1.tsx"/>
  <tileset firstgid="867" source="../tilesets/desert2.tsx"/>
  <tileset firstgid="1123" source="../tilesets/desert_x2.tsx"/>
  <tileset firstgid="1139" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="1155" source="../tilesets/desert_x5.tsx"/>
- <tileset firstgid="1161" source="../tilesets/trans_woodland-desert.tsx"/>
+ <tileset firstgid="1161" source="../tilesets/trans_woodland_desert.tsx"/>
  <tileset firstgid="1289" source="../tilesets/desert_city.tsx"/>
  <tileset firstgid="1545" source="../tilesets/mountain.tsx"/>
  <layer name="Ground" width="190" height="80">

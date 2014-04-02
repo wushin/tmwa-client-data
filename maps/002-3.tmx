@@ -15,7 +15,7 @@
  <tileset firstgid="803" source="../tilesets/cave2_transistions.tsx"/>
  <tileset firstgid="1059" source="../tilesets/woodland_indoor.tsx"/>
  <tileset firstgid="1315" source="../tilesets/woodland_indoor_x2.tsx"/>
- <tileset firstgid="1347" source="../tilesets/barbarians-outdoor.tsx"/>
+ <tileset firstgid="1347" source="../tilesets/barbarians_outdoor.tsx"/>
  <tileset firstgid="1350" source="../tilesets/cave2_bilevel.tsx"/>
  <tileset firstgid="1606" source="../tilesets/cave2_sewer_mine_x2.tsx"/>
  <layer name="Ground" width="110" height="110">

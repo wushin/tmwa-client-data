@@ -2,7 +2,7 @@
 <map version="1.0" orientation="orthogonal" width="150" height="120" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="graphics/minimaps/026-1.png"/>
-  <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="music" value="The Mana World - The forest.ogg"/>
   <property name="name" value="Swamp"/>
   <property name="overlay0image" value="graphics/images/ambient/fog.png"/>
   <property name="overlay0parallax" value="1.0"/>
@@ -10,16 +10,16 @@
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/Woodland_ground.tsx"/>
- <tileset firstgid="259" source="../tilesets/Woodland_x2.tsx"/>
- <tileset firstgid="291" source="../tilesets/Woodland_x3.tsx"/>
- <tileset firstgid="323" source="../tilesets/Woodland_village.tsx"/>
- <tileset firstgid="579" source="../tilesets/Woodland_x5.tsx"/>
- <tileset firstgid="595" source="../tilesets/Woodland_x4.tsx"/>
- <tileset firstgid="611" source="../tilesets/Woodland_x8.tsx"/>
- <tileset firstgid="627" source="../tilesets/Woodland_swamp.tsx"/>
- <tileset firstgid="883" source="../tilesets/Forest_cover.tsx"/>
- <tileset firstgid="983" source="../tilesets/Forest.tsx"/>
+ <tileset firstgid="3" source="../tilesets/woodland_ground.tsx"/>
+ <tileset firstgid="259" source="../tilesets/woodland_x2.tsx"/>
+ <tileset firstgid="291" source="../tilesets/woodland_x3.tsx"/>
+ <tileset firstgid="323" source="../tilesets/woodland_village.tsx"/>
+ <tileset firstgid="579" source="../tilesets/woodland_x5.tsx"/>
+ <tileset firstgid="595" source="../tilesets/woodland_x4.tsx"/>
+ <tileset firstgid="611" source="../tilesets/woodland_x8.tsx"/>
+ <tileset firstgid="627" source="../tilesets/woodland_swamp.tsx"/>
+ <tileset firstgid="883" source="../tilesets/forest_cover.tsx"/>
+ <tileset firstgid="983" source="../tilesets/forest.tsx"/>
  <layer name="Ground" width="150" height="120">
   <data encoding="csv">
 51,51,659,647,710,629,19,3,51,3,51,19,3,51,19,3,51,19,3,51,19,3,51,3,51,19,35,35,3,51,659,647,644,644,646,709,659,647,644,644,662,629,19,19,659,660,647,644,644,644,693,19,3,51,19,3,51,3,51,19,19,3,51,19,3,51,3,35,35,35,35,92,94,35,3,51,19,3,51,3,51,19,3,51,19,3,51,19,3,51,19,3,51,3,51,19,3,675,711,644,696,644,646,661,19,3,51,3,51,19,3,3,67,3,51,3,67,3,35,67,67,3,35,3,67,3,3,3,3,67,3,67,67,67,67,3,3,3,3,3,3,3,3,3,19,19,3,3,3,101,

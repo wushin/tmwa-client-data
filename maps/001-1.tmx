@@ -12,9 +12,9 @@
  <tileset firstgid="563" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="595" source="../tilesets/desert_x5.tsx"/>
  <tileset firstgid="601" source="../tilesets/desert_city.tsx"/>
- <tileset firstgid="857" source="../tilesets/trans_woodland-desert.tsx"/>
+ <tileset firstgid="857" source="../tilesets/trans_woodland_desert.tsx"/>
  <tileset firstgid="985" source="../tilesets/desert3.tsx"/>
- <tileset firstgid="1065" source="../tilesets/water-overflow.tsx"/>
+ <tileset firstgid="1065" source="../tilesets/water_overflow.tsx"/>
  <layer name="Ground1" width="167" height="114">
   <data encoding="csv">
 360,3,3,3,3,3,3,3,3,3,605,605,605,605,606,605,605,605,605,605,605,3,3,3,3,3,213,217,3,3,3,3,3,3,3,403,404,405,3,3,3,3,3,3,3,3,3,3,3,3,3,403,404,405,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,933,871,934,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,403,404,405,3,3,3,3,3,3,3,3,3,3,3,403,404,405,3,3,3,3,3,3,3,3,3,3,606,605,606,605,606,3,3,403,404,405,3,3,3,50,3,3,3,3,213,217,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,

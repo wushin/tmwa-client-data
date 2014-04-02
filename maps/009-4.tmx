@@ -7,10 +7,10 @@
  <tileset firstgid="3" source="../tilesets/cave.tsx"/>
  <tileset firstgid="131" source="../tilesets/cave_x2.tsx"/>
  <tileset firstgid="147" source="../tilesets/cave_bilevel.tsx"/>
- <tileset firstgid="403" source="../tilesets/Woodland_ground.tsx"/>
+ <tileset firstgid="403" source="../tilesets/woodland_ground.tsx"/>
  <tileset firstgid="659" source="../tilesets/woodland_indoor.tsx"/>
  <tileset firstgid="915" source="../tilesets/woodland_indoor_x3.tsx"/>
- <tileset firstgid="931" source="../tilesets/Woodland_x2.tsx"/>
+ <tileset firstgid="931" source="../tilesets/woodland_x2.tsx"/>
  <layer name="Ground" width="160" height="160">
   <data encoding="csv">
 23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,

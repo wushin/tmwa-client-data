@@ -14,19 +14,19 @@
   <property name="overlay1scrollY" value="0.341"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/Woodland_ground.tsx"/>
- <tileset firstgid="259" source="../tilesets/Woodland_x2.tsx"/>
- <tileset firstgid="291" source="../tilesets/Woodland_x3.tsx"/>
- <tileset firstgid="323" source="../tilesets/Woodland_village.tsx"/>
- <tileset firstgid="579" source="../tilesets/Woodland_x5.tsx"/>
- <tileset firstgid="595" source="../tilesets/Woodland_x4.tsx"/>
- <tileset firstgid="611" source="../tilesets/Woodland_x8.tsx"/>
- <tileset firstgid="627" source="../tilesets/Woodland_swamp.tsx"/>
- <tileset firstgid="883" source="../tilesets/Forest.tsx"/>
- <tileset firstgid="1282" source="../tilesets/Woodland_graveyard_x3.tsx"/>
- <tileset firstgid="1362" source="../tilesets/Woodland_graveyard_x4.tsx"/>
- <tileset firstgid="1394" source="../tilesets/Woodland_graveyard_crypt.tsx"/>
- <tileset firstgid="1457" source="../tilesets/Woodland_graveyard_ground.tsx"/>
+ <tileset firstgid="3" source="../tilesets/woodland_ground.tsx"/>
+ <tileset firstgid="259" source="../tilesets/woodland_x2.tsx"/>
+ <tileset firstgid="291" source="../tilesets/woodland_x3.tsx"/>
+ <tileset firstgid="323" source="../tilesets/woodland_village.tsx"/>
+ <tileset firstgid="579" source="../tilesets/woodland_x5.tsx"/>
+ <tileset firstgid="595" source="../tilesets/woodland_x4.tsx"/>
+ <tileset firstgid="611" source="../tilesets/woodland_x8.tsx"/>
+ <tileset firstgid="627" source="../tilesets/woodland_swamp.tsx"/>
+ <tileset firstgid="883" source="../tilesets/forest.tsx"/>
+ <tileset firstgid="1282" source="../tilesets/woodland_graveyard_x3.tsx"/>
+ <tileset firstgid="1362" source="../tilesets/woodland_graveyard_x4.tsx"/>
+ <tileset firstgid="1394" source="../tilesets/woodland_graveyard_crypt.tsx"/>
+ <tileset firstgid="1457" source="../tilesets/woodland_graveyard_ground.tsx"/>
  <layer name="Ground" width="150" height="120">
   <data encoding="csv">
 19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,

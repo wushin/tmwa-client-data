@@ -12,7 +12,7 @@
  <tileset firstgid="259" source="../tilesets/inn2.tsx"/>
  <tileset firstgid="515" source="../tilesets/desert_city_indoors.tsx"/>
  <tileset firstgid="665" source="../tilesets/desert_city_indoors_x3.tsx"/>
- <tileset firstgid="710" source="../tilesets/Tulimshar-noble_x2.tsx"/>
+ <tileset firstgid="710" source="../tilesets/tulimshar_noble_x2.tsx"/>
  <tileset firstgid="742" source="../tilesets/cave2_sewer_mine.tsx"/>
  <tileset firstgid="998" source="../tilesets/woodland_indoor_x2.tsx"/>
  <tileset firstgid="1030" source="../tilesets/woodland_indoor.tsx"/>
@@ -28,7 +28,7 @@
  <tileset firstgid="1606" name="desert-castle-interior_x5" tilewidth="32" tileheight="160">
   <image source="../graphics/tiles/desert-castle-interior_x5.png" width="512" height="160"/>
  </tileset>
- <tileset firstgid="1622" source="../tilesets/wood-lab.tsx"/>
+ <tileset firstgid="1622" source="../tilesets/wood_lab.tsx"/>
  <tileset firstgid="1634" source="../tilesets/inn_x2.tsx"/>
  <layer name="Ground" width="143" height="148">
   <data encoding="csv">

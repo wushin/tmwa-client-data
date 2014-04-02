@@ -8,9 +8,9 @@
  <tileset firstgid="3" source="../tilesets/woodland_indoor.tsx"/>
  <tileset firstgid="259" source="../tilesets/woodland_indoor_x2.tsx"/>
  <tileset firstgid="275" source="../tilesets/woodland_indoor_x3.tsx"/>
- <tileset firstgid="291" source="../tilesets/Woodland_village.tsx"/>
- <tileset firstgid="547" source="../tilesets/Woodland_village_x2.tsx"/>
- <tileset firstgid="563" source="../tilesets/Witch_sisters_picture_x3.tsx"/>
+ <tileset firstgid="291" source="../tilesets/woodland_village.tsx"/>
+ <tileset firstgid="547" source="../tilesets/woodland_village_x2.tsx"/>
+ <tileset firstgid="563" source="../tilesets/witch_sisters_picture_x3.tsx"/>
  <layer name="Ground" width="150" height="100">
   <data encoding="csv">
 51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,

@@ -11,7 +11,7 @@
  <tileset firstgid="3" source="../tilesets/cave2.tsx"/>
  <tileset firstgid="259" source="../tilesets/cave2_x2.tsx"/>
  <tileset firstgid="291" source="../tilesets/cave2_bilevel.tsx"/>
- <tileset firstgid="547" source="../tilesets/Woodland_ground.tsx"/>
+ <tileset firstgid="547" source="../tilesets/woodland_ground.tsx"/>
  <tileset firstgid="803" source="../tilesets/woodland_indoor.tsx"/>
  <tileset firstgid="1059" source="../tilesets/woodland_indoor_x2.tsx"/>
  <tileset firstgid="1091" source="../tilesets/woodland_indoor_x3.tsx"/>

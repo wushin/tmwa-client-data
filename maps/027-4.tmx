@@ -7,12 +7,12 @@
   <property name="overlay0keepratio" value="true"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/Crypt1.tsx"/>
- <tileset firstgid="259" source="../tilesets/Crypt2.tsx"/>
- <tileset firstgid="483" source="../tilesets/Crypt-Blockwall.tsx"/>
- <tileset firstgid="739" source="../tilesets/Crypt-Fringe_x3.tsx"/>
- <tileset firstgid="819" source="../tilesets/Crypt-Fringe2_x3.tsx"/>
- <tileset firstgid="899" source="../tilesets/Crypt_x4.tsx"/>
+ <tileset firstgid="3" source="../tilesets/crypt1.tsx"/>
+ <tileset firstgid="259" source="../tilesets/crypt2.tsx"/>
+ <tileset firstgid="483" source="../tilesets/crypt_blockwall.tsx"/>
+ <tileset firstgid="739" source="../tilesets/crypt_fringe_x3.tsx"/>
+ <tileset firstgid="819" source="../tilesets/crypt_fringe2_x3.tsx"/>
+ <tileset firstgid="899" source="../tilesets/crypt_x4.tsx"/>
  <layer name="Ground" width="150" height="125">
   <data encoding="csv">
 701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,701,

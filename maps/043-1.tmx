@@ -11,8 +11,8 @@
  <tileset firstgid="515" source="../tilesets/desert_x2.tsx"/>
  <tileset firstgid="563" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="595" source="../tilesets/desert_x5.tsx"/>
- <tileset firstgid="601" source="../tilesets/trans_woodland-desert.tsx"/>
- <tileset firstgid="729" source="../tilesets/water-overflow.tsx"/>
+ <tileset firstgid="601" source="../tilesets/trans_woodland_desert.tsx"/>
+ <tileset firstgid="729" source="../tilesets/water_overflow.tsx"/>
  <tileset firstgid="801" source="../tilesets/water.tsx"/>
  <tileset firstgid="966" source="../tilesets/waterflow.tsx"/>
  <layer name="Ground1" width="120" height="150">
