@@ -15,13 +15,11 @@
  <tileset firstgid="857" source="../tilesets/trans_woodland_desert.tsx"/>
  <tileset firstgid="985" source="../tilesets/docks.tsx"/>
  <tileset firstgid="1145" source="../tilesets/desert3.tsx"/>
- <tileset firstgid="1225" name="docks_x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/docks_x2.png" width="512" height="320"/>
- </tileset>
+ <tileset firstgid="1225"  source="../tilesets/docks_x2.tsx"/>
  <tileset firstgid="1305" source="../tilesets/desert_castle.tsx"/>
  <tileset firstgid="1561" source="../tilesets/inn2.tsx"/>
  <tileset firstgid="1817" source="../tilesets/woodland_x3.tsx"/>
- <tileset firstgid="1849" source="../tilesets/tulimshar_noble_x2.tsx"/>
+ <tileset firstgid="1849" source="../tilesets/desert_city_x2.tsx"/>
  <tileset firstgid="1881" source="../tilesets/water_overflow.tsx"/>
  <tileset firstgid="1953" source="../tilesets/water.tsx"/>
  <tileset firstgid="2118" source="../tilesets/waterflow.tsx"/>

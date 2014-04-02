@@ -13,17 +13,17 @@
  <tileset firstgid="643" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="675" source="../tilesets/desert_x5.tsx"/>
  <tileset firstgid="681" source="../tilesets/desert_city.tsx"/>
- <tileset firstgid="937" source="../tilesets/trans_woodland-desert.tsx"/>
+ <tileset firstgid="937" source="../tilesets/trans_woodland_desert.tsx"/>
  <tileset firstgid="1065" source="../tilesets/inn.tsx"/>
  <tileset firstgid="1321" source="../tilesets/inn2.tsx"/>
- <tileset firstgid="1577" source="../tilesets/Docks.tsx"/>
- <tileset firstgid="1737" source="../tilesets/Docks_x2.tsx"/>
- <tileset firstgid="1817" source="../tilesets/desert-castle.tsx"/>
+ <tileset firstgid="1577" source="../tilesets/docks.tsx"/>
+ <tileset firstgid="1737" source="../tilesets/docks_x2.tsx"/>
+ <tileset firstgid="1817" source="../tilesets/desert_castle.tsx"/>
  <tileset firstgid="2073" source="../tilesets/desert_castle_2.tsx"/>
  <tileset firstgid="2329" source="../tilesets/desert_castle_x2.tsx"/>
  <tileset firstgid="2457" source="../tilesets/desert_castle_x3.tsx"/>
- <tileset firstgid="2489" source="../tilesets/Tulimshar-noble_x2.tsx"/>
- <tileset firstgid="2521" source="../tilesets/water-overflow.tsx"/>
+ <tileset firstgid="2489" source="../tilesets/desert_city_x2.tsx"/>
+ <tileset firstgid="2521" source="../tilesets/water_overflow.tsx"/>
  <tileset firstgid="2593" source="../tilesets/waterflow.tsx"/>
  <layer name="Ground1" width="131" height="168">
   <data encoding="csv">

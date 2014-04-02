@@ -15,9 +15,7 @@
  <tileset firstgid="857" source="../tilesets/trans_woodland_desert.tsx"/>
  <tileset firstgid="985" source="../tilesets/docks.tsx"/>
  <tileset firstgid="1145" source="../tilesets/desert3.tsx"/>
- <tileset firstgid="1225" name="docks_x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/docks_x2.png" width="512" height="320"/>
- </tileset>
+ <tileset firstgid="1225" source="../tilesets/docks_x2.tsx"/>
  <tileset firstgid="1305" source="../tilesets/water_overflow.tsx"/>
  <tileset firstgid="1377" source="../tilesets/water_overflow.tsx"/>
  <tileset firstgid="1449" source="../tilesets/water.tsx"/>

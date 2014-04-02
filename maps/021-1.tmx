@@ -18,7 +18,7 @@
  <tileset firstgid="1225" source="../tilesets/desert_castle.tsx"/>
  <tileset firstgid="1481" source="../tilesets/docks_x2.tsx"/>
  <tileset firstgid="1561" source="../tilesets/inn2.tsx"/>
- <tileset firstgid="1817" source="../tilesets/tulimshar_noble_x2.tsx"/>
+ <tileset firstgid="1817" source="../tilesets/desert_city_x2.tsx"/>
  <tileset firstgid="1849" source="../tilesets/woodland_x3.tsx"/>
  <tileset firstgid="1881" source="../tilesets/water_overflow.tsx"/>
  <tileset firstgid="1953" source="../tilesets/water.tsx"/>

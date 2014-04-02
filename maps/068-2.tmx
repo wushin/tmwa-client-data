@@ -10,7 +10,7 @@
  <tileset firstgid="153" source="../tilesets/desert_city_indoors_x3.tsx"/>
  <tileset firstgid="198" source="../tilesets/inn.tsx"/>
  <tileset firstgid="454" source="../tilesets/inn2.tsx"/>
- <tileset firstgid="710" source="../tilesets/tulimshar_noble_x2.tsx"/>
+ <tileset firstgid="710" source="../tilesets/desert_city_x2.tsx"/>
  <tileset firstgid="742" source="../tilesets/inn_x2.tsx"/>
  <tileset firstgid="774" source="../tilesets/cave2_sewer_mine.tsx"/>
  <layer name="Ground" width="120" height="113">

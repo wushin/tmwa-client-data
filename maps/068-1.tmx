@@ -23,7 +23,7 @@
  <tileset firstgid="2105" source="../tilesets/woodland_graveyard_x3.tsx"/>
  <tileset firstgid="2185" source="../tilesets/inn.tsx"/>
  <tileset firstgid="2441" source="../tilesets/cave2_sewer_mine_x4.tsx"/>
- <tileset firstgid="2457" source="../tilesets/tulimshar_noble_x2.tsx"/>
+ <tileset firstgid="2457" source="../tilesets/desert_city_x2.tsx"/>
  <tileset firstgid="2489" source="../tilesets/desert_castle_x3.tsx"/>
  <tileset firstgid="2521" source="../tilesets/desert_castle_x2.tsx"/>
  <tileset firstgid="2649" source="../tilesets/waterflow.tsx"/>
