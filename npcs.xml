@@ -671,10 +671,7 @@
   </npc>
   <!-- Npc Id 200 Open -->
   <npc id="201">
-    <!-- This entry demonstrates that an NPC can be constructed from multiple preexisting
-   spritesets. While using the default player sprite and normal player equipment can save
-   time it is usually better to create a new NPC as one graphic from scratch. -->
-    <sprite>player_female_base.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
     <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
     <sprite>equipment/legs/chaps-female.xml</sprite>
     <sprite>equipment/chest/shorttanktop-female.xml</sprite>
