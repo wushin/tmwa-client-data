@@ -1,0 +1,69 @@
+<quests>
+    <var id="TUTORIAL_NIBBLE">
+        <effect map="042-1.tmx" npc="Sorfina" value="0,1,2,3" effect="304"/>
+        <quest name="Movement" group="Tutorial" incomplete="0,1">
+            <name>Movement</name>
+            <text>Walk over to the carpet.</text>
+            <text></text>
+            <text>Quest giver: Sorfina.</text>
+            <text>Coordinates: Carpet, 042-2 (33, 27)</text>
+            <text>Reward: Unknown.</text>
+        </quest>
+        <quest name="Movement" group="Tutorial" complete="2">
+            <name>Movement</name>
+            <text>You walked over to the carpet.</text>
+            <text></text>
+            <text>Quest giver: Sorfina.</text>
+            <text>Coordinates: Carpet, 042-2 (33, 27)</text>
+            <text>Reward: Nothing.</text>
+        </quest>
+        <quest name="Interact" group="Tutorial" incomplete="2">
+            <name>Interact</name>
+            <text>Open the chest.</text>
+            <text></text>
+            <text>Quest giver: Sorfina.</text>
+            <text>Coordinates: Chest, 042-2 (27, 23)</text>
+            <text>Reward: CottonShirt and RaggedShorts</text>
+        </quest>
+        <quest name="Interact" group="Tutorial" complete="3">
+            <name>Interact</name>
+            <text>Opened the chest.</text>
+            <text></text>
+            <text>Quest giver: Sorfina.</text>
+            <text>Coordinates: Chest, 042-2 (27, 23)</text>
+            <text>Reward: CottonShirt and RaggedShorts</text>
+        </quest>
+        <quest name="Equip" group="Tutorial" incomplete="3">
+            <name>Equip</name>
+            <text>Equip the CottonShirt and RaggedShorts.</text>
+            <text></text>
+            <text>Quest giver: Sorfina.</text>
+            <text>Coordinates: Press F3 and Double Click to equip.</text>
+            <text>Reward: None.</text>
+        </quest>
+        <quest name="Equip" group="Tutorial" complete="4">
+            <name>Equip</name>
+            <text>Equiped the CottonShirt and RaggedShorts.</text>
+            <text></text>
+            <text>Quest giver: Sorfina.</text>
+            <text>Coordinates: Press F3 and Double Click to equip.</text>
+            <text>Reward: None.</text>
+        </quest>
+        <quest name="Find Tanisha" group="Tutorial" incomplete="4">
+            <name>Find Tanisha</name>
+            <text>Find Sorfina's Grand Daughter Tanisha in the house south of hers. She needs help.</text>
+            <text></text>
+            <text>Quest giver: Sorfina.</text>
+            <text>Coordinates: Tanisha, 042-2 (37, 90)</text>
+            <text>Reward: None.</text>
+        </quest>
+        <quest name="Find Tanisha" group="Tutorial" complete="5">
+            <name>Find Tanisha</name>
+            <text>You found Tanisha.</text>
+            <text></text>
+            <text>Quest giver: Sorfina.</text>
+            <text>Coordinates: Tanisha, 042-2 (37, 90)</text>
+            <text>Reward: None.</text>
+        </quest>
+    </var>
+</quests>
