@@ -6,8 +6,8 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <include name="items/racesprite/item-100_Talponian.xml"/>
-  <include name="items/racesprite/item-101_Tritan.xml"/>
-  <include name="items/racesprite/item-102_Gispaan.xml"/>
-  <include name="items/racesprite/item-103_Sparron.xml"/>
+  <item id="-102" type="racesprite" name="Gispaan">
+    <sprite gender="male">model/male.xml|#5d3841,ba5f48,e48b6d,edb6a2;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sprite gender="female">model/female.xml|#5d3841,ba5f48,e48b6d,edb6a2;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+  </item>
 </items>
