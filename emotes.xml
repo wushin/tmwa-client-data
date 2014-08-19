@@ -47,4 +47,109 @@
   <emote id="13">
     <sprite name="Blah" variant="13">emote.xml</sprite>
   </emote>
+  <emote id="14">
+    <sprite name="Bang" variant="14">emote.xml</sprite>
+  </emote>
+  <emote id="15">
+    <sprite name="Quest" variant="15">emote.xml</sprite>
+  </emote>
+  <emote id="16">
+    <sprite name="Laugh" variant="16">emote.xml</sprite>
+  </emote>
+  <emote id="17">
+    <sprite name="Cheerful" variant="17">emote.xml</sprite>
+  </emote>
+  <emote id="18">
+    <sprite name="Love" variant="18">emote.xml</sprite>
+  </emote>
+  <emote id="19">
+    <sprite name="Money" variant="19">emote.xml</sprite>
+  </emote>
+  <emote id="20">
+    <sprite name="Sleep" variant="20">emote.xml</sprite>
+  </emote>
+  <emote id="21">
+    <sprite name="Rest" variant="21">emote.xml</sprite>
+  </emote>
+  <emote id="22">
+    <sprite name="Bothered" variant="22">emote.xml</sprite>
+  </emote>
+  <emote id="23">
+    <sprite name="Afriad" variant="23">emote.xml</sprite>
+  </emote>
+  <emote id="24">
+    <sprite name="Dead" variant="24">emote.xml</sprite>
+  </emote>
+  <emote id="25">
+    <sprite name="Suspicious" variant="25">emote.xml</sprite>
+  </emote>
+  <emote id="26">
+    <sprite name="Melancholy" variant="26">emote.xml</sprite>
+  </emote>
+  <emote id="27">
+    <sprite name="Facepalm" variant="27">emote.xml</sprite>
+  </emote>
+  <emote id="28">
+    <sprite name="Angry" variant="28">emote.xml</sprite>
+  </emote>
+  <emote id="29">
+    <sprite name="Headache" variant="29">emote.xml</sprite>
+  </emote>
+  <emote id="30">
+    <sprite name="Bored" variant="30">emote.xml</sprite>
+  </emote>
+  <emote id="31">
+    <sprite name="Heart" variant="31">emote.xml</sprite>
+  </emote>
+  <emote id="32">
+    <sprite name="Empty" variant="32">emote.xml</sprite>
+  </emote>
+  <emote id="33">
+    <sprite name="Halloween" variant="33">emote.xml</sprite>
+  </emote>
+  <emote id="34">
+    <sprite name="Vicious" variant="34">emote.xml</sprite>
+  </emote>
+  <emote id="35">
+    <sprite name="Joyful" variant="35">emote.xml</sprite>
+  </emote>
+  <emote id="36">
+    <sprite name="Clever" variant="36">emote.xml</sprite>
+  </emote>
+  <emote id="37">
+    <sprite name="Shy" variant="37">emote.xml</sprite>
+  </emote>
+  <emote id="38">
+    <sprite name="Alien" variant="38">emote.xml</sprite>
+  </emote>
+  <emote id="39">
+    <sprite name="Curious" variant="39">emote.xml</sprite>
+  </emote>
+  <emote id="40">
+    <sprite name="Pain" variant="40">emote.xml</sprite>
+  </emote>
+  <emote id="41">
+    <sprite name="Tears" variant="41">emote.xml</sprite>
+  </emote>
+  <emote id="42">
+    <sprite name="Bang" variant="42">emote.xml</sprite>
+  </emote>
+  <emote id="43">
+    <sprite name="Quest" variant="43">emote.xml</sprite>
+  </emote>
+  <emote id="44">
+    <sprite name="Null" variant="44">emote.xml</sprite>
+  </emote>
+  <emote id="45">
+    <sprite name="Null" variant="45">emote.xml</sprite>
+  </emote>
+  <emote id="46">
+    <sprite name="Null" variant="46">emote.xml</sprite>
+  </emote>
+  <emote id="47">
+    <sprite name="Null" variant="47">emote.xml</sprite>
+  </emote>
+  <emote id="48">
+    <sprite name="Null" variant="48">emote.xml</sprite>
+  </emote>
 </emotes>
