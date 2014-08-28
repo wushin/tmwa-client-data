@@ -21,11 +21,11 @@
   <color id="13" value="#000000" name="(free slot)"/>
   <color id="14" value="#000000" name="(free slot)"/>
   <!-- 15~29  Tritan colors -->
-  <color id="15" value="#000000" name="(free slot)"/>
-  <color id="16" value="#000000" name="(free slot)"/>
-  <color id="17" value="#000000" name="(free slot)"/>
-  <color id="18" value="#000000" name="(free slot)"/>
-  <color id="19" value="#000000" name="(free slot)"/>
+  <color id="15" value="#06372b,489e25,fdedcc" name="green"/>
+  <color id="16" value="#1d2d6d,1594a3,fdedcc" name="blue"/>
+  <color id="17" value="#432482,584bbc,dae8e5" name="light blue"/>
+  <color id="18" value="#460850,611967,e7b4ae" name="dark purple"/>
+  <color id="19" value="#000000,202020,404040,dddddd" name="black"/>
   <color id="20" value="#000000" name="(free slot)"/>
   <color id="21" value="#000000" name="(free slot)"/>
   <color id="22" value="#000000" name="(free slot)"/>
@@ -37,11 +37,11 @@
   <color id="28" value="#000000" name="(free slot)"/>
   <color id="29" value="#000000" name="(free slot)"/>
   <!-- 30~44  Gispaan colors -->
-  <color id="30" value="#000000" name="(free slot)"/>
-  <color id="31" value="#000000" name="(free slot)"/>
-  <color id="32" value="#000000" name="(free slot)"/>
-  <color id="33" value="#000000" name="(free slot)"/>
-  <color id="34" value="#000000" name="(free slot)"/>
+  <color id="30" value="#8c4b41,da9041,ffffff" name="light brown"/>
+  <color id="31" value="#5f0b33,91191c,f9ad81" name="red"/>
+  <color id="32" value="#805e74,c6b09b,ffffff" name="gray"/>
+  <color id="33" value="#8c6625,dab425,ffffff" name="yellow"/>
+  <color id="34" value="#831f2d,be4f2d,f8cc8b" name="light red"/>
   <color id="35" value="#000000" name="(free slot)"/>
   <color id="36" value="#000000" name="(free slot)"/>
   <color id="37" value="#000000" name="(free slot)"/>
