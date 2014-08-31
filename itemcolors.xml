@@ -18,11 +18,11 @@
     <color id="13" value="#000000" name="(free slot)"/>
     <color id="14" value="#000000" name="(free slot)"/>
     <!-- 15~29  Tritan colors -->
-    <color id="15" value="#06372b,489e25,fdedcc" name="green"/>
-    <color id="16" value="#1d2d6d,1594a3,fdedcc" name="blue"/>
-    <color id="17" value="#432482,584bbc,dae8e5" name="light blue"/>
-    <color id="18" value="#460850,611967,e7b4ae" name="dark purple"/>
-    <color id="19" value="#000000,202020,404040,dddddd" name="black"/>
+    <color id="15" value="#2d422d,6e8d7b,5e6b5f,75ab95,abcfc1;#2f312f,727471,a4a6a3,dad5f5;#06372b,489e25,fdedcc" name="green"/>
+    <color id="16" value="#2d422d,6e8d7b,5e6b5f,75ab95,abcfc1;#2f312f,727471,a4a6a3,dad5f5;#1d2d6d,1594a3,fdedcc" name="blue"/>
+    <color id="17" value="#2d422d,6e8d7b,5e6b5f,75ab95,abcfc1;#2f312f,727471,a4a6a3,dad5f5;#432482,584bbc,dae8e5" name="light blue"/>
+    <color id="18" value="#2d422d,6e8d7b,5e6b5f,75ab95,abcfc1;#2f312f,727471,a4a6a3,dad5f5;#460850,611967,e7b4ae" name="dark purple"/>
+    <color id="19" value="#2d422d,6e8d7b,5e6b5f,75ab95,abcfc1;#2f312f,727471,a4a6a3,dad5f5;#000000,202020,404040,dddddd" name="black"/>
     <color id="20" value="#000000" name="(free slot)"/>
     <color id="21" value="#000000" name="(free slot)"/>
     <color id="22" value="#000000" name="(free slot)"/>
