@@ -6,6 +6,7 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
+  <include name="items/hairsprite/item-0_Bald.xml"/>
   <include name="items/hairsprite/item-1_Flatponytail.xml"/>
   <include name="items/hairsprite/item-2_Bowlcut.xml"/>
   <include name="items/hairsprite/item-3_Combedback.xml"/>
