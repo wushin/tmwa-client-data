@@ -18,11 +18,11 @@
     <color id="13" value="#000000" name="(free slot)"/>
     <color id="14" value="#000000" name="(free slot)"/>
     <!-- 15~29  Tritan colors -->
-    <color id="15" value="#18252D,82A48B,CAE8AA,ECF1B9;#C45214,E0BB3C,EEEEEE;#06372b,489e25,fdedcc" name="green"/>
-    <color id="16" value="#18252D,82A48B,CAE8AA,ECF1B9;#C45214,E0BB3C,EEEEEE;#1d2d6d,1594a3,fdedcc" name="blue"/>
-    <color id="17" value="#18252D,82A48B,CAE8AA,ECF1B9;#C45214,E0BB3C,EEEEEE;#432482,584bbc,dae8e5" name="light blue"/>
-    <color id="18" value="#18252D,82A48B,CAE8AA,ECF1B9;#C45214,E0BB3C,EEEEEE;#460850,611967,e7b4ae" name="dark purple"/>
-    <color id="19" value="#18252D,82A48B,CAE8AA,ECF1B9;#C45214,E0BB3C,EEEEEE;#000000,202020,404040,dddddd" name="black"/>
+    <color id="15" value="#166876,32992e,23a988,70cd87,a7f1b2;#C45214,E0BB3C,EEEEEE;#06372b,489e25,fdedcc" name="green"/>
+    <color id="16" value="#166876,32992e,23a988,70cd87,a7f1b2;#C45214,E0BB3C,EEEEEE;#1d2d6d,1594a3,fdedcc" name="blue"/>
+    <color id="17" value="#166876,32992e,23a988,70cd87,a7f1b2;#C45214,E0BB3C,EEEEEE;#432482,584bbc,dae8e5" name="light blue"/>
+    <color id="18" value="#166876,32992e,23a988,70cd87,a7f1b2;#C45214,E0BB3C,EEEEEE;#460850,611967,e7b4ae" name="dark purple"/>
+    <color id="19" value="#166876,32992e,23a988,70cd87,a7f1b2;#C45214,E0BB3C,EEEEEE;#000000,202020,404040,dddddd" name="black"/>
     <color id="20" value="#000000" name="(free slot)"/>
     <color id="21" value="#000000" name="(free slot)"/>
     <color id="22" value="#000000" name="(free slot)"/>
