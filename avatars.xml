@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<avatars>
+  <avatar id="11" name="Bouncer" width="64" height="64">
+    <sprite variant="27">model/unique.xml</sprite>
+  </avatar>
+</avatars>
