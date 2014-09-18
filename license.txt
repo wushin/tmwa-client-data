@@ -909,6 +909,22 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/sprites/npcs/xmastree-nosnow.png (Chayenne, ????, Alige, Hal9000, Enchilado, Kekskiller, FotherJ) (GPLv2)
 
 # Tilesets
+    graphics/tiles/cave-ice.png (Octalot)                                                                      (GPLv2)
+    graphics/tiles/cave.png (Len) (Wushin, Fother)                                                             (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/collision.png (Bjorn)                                                                       (GPLv2)
+    graphics/tiles/dirt.png (Crush, Len, Bagzie, Black Don) (Wushin)                                           (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/fence.png (Black Don, Crush) (Wushin)                                                       (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/grass.png (Wushin, Fother, Len, Arikel, Saphy)                                              (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/straw_huts.png (Modanung) (Wushin)                                                          (GPLv2)
+    graphics/tiles/sand.png (Len) (Wushin)                                                                     (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/sand_city.png (Modanung) (Wushin)                                                           (GPLv2)
+    graphics/tiles/snow.png (Bagzie) (Wushin)                                                                  (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/village.png (IvanMorve, Crush, Bagzie, Fother, Wombat, Wushin)                               (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/water.png (Len) (Wushin)                                                                    (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/water_overflow.png (Len) (Wushin)                                                           (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/waterflow.png (Len) (Wushin)                                                                (GPLv2), (CC BY-SA 3.0)
+
+# Tilesets (Old)
     graphics/tiles/arena.png (????)                                                                               (GPLv2)
     graphics/tiles/barbarians_outdoor.png (Salmondine)                                                            (GPLv2)
     graphics/tiles/barbarians_yurt_x4.png (Alige, Meway, Nami)                                                    (GPLv2), (CC BY-SA 3.0)
