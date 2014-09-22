@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+  <monster id="1132" name="Kalinoir" targetCursor="small">
+    <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#ffffff;#262626</sprite>
+    <sprite>hairstyles/hairstyle19-female.xml</sprite>
+    <sprite>equipment/head/thin-crown-female.xml|#343434,ababab;#003300,00FF00;#29758A,9BDBEC</sprite>
+    <sprite>equipment/feet/boots-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <attack id="1" missile-particle="graphics/particles/kalinoir-attack.particle.xml" action="attack"/>
+  </monster>
+</monsters>
