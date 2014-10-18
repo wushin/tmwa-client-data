@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<npcs>
+  <npc id="420">
+    <sprite>monsters/skeleton.xml</sprite>
+    <sprite>equipment/feet/furboots-male.xml</sprite>
+    <sprite>equipment/legs/pants-male.xml|#a4b2b2,ffffff</sprite>
+    <sprite>equipment/hands/generic-male.xml|#a4b2b2,ffffff</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#2050BE</sprite>
+    <sprite>equipment/head/troll-mask-male.xml|#BFBFBF;#F1F1F1;#FF99FF;#F1F1F1</sprite>
+  </npc>
+</npcs>
