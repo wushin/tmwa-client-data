@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="909" image="equipment/weapon/bow-fairybow.png" name="Fairy Bow" description="A handy bow that is said to bring luck." effect="Damage +75 / Range 5 / Dexterity +1 / Luck +1 / Requires Level 70" type="equip-2hand" attack-action="attack_bow" attack-range="5" weight="1200" missile-particle="graphics/particles/arrow-fairy.particle.xml" sellProtected="true">
+    <sprite gender="male">equipment/weapons/bow-fairy-male.xml</sprite>
+    <sprite gender="female">equipment/weapons/bow-fairy-female.xml</sprite>
+  </item>
+</items>
