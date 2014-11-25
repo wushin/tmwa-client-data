@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!--
+Black particles which fly up to the sky. Magical aura for dark places.
+Actually the same as magic-building-aura.particle.xml in black.
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="power" min="1" max="100"/>
+      <property name="lifetime" value="100"/>
+      <property name="output" value="1"/>
+      <emitter>
+        <property name="gravity" value="-0.2"/>
+        <property name="momentum" value="0.9"/>
+        <property name="image" value="graphics/particles/gloworb-medium.png|W:#000000"/>
+        <property name="lifetime" value="100"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="90"/>
+        <property name="output" min="0" max="1"/>
+        <property name="randomness" value="200"/>
+      </emitter>
+      <emitter>
+        <property name="gravity" value="-0.2"/>
+        <property name="momentum" value="0.9"/>
+        <property name="image" value="graphics/particles/orb-small.png|W:#000000"/>
+        <property name="lifetime" value="100"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="90"/>
+        <property name="output" min="0" max="1"/>
+        <property name="randomness" value="200"/>
+      </emitter>
+      <emitter>
+        <property name="gravity" value="-0.2"/>
+        <property name="momentum" value="0.9"/>
+        <property name="image" value="graphics/particles/gloworb-medium.png|W:#000000"/>
+        <property name="lifetime" value="100"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="90"/>
+        <property name="output" min="0" max="1"/>
+        <property name="randomness" value="200"/>
+      </emitter>
+      <emitter>
+        <property name="gravity" value="-0.2"/>
+        <property name="momentum" value="0.9"/>
+        <property name="image" value="graphics/particles/orb-small.png|W:#00000"/>
+        <property name="lifetime" value="100"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="90"/>
+        <property name="output" min="0" max="1"/>
+        <property name="randomness" value="200"/>
+      </emitter>
+      <emitter>
+        <property name="gravity" value="-0.2"/>
+        <property name="momentum" value="0.9"/>
+        <property name="image" value="graphics/particles/gloworb-medium.png|W:#FFFFFF"/>
+        <property name="lifetime" value="80"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="90"/>
+        <property name="output" min="0" max="1"/>
+        <property name="randomness" value="200"/>
+      </emitter>
+      <emitter>
+        <property name="gravity" value="-0.2"/>
+        <property name="momentum" value="0.9"/>
+        <property name="image" value="graphics/particles/orb-small.png|W:#000000"/>
+        <property name="lifetime" value="100"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="90"/>
+        <property name="output" min="0" max="1"/>
+        <property name="randomness" value="200"/>
+      </emitter>
+    </emitter>
+  </particle>
+</effect>

@@ -620,5 +620,6 @@
   <object name="graphics/particles/flame-blue.particle.xml" type="particle_effect" x="928" y="1280" width="32" height="32"/>
   <object name="graphics/particles/flame-blue.particle.xml" type="particle_effect" x="1248" y="1280" width="32" height="32"/>
   <object name="graphics/particles/flame-green.particle.xml" type="particle_effect" x="1088" y="1120" width="32" height="32"/>
+  <object name="graphics/particles/magic-dark-cave-aura.particle.xml" type="particle_effect" x="1030" y="1030" width="146" height="149"/>
  </objectgroup>
 </map>
