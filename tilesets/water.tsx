@@ -448,30 +448,6 @@
    <frame tileid="39" duration="150"/>
   </animation>
  </tile>
- <tile id="153">
-  <animation>
-   <frame tileid="190" duration="300"/>
-   <frame tileid="191" duration="300"/>
-   <frame tileid="192" duration="300"/>
-   <frame tileid="193" duration="300"/>
-   <frame tileid="194" duration="300"/>
-   <frame tileid="193" duration="300"/>
-   <frame tileid="192" duration="300"/>
-   <frame tileid="191" duration="300"/>
-  </animation>
- </tile>
- <tile id="154">
-  <animation>
-   <frame tileid="220" duration="300"/>
-   <frame tileid="221" duration="300"/>
-   <frame tileid="222" duration="300"/>
-   <frame tileid="223" duration="300"/>
-   <frame tileid="224" duration="300"/>
-   <frame tileid="223" duration="300"/>
-   <frame tileid="222" duration="300"/>
-   <frame tileid="221" duration="300"/>
-  </animation>
- </tile>
  <tile id="155">
   <properties>
    <property name="animation-delay0" value="50"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset name="waterflow" tilewidth="32" tileheight="32">
- <image source="../graphics/tiles/waterflow.png" width="288" height="256"/>
+ <image source="../graphics/tiles/waterflow.png" width="288" height="512"/>
  <tile id="8">
   <properties>
    <property name="animation-delay0" value="35"/>
@@ -239,6 +239,60 @@
    <frame tileid="68" duration="35"/>
    <frame tileid="69" duration="35"/>
    <frame tileid="70" duration="35"/>
+  </animation>
+ </tile>
+ <tile id="72">
+  <animation>
+   <frame tileid="72" duration="550"/>
+   <frame tileid="73" duration="550"/>
+   <frame tileid="74" duration="550"/>
+   <frame tileid="75" duration="550"/>
+   <frame tileid="76" duration="550"/>
+  </animation>
+ </tile>
+ <tile id="81">
+  <animation>
+   <frame tileid="81" duration="550"/>
+   <frame tileid="82" duration="550"/>
+   <frame tileid="83" duration="550"/>
+   <frame tileid="84" duration="550"/>
+   <frame tileid="85" duration="550"/>
+  </animation>
+ </tile>
+ <tile id="90">
+  <animation>
+   <frame tileid="90" duration="550"/>
+   <frame tileid="91" duration="550"/>
+   <frame tileid="92" duration="550"/>
+   <frame tileid="93" duration="550"/>
+   <frame tileid="94" duration="550"/>
+  </animation>
+ </tile>
+ <tile id="99">
+  <animation>
+   <frame tileid="99" duration="550"/>
+   <frame tileid="100" duration="550"/>
+   <frame tileid="101" duration="550"/>
+   <frame tileid="102" duration="550"/>
+   <frame tileid="103" duration="550"/>
+  </animation>
+ </tile>
+ <tile id="108">
+  <animation>
+   <frame tileid="108" duration="550"/>
+   <frame tileid="109" duration="550"/>
+   <frame tileid="110" duration="550"/>
+   <frame tileid="111" duration="550"/>
+   <frame tileid="112" duration="550"/>
+  </animation>
+ </tile>
+ <tile id="117">
+  <animation>
+   <frame tileid="117" duration="550"/>
+   <frame tileid="118" duration="550"/>
+   <frame tileid="119" duration="550"/>
+   <frame tileid="120" duration="550"/>
+   <frame tileid="121" duration="550"/>
   </animation>
  </tile>
 </tileset>
