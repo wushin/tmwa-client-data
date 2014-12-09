@@ -464,6 +464,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/items/use/food/zombie-nachos.png (FotherJ, Enchilado)                                                       (GPLv2), (CC BY-SA 3.0)
 ### Others
     graphics/items/use/others/warp-towel.png (Bjorn, ChefChelios)                                             (GPLv2), (CC BY-SA 3.0)
+    graphics/items/use/others/dreidel.png (wushin)                                                                       (GPLv2), (CC BY-SA 3.0)
 ### Potions
     graphics/items/use/potions/a.png (Varuna, Enchilado)                                                                 (GPLv2), (CC BY-SA 3.0)
     graphics/items/use/potions/b.png (Varuna, Enchilado)                                                                 (GPLv2), (CC BY-SA 3.0)
