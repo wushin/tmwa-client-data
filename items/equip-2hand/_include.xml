@@ -9,6 +9,7 @@
   <include name="items/equip-2hand/item530_ShortBow.xml"/>
   <include name="items/equip-2hand/item545_ForestBow.xml"/>
   <include name="items/equip-2hand/item548_Halberd.xml"/>
+  <include name="items/equip-2hand/item580_StaffOfLife.xml"/>
   <include name="items/equip-2hand/item588_BastardSword.xml"/>
   <include name="items/equip-2hand/item594_Spear.xml"/>
   <include name="items/equip-2hand/item595_HeavySpear.xml"/>
