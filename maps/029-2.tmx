@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="140" height="142" tilewidth="32" tileheight="32" nextobjectid="10">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="140" height="142" tilewidth="32" tileheight="32" nextobjectid="46">
  <properties>
   <property name="music" value="peace.ogg"/>
   <property name="name" value="Candor Island Indoor"/>
@@ -891,7 +891,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup name="Objects">
   <object id="1" name="To Outside" type="warp" x="928" y="1984" width="32" height="32">
    <properties>
     <property name="dest_map" value="029-1"/>
@@ -942,6 +942,169 @@
     <property name="dest_map" value="029-1"/>
     <property name="dest_tile_x" value="49"/>
     <property name="dest_tile_y" value="78"/>
+   </properties>
+  </object>
+  <object id="10" name="Sorfina" type="npc" x="864" y="832" width="32" height="64">
+   <properties>
+    <property name="callfunc" value="Sorfina"/>
+    <property name="sprite" value="154"/>
+   </properties>
+  </object>
+  <object id="11" name="#Sorfina_carpet" type="npc" x="1024" y="832" width="96" height="96">
+   <properties>
+    <property name="callfunc" value="Sorfina_carpet"/>
+   </properties>
+  </object>
+  <object id="13" name="Dresser#tutorial" type="npc" x="928" y="736">
+   <properties>
+    <property name="callfunc" value="Sorfina_dresser"/>
+    <property name="sprite" value="400"/>
+   </properties>
+  </object>
+  <object id="14" name="#Sorfina_door" type="npc" x="1408" y="992" width="32" height="32">
+   <properties>
+    <property name="arguments" value="112,85"/>
+    <property name="callfunc" value="Sorfina_door"/>
+    <property name="sprite" value="45"/>
+   </properties>
+  </object>
+  <object id="15" name="#Sorfina_rules1" type="npc" x="736" y="736" width="32" height="96">
+   <properties>
+    <property name="callfunc" value="Sorfina_rules"/>
+   </properties>
+  </object>
+  <object id="16" name="#Sorfina_rules2" type="npc" x="672" y="736" width="32" height="96">
+   <properties>
+    <property name="callfunc" value="Sorfina_rules"/>
+   </properties>
+  </object>
+  <object id="18" name="#Sorfina_knockback1" type="npc" x="672" y="832" width="96" height="32">
+   <properties>
+    <property name="callfunc" value="Sorfina_knockback"/>
+   </properties>
+  </object>
+  <object id="19" name="#Sorfina_knockback2" type="npc" x="768" y="736" width="32" height="96">
+   <properties>
+    <property name="callfunc" value="Sorfina_knockback"/>
+   </properties>
+  </object>
+  <object id="24" name="#CandorBank_Door" type="npc" x="1120" y="3904" width="32" height="32">
+   <properties>
+    <property name="callfunc" value="CandorBank_Door"/>
+    <property name="sprite" value="45"/>
+   </properties>
+  </object>
+  <object id="25" name="Barrel#0" type="npc" x="736" y="2752">
+   <properties>
+    <property name="arguments" value="0"/>
+    <property name="callfunc" value="CheckBarrel"/>
+    <property name="sprite" value="400"/>
+   </properties>
+  </object>
+  <object id="26" name="Barrel#1" type="npc" x="896" y="2752">
+   <properties>
+    <property name="arguments" value="1"/>
+    <property name="callfunc" value="CheckBarrel"/>
+    <property name="sprite" value="400"/>
+   </properties>
+  </object>
+  <object id="27" name="Barrel#2" type="npc" x="992" y="2912">
+   <properties>
+    <property name="arguments" value="2"/>
+    <property name="callfunc" value="CheckBarrel"/>
+    <property name="sprite" value="400"/>
+   </properties>
+  </object>
+  <object id="28" name="Barrel#3" type="npc" x="1152" y="2720">
+   <properties>
+    <property name="arguments" value="3"/>
+    <property name="callfunc" value="CheckBarrel"/>
+    <property name="sprite" value="400"/>
+   </properties>
+  </object>
+  <object id="29" name="Barrel#4" type="npc" x="1280" y="2848">
+   <properties>
+    <property name="arguments" value="4"/>
+    <property name="callfunc" value="CheckBarrel"/>
+    <property name="sprite" value="400"/>
+   </properties>
+  </object>
+  <object id="30" name="Barrel#5" type="npc" x="1216" y="2912">
+   <properties>
+    <property name="arguments" value="5"/>
+    <property name="callfunc" value="CheckBarrel"/>
+    <property name="sprite" value="400"/>
+   </properties>
+  </object>
+  <object id="31" name="Barrel#6" type="npc" x="928" y="2944">
+   <properties>
+    <property name="arguments" value="6"/>
+    <property name="callfunc" value="CheckBarrel"/>
+    <property name="sprite" value="400"/>
+   </properties>
+  </object>
+  <object id="32" name="Barrel#7" type="npc" x="768" y="2912">
+   <properties>
+    <property name="arguments" value="7"/>
+    <property name="callfunc" value="CheckBarrel"/>
+    <property name="sprite" value="400"/>
+   </properties>
+  </object>
+  <object id="33" name="Cynric" type="bank" x="960" y="3776">
+   <properties>
+    <property name="sprite" value="161"/>
+   </properties>
+  </object>
+  <object id="34" name="Morgan#_M" type="npc" x="3232" y="1824">
+   <properties>
+    <property name="callfunc" value="Morgan"/>
+    <property name="sprite" value="355"/>
+   </properties>
+  </object>
+  <object id="37" name="Nyle" type="npc" x="832" y="3840" rotation="-90">
+   <properties>
+    <property name="callfunc" value="Nyle"/>
+    <property name="sprite" value="101"/>
+   </properties>
+  </object>
+  <object id="39" name="Jessie" type="npc" x="3136" y="2944">
+   <properties>
+    <property name="callfunc" value="NoobReset"/>
+    <property name="sprite" value="159"/>
+   </properties>
+  </object>
+  <object id="40" name="#Tanisha_knockback" type="npc" x="3648" y="2976" width="32" height="32">
+   <properties>
+    <property name="callfunc" value="Tanisha_knockback"/>
+    <property name="sprite" value="45"/>
+   </properties>
+  </object>
+  <object id="41" name="Tanisha" type="npc" x="3520" y="2816">
+   <properties>
+    <property name="callfunc" value="Tanisha"/>
+    <property name="sprite" value="114"/>
+   </properties>
+  </object>
+  <object id="42" name="Rosen" type="shop" x="3168" y="800">
+   <properties>
+    <property name="items" value="SlingShot:*1,SlingBullet:*1,ShortBow:*4,Arrow:*2,IronArrow:*1"/>
+    <property name="sprite" value="311"/>
+   </properties>
+  </object>
+  <object id="43" name="Toichi" type="shop" x="3584" y="768">
+   <properties>
+    <property name="items" value="Knife:*1,SharpKnife:*1,Dagger:*1,LeatherShirt:*1,LeatherShield:*1"/>
+    <property name="sprite" value="377"/>
+   </properties>
+  </object>
+  <object id="44" name="nosave" type="mapflag" x="0" y="0">
+   <properties>
+    <property name="args" value="029-2,22,24"/>
+   </properties>
+  </object>
+  <object id="45" name="resave" type="mapflag" x="0" y="0">
+   <properties>
+    <property name="args" value="029-2,22,24"/>
    </properties>
   </object>
  </objectgroup>
