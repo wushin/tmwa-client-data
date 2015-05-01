@@ -127,20 +127,20 @@
     <effect map="029-1.tmx" npc="165" value="0" effect="45"/>
     <effect map="029-1.tmx" npc="165" value="1,2,3" effect="46"/>
     <quest name="Bug Bomb" group="Candor Island" incomplete="1">
-      <name>Met Zegas</name>
-      <text>Needs help.</text>
+      <name>Buggy</name>
+      <text>Zegas needs some help. As an aspiring adventure, you should see if you can help her out.</text>
     </quest>
     <quest name="Bug Bomb" group="Candor Island" incomplete="2">
-      <name>Find the bomb</name>
-      <text>Find the bug bomb in one of the barrels</text>
+      <name>A what bomb?</name>
+      <text>Zegas has lost her bug bomb inside one of her storage barrels. Find it and set it off to kill the remaining bugs.</text>
     </quest>
     <quest name="Bug Bomb" group="Candor Island" incomplete="3">
-      <name>Found it</name>
-      <text>Found the bug bomb in the barrel</text>
+      <name>Bug Bomb Goes Boom</name>
+      <text>You found the bug bomb and killed the bugs! You should tell Zegas about it.</text>
     </quest>
     <quest name="Bug Bomb" group="Candor Island" complete="4">
-      <name>Complete.</name>
-      <text>Complete.</text>
+      <name>Buggy</name>
+      <text>You finished helping Zegas.</text>
     </quest>
   </var>
   <var id="5">
@@ -148,7 +148,7 @@
     <effect map="029-1.tmx" npc="113" value="1" effect="46"/>
     <quest name="Bugman" group="Candor Island" incomplete="1">
       <name>Bug Legs</name>
-      <text>Vincent needs bug legs</text>
+      <text>Vincent needs you to bring him some bug legs so he can make an action figure.</text>
     </quest>
     <quest name="Bugman" group="Candor Island" complete="2">
       <name>Complete</name>
