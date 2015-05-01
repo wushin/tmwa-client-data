@@ -37,7 +37,7 @@
     <quest name="Tutorial" group="Candor Island" incomplete="7">
       <name>Introduction</name>
       <text>You killed the maggots for Tanisha, so you should report back to her and see what she has to say.</text>
-      <text>Tanisha is at (110,88) in Candor Island Indoor.</text>
+      <text>Tanisha is located at (110,88) in Candor Island Indoor.</text>
     </quest>
     <quest name="Tutorial" group="Candor Island" complete="8">
       <name>Introduction</name>
@@ -45,29 +45,30 @@
       <text>Tanisha is at (110,88) in Candor Island Indoor.</text>
     </quest>
     <quest name="Bully" group="Candor Island" incomplete="9">
-      <name>Hasan</name>
-      <text>Some guy named Hasan is picking on people.</text>
+      <name>Bully</name>
+      <text>Hasan sounds like a nasty fellow. You need to find out more about this bully.</text>
+      <text>Asking around town would probably be fruitful...</text>
     </quest>
     <quest name="Bully" group="Candor Island" incomplete="10">
-      <name>Trick</name>
-      <text>Hasan needs to be taught a lesson.</text>
-      <text>Talk to Sorfina.</text>
+      <name>Finding the Weakness</name>
+      <text>Hasan needs to be taught a lesson!</text>
+      <text>Talk to Sorfina about giving Hasan what he deserves.</text>
     </quest>
     <quest name="Bully" group="Candor Island" incomplete="11">
-      <name>Trick known</name>
-      <text>Hasan is afraid of scorpions.</text>
+      <name>Stinging the Heel</name>
+      <text>It seems as though Hasan is afraid of scorpions. Perhaps this could be his downfall...</text>
     </quest>
     <quest name="Bully" group="Candor Island" incomplete="12">
-      <name>Scorpion</name>
-      <text>Go to Hasan and have Kaan summon a scorpion.</text>
+      <name>Surprise Scorpion</name>
+      <text>Approach Hasan and have Kaan summon a scorpion.</text>
     </quest>
     <quest name="Bully" group="Candor Island" incomplete="13">
       <name>Saved Hasan</name>
-      <text>Killed the scorpion.</text>
+      <text>You killed the scorpion and "saved" Hasan from his childhood fear.</text>
     </quest>
     <quest name="Bully" group="Candor Island" complete="14">
-      <name>Talk to Hasan</name>
-      <text>Hasan changed his ways.</text>
+      <name>A Changed Man</name>
+      <text>Hasan seems to have changed his ways for the better.</text>
     </quest>
   </var>
   <var id="2">
