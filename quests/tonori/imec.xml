@@ -13,7 +13,7 @@
       <name>Imec's Stingers</name>
       <text>Take Imec's letter to government building</text>
     </quest>
-    <quest name="Imec's Stingers" group="Tonori" incomplete="1">
+    <quest name="Imec's Stingers" group="Tonori" incomplete="2">
       <name>Imec's Stingers</name>
       <text>Return government letter to Imec</text>
     </quest>
