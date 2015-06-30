@@ -11,11 +11,11 @@
     <effect map="001-2.tmx" npc="114" value="1" effect="46"/>
     <quest name="Sandra" group="Tonori" incomplete="1">
       <name>Sandra</name>
-      <text>Sandra needs 5 Scorpion Stingers</text>
+      <text>Sandra needs 5 Scorpion Stingers.</text>
     </quest>
     <quest name="Sandra" group="Tonori" complete="2">
       <name>Sandra</name>
-      <text>Complete.</text>
+      <text>Completed.</text>
     </quest>
   </var>
 </quests>

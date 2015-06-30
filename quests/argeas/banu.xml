@@ -19,7 +19,7 @@
     </quest>
     <quest name="Banu" group="Argeas" complete="3">
       <name>Banu</name>
-      <text>Complete</text>
+      <text>Completed.</text>
     </quest>
   </var>
 </quests>

@@ -15,59 +15,59 @@
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="2">
       <name>Kylian</name>
-      <text>Return Kylian's Suitcase from the Dock</text>
+      <text>Take Kylian's Suitcase back to him.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="3">
       <name>Kylian</name>
-      <text>Find out who to talk to about a shop liscense</text>
+      <text>Find out who to talk to about a shop license.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="4">
       <name>Kylian</name>
-      <text>Find some place for sight seeing in Tonori</text>
+      <text>Find a place for Kylian to go sight seeing in Tonori.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="5">
       <name>Kylian</name>
-      <text>Find some good local eats</text>
+      <text>Find some good local eats.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="6">
       <name>Kylian</name>
-      <text>Find some entertainment</text>
+      <text>Find some entertainment.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="7">
       <name>Kylian</name>
-      <text>Find some place for nice clothing</text>
+      <text>Find a place with fine clothing.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="8">
       <name>Kylian</name>
-      <text>Return to Kylian later</text>
+      <text>Wait and return to Kylian.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="9">
       <name>Kylian</name>
-      <text>See if Kylian's shop is open yet</text>
+      <text>See if Kylian's shop is open yet.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="10">
       <name>Kylian</name>
-      <text>Offered job working for Kylian</text>
+      <text>Offered job working for Kylian.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="11">
       <name>Kylian</name>
-      <text>Accepted job working for KPS</text>
+      <text>Accepted job working for KPS.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="12">
       <name>Kylian</name>
-      <text>Pick a delivery</text>
+      <text>Pick a delivery.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="13">
       <name>Kylian</name>
-      <text>Deliver the package</text>
+      <text>Deliver the package.</text>
     </quest>
     <quest name="Kylian" group="Tonori" incomplete="14">
       <name>Kylian</name>
-      <text>Return to KPS</text>
+      <text>Return to KPS.</text>
     </quest>
     <quest name="Kylian" group="Tonori" complete="15">
       <name>Kylian</name>
-      <text>See Kylian</text>
+      <text>Talk to Kylian.</text>
     </quest>
   </var>
 </quests>
