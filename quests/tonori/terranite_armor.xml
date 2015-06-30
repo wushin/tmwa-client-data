@@ -11,59 +11,59 @@
     <effect map="001-2.tmx" npc="147" value="1" effect="46"/>
     <quest name="Terranite Armor" group="Tonori" incomplete="1">
       <name>Terranite Armor</name>
-      <text>Bring Heathin 50 Coal</text>
+      <text>Bring Heathin 50 Coal.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="2">
       <name>Terranite Armor</name>
-      <text>Bring Heathin 100 Coal, 10 Terranite Ore and 20,000 gold pieces</text>
+      <text>Bring Heathin 100 Coal, 10 Terranite Ore and 20,000 gold pieces.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="3">
       <name>Terranite Armor</name>
-      <text>Heathin is making a Terranite Hood for you</text>
+      <text>Heathin is making a Terranite Hood for you.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="4">
       <name>Terranite Armor</name>
-      <text>Heathin has a Terranite Hood for you</text>
+      <text>Heathin has a Terranite Hood for you.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="5">
       <name>Terranite Armor</name>
-      <text>Heathin needs 200 Coal, 30 Terranite Ore and 40,000 gold pieces</text>
+      <text>Heathin needs 200 Coal, 30 Terranite Ore and 40,000 gold pieces.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="6">
       <name>Terranite Armor</name>
-      <text>Heathin is making Terranite Legs for you</text>
+      <text>Heathin is making a set of Terranite Legs for you.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="7">
       <name>Terranite Armor</name>
-      <text>Heathin has a Terranite Legs for you</text>
+      <text>Heathin has a set of Terranite Legs for you.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="8">
       <name>Terranite Armor</name>
-      <text>Heathin needs 250 Coal, 40 Terranite Ore and 50,000 gold pieces</text>
+      <text>Heathin needs 250 Coal, 40 Terranite Ore and 50,000 gold pieces.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="9">
       <name>Terranite Armor</name>
-      <text>Heathing is making a Terranite Chest for you</text>
+      <text>Heathing is making a Terranite Chest armor for you.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="10">
       <name>Terranite Armor</name>
-      <text>Heathing has a Terranite Chest for you</text>
+      <text>Heathing has a Terranite Chest armor for you.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="11">
       <name>Terranite Armor</name>
-      <text>Heathin needs 5 Coal, 1 Terranite Ore and 3,000 gold pieces</text>
+      <text>Heathin needs 5 Coal, 1 Terranite Ore and 3,000 gold pieces.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="12">
       <name>Terranite Armor</name>
-      <text>Heathing is making a Terranite Arrows for you</text>
+      <text>Heathing is making Terranite Arrows for you.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" incomplete="13">
       <name>Terranite Armor</name>
-      <text>Heathing has Terranite Arrows for you</text>
+      <text>Heathing has Terranite Arrows for you.</text>
     </quest>
     <quest name="Terranite Armor" group="Tonori" complete="14">
       <name>Terranite Armor</name>
-      <text>Complete</text>
+      <text>Completed.</text>
     </quest>
   </var>
 </quests>

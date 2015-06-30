@@ -11,15 +11,15 @@
     <effect map="001-2.tmx" npc="117" value="1,2,3" effect="46"/>
     <quest name="Mine" group="Tonori" incomplete="1">
       <name>Mine</name>
-      <text>Bring Lt. Dausen 10 Cactus Drinks</text>
+      <text>Bring Lt. Dausen 10 Cactus Drinks.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="2">
       <name>Mine</name>
-      <text>Lt. Dausen needs help</text>
+      <text>Lt. Dausen needs help.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="3">
       <name>Mine</name>
-      <text>Tell Stewen to hold their post</text>
+      <text>Tell Stewen to hold his post.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="4">
       <name>Mine</name>
@@ -27,101 +27,101 @@
     </quest>
     <quest name="Mine" group="Tonori" incomplete="5">
       <name>Mine</name>
-      <text>Tell Nickos to hold their post</text>
+      <text>Tell Nickos to hold his post.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="6">
       <name>Mine</name>
-      <text>Return to Lt. Dausen</text>
+      <text>Return to Lt. Dausen.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="7">
       <name>Mine</name>
-      <text>Lt. Dausen wants you to talk to Nickos about the miners</text>
+      <text>Talk to Nickos about the miners.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="8">
       <name>Mine</name>
-      <text>Nickos wants you to check on the miners</text>
+      <text>Check on the miners.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="9">
       <name>Mine</name>
-      <text>Nathan is fine, but you shoudl check on Naem</text>
+      <text>Check on Naem.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="10">
       <name>Mine</name>
-      <text>Return to Nickos</text>
+      <text>Return to Nickos.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="11">
       <name>Mine</name>
-      <text>Help the Miners</text>
+      <text>Help the Miners.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="12">
       <name>Mine</name>
-      <text>Get a bag of ore from Naem</text>
+      <text>Get a bag of ore from Naem.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="13">
       <name>Mine</name>
-      <text>Take bag back to Nathan</text>
+      <text>Take bag back to Nathan.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="14">
       <name>Mine</name>
-      <text>Get another bag of ore from Naem</text>
+      <text>Get another bag of ore from Naem.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="15">
       <name>Mine</name>
-      <text>Take another bag back to Nathan</text>
+      <text>Take another bag back to Nathan.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="16">
       <name>Mine</name>
-      <text>Get last bag of ore from Naem</text>
+      <text>Get last bag of ore from Naem.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="17">
       <name>Mine</name>
-      <text>Take last bag back to Nathan</text>
+      <text>Take last bag back to Nathan.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="18">
       <name>Mine</name>
-      <text>Tell Nickos about the Scorpions</text>
+      <text>Tell Nickos about the Scorpions.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="19">
       <name>Mine</name>
-      <text>Bring Nickos 10 Angry Scorpion Stingers</text>
+      <text>Bring Nickos 10 Angry Scorpion Stingers.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="20">
       <name>Mine</name>
-      <text>Ask Naem to unlock the Underground Palace</text>
+      <text>Ask Naem to unlock the Underground Palace.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="21">
       <name>Mine</name>
-      <text>Talk to Lt. Dausen about the key</text>
+      <text>Talk to Lt. Dausen about the key.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="22">
       <name>Mine</name>
-      <text>Lt. Dausen gave you a spare key</text>
-      <text>Return to Naem</text>
+      <text>Lt. Dausen gave you a spare key.</text>
+      <text>Return to Naem.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="23">
       <name>Mine</name>
-      <text>Unlocked First Button</text>
+      <text>Unlocked First Button.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="24">
       <name>Mine</name>
-      <text>Unlocked Second Button</text>
+      <text>Unlocked Second Button.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="25">
       <name>Mine</name>
-      <text>Underground Palace is open</text>
-      <text>Talk to Sema</text>
+      <text>Underground Palace is open.</text>
+      <text>Talk to Sema.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="26">
       <name>Mine</name>
-      <text>Found the supply chest</text>
+      <text>Found the supply chest.</text>
     </quest>
     <quest name="Mine" group="Tonori" incomplete="27">
       <name>Mine</name>
-      <text>Kill the Giant Cave Maggot</text>
+      <text>Kill the Giant Cave Maggot.</text>
     </quest>
     <quest name="Mine" group="Tonori" complete="28">
       <name>Mine</name>
-      <text>Complete</text>
+      <text>Completed.</text>
     </quest>
   </var>
 </quests>
